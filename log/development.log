@@ -2582,3 +2582,5 @@ Processing by DemoController#hello as HTML
 Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.0ms)
 
 
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:4)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:4)
