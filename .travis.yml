@@ -2,9 +2,9 @@ language: ruby
 services:
   - postgresql
 before_script:
-  - psql -c 'create database deneme_test;' -U postgres
-  - bundle exec rake db:setup
-  - bundle exec rake db:migrate
+  - psql -c 'create database deneme_development;' -U postgres
+  - RAILS_ENV=development bundle exec rake db:setup
+  - RAILS_ENV=development bundle exec rake db:migrate
 rvm:
   - 2.6.3
   - jruby
