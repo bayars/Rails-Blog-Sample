@@ -1,6 +1,8 @@
 language: ruby
 services:
   - postgresql
+before_script:
+  - psql -c 'create database deneme_test;' -U postgres 
 rvm:
   - 2.6.3
   - jruby
