@@ -23379,3 +23379,29 @@ Processing by IndexController#index as HTML
 Completed 200 OK in 1104ms (Views: 1052.0ms | ActiveRecord: 18.1ms | Allocations: 394530)
 
 
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/environment.rb:5)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:12)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:12)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:15)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:15)
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/environment.rb:5)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:12)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:12)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:15)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:15)
