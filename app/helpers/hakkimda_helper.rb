@@ -1,0 +1,2 @@
+module HakkimdaHelper
+end

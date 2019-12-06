@@ -1,0 +1,16 @@
+<% @page_title = 'Yazi Ekleme' %>
+<div class="container">
+  <div class="user new">
+    <h2>Yazi Ekleme</h2>
+
+    <%= form_for(:yazilar, :url => {:action => 'create'}) do |f| %>
+
+      <%= render(:partial => 'form', :locals => {:f => f} ) %>
+
+      <div class="form-buttons">
+        <%= submit_tag('Yaziyi Yayimla') %>
+      </div>
+
+    <% end %>
+  </div>
+</div>

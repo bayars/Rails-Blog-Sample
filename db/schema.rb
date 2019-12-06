@@ -10,20 +10,45 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_07_141533) do
+ActiveRecord::Schema.define(version: 2019_07_15_060143) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "admin_users", force: :cascade do |t|
-    t.string "first name ", limit: 25
-    t.string "last name ", limit: 50
-    t.string "email", limit: 100, default: "", null: false
-    t.string "hashed_password", limit: 40
+    t.string "firstname"
+    t.string "lastname"
+    t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "username", limit: 25
-    t.index ["username"], name: "index_admin_users_on_username"
+    t.string "username"
+    t.string "password_digest"
+    t.bigint "yazilars_id"
+    t.index ["yazilars_id"], name: "index_admin_users_on_yazilars_id"
   end
 
+  create_table "kullanicis", force: :cascade do |t|
+    t.string "isim"
+    t.string "nickname"
+    t.string "email"
+    t.datetime "olusturulma"
+    t.datetime "songiris"
+    t.text "aciklama"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "yazilars", force: :cascade do |t|
+    t.integer "user_id"
+    t.string "title"
+    t.string "slug"
+    t.text "body"
+    t.text "snippet"
+    t.integer "status"
+    t.datetime "published_date"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_foreign_key "admin_users", "yazilars", column: "yazilars_id"
 end

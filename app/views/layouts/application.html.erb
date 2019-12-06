@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Deneme</title>
+    <title>Thats My Study of Rails</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -9,7 +9,31 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body style="background-color:#b3c6ff " >
+    <nav class="navbar navbar-expand-lg navbar-static-top navbar-light bg-primary menu-bosluk">
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <div class="collapse navbar-collapse justify-content-md-center " id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Ana Sayfa</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/yazilar">Yazilar <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/hakkimda/show">Hakkimda</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://gitlab.com/rection">Gitlab</a>
+          </li>
+        </ul>
+      </div>
+      <!-- <div class="text-white bg-dark  ">
+        <a class="nav-link" href="/admin">Admin Sayfasi</a>
+      </div> -->
+    </nav>
     <%= yield %>
   </body>
 </html>
