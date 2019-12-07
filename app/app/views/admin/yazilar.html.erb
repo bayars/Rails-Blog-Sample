@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="containter">
+  <p><b>Yazi eklemek icin:</b>
+    <a><%= link_to('Ekle', {:action => 'new'}, :class => 'action btn btn-primary btn-right new') %></a>
+  </p>
+  </div>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Yazi ismi</th>
+      <th scope="col">Ayrinti linki</th>
+      <th scope="col">Silmek</th>
+  </thead>
+  <tbody>
+  <%# if @posts.any? %>
+  <% if @posts.try(:any?)%>
+    <% @posts.each do |post| %>
+    <tr>
+      <td>
+        <div class="col-xs-12"><h4><%= post.title %></h4></div>
+      </td>
+      <td>
+        <div class="col-9"><a><%= link_to('Goster', {:action => 'show', :id => post.id}, :class => 'action show') %></a></div>
+    </td>
+    <td>
+      <div class="col-9"><a><%= link_to("Sil", {:action => 'delete',:id => post.id}, :class => 'action delete') %></a></div>
+    </td>
+    </tr>
+    <% end %>
+  <% else %>
+    <h1>Yazi Bulunamadi.!!! </h1>
+  <% end %>
+  </tbody>
+</table>
+</div>

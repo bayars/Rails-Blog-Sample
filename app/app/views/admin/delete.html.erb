@@ -1,0 +1,18 @@
+<div class="containter">
+  <div class="subjects delete">
+
+  <h2>Yazi Silmek</h2>
+
+  <%= form_for(:yazilar, :url => {:action => 'destroy', :id => @posts.id}) do |f| %>
+
+    <p>Yaziyi silmek istediginden emin misin?</p>
+
+    <p class="reference-name"><%= @posts.title %></p>
+
+    <div class="form-buttons">
+      <%= submit_tag("Yaziyi sil") %>
+    </div>
+
+  <% end %>
+</div>
+</div>

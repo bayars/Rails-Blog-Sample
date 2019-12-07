@@ -82,4 +82,4 @@ production:
   <<: *default
   database: deneme_production
   username: safa
-  password: <%= ENV['Sb_19981905'] %>
+  password: <%= ENV['password'] %>
