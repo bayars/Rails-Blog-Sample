@@ -17,11 +17,17 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'mini_racer', platforms: :ruby
 
 ## gems, I added
-
+gem 'devise', '~> 4.2' # login
 gem 'unicorn-rails'
-# gem 'ckeditor_rails'
+
+gem 'paperclip'
+gem 'ckeditor', '~> 5.0'
+gem "mini_magick"
+gem 'carrierwave'
+gem 'mini_magick'
+
 gem 'redcarpet'
-gem 'lines'
+#gem 'lines'
 gem 'lograge'
 gem 'gelf'
 
@@ -33,11 +39,11 @@ gem 'sprockets-rails', '>= 2.3.2'
 gem 'jquery-rails'
 
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails', '~> 5.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.5'
+ gem 'jbuilder', github: 'rails/jbuilder', branch: 'master'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
@@ -59,8 +65,7 @@ end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'factory_girl' # Y
-  gem "factory_bot"
+  gem 'factory_bot', '~> 5.1', '>= 5.1.1'
   gem 'rspec-rails'     # Y
   gem 'rubocop-gemfile', require: false   # Y
   gem 'web-console', '>= 3.3.0'

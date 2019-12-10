@@ -10,6 +10,7 @@
   </head>
 
   <body style="background-color:#b3c6ff " >
+
     <nav class="navbar navbar-expand-lg navbar-static-top navbar-light bg-primary menu-bosluk">
       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,10 +31,27 @@
           </li>
         </ul>
       </div>
-      <!-- <div class="text-white bg-dark  ">
-        <a class="nav-link" href="/admin">Admin Sayfasi</a>
-      </div> -->
+      <p class="navbar-text float-right">
+      <% if user_signed_in? %>
+        Logged in as <strong><%= current_user.email %></strong>.
+        <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
+        <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+      <% else %>
+        <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
+        <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
+      <% end %>
+      </p>
     </nav>
+    <% if notice %>
+      <p class="alert alert-success"><%= notice %></p>
+    <% end %>
+    <% if alert %>
+      <p class="alert alert-danger"><%= alert %></p>
+    <% end %>
     <%= yield %>
   </body>
 </html>
+
+<!-- <div class="text-white bg-dark  ">
+  <a class="nav-link" href="/admin">Admin Sayfasi</a>
+</div> -->

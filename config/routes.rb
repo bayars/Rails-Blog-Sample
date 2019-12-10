@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+  mount Ckeditor::Engine => '/ckeditor'
   # get 'admin/yazilar  '
   # get 'admin/new'
   # get 'admin/edit'
