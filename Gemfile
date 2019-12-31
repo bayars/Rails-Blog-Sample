@@ -27,16 +27,11 @@ gem 'carrierwave'
 gem 'mini_magick'
 
 gem 'redcarpet'
-#gem 'lines'
-gem 'lograge'
-gem 'gelf'
 
 gem 'bootstrap', '~> 4.3.1'
 gem 'sassc-rails', '>= 2.1.0'
 
 gem 'sprockets-rails', '>= 2.3.2'
-
-gem 'jquery-rails'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 5.0'
@@ -67,6 +62,7 @@ group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'factory_bot', '~> 5.1', '>= 5.1.1'
   gem 'rspec-rails'     # Y
+  gem 'brakeman'
   gem 'rubocop-gemfile', require: false   # Y
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'

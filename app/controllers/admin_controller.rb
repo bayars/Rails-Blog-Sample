@@ -40,7 +40,7 @@ class AdminController < ApplicationController
   end
 
   def kullanicilar
-    @user = Kullanici.order('id DESC')
+    @user = User.order('id DESC')
   end
   def yazilar
     @posts = Yazilar.order('id DESC')
