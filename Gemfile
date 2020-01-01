@@ -19,7 +19,9 @@ gem 'uglifier', '>= 1.3.0'
 ## gems, I added
 gem 'devise', '~> 4.2' # login
 gem 'unicorn-rails'
-
+gem 'webpacker'
+gem 'foreman'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'paperclip'
 gem 'ckeditor', '~> 5.0'
 gem "mini_magick"

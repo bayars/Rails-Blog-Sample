@@ -25848,3 +25848,1963 @@ Processing by IndexController#index as HTML
 Completed 200 OK in 194ms (Views: 175.4ms | ActiveRecord: 9.5ms | Allocations: 80983)
 
 
+Started GET "/admin" for ::1 at 2019-12-31 16:41:50 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 20.1ms | Allocations: 2546)
+Completed 200 OK in 261ms (Views: 248.4ms | ActiveRecord: 1.1ms | Allocations: 72910)
+
+
+Started GET "/admin/kullanicilar" for ::1 at 2019-12-31 16:41:56 -0500
+Processing by AdminController#kullanicilar as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/kullanicilar.html.erb within layouts/application
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/kullanicilar.html.erb:2
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY id DESC[0m
+  ↳ app/views/admin/kullanicilar.html.erb:3
+  Rendered admin/kullanicilar.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1315)
+Completed 200 OK in 156ms (Views: 143.0ms | ActiveRecord: 2.3ms | Allocations: 72127)
+
+
+Started GET "/admin/yazilar" for ::1 at 2019-12-31 16:41:58 -0500
+Processing by AdminController#yazilar as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/yazilar.html.erb within layouts/application
+  [1m[36mYazilar Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "yazilars" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/yazilar.html.erb:16
+  [1m[36mYazilar Load (0.7ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/admin/yazilar.html.erb:17
+  Rendered admin/yazilar.html.erb within layouts/application (Duration: 12.6ms | Allocations: 3084)
+Completed 200 OK in 161ms (Views: 149.3ms | ActiveRecord: 2.0ms | Allocations: 74021)
+
+
+Started GET "/admin/new" for ::1 at 2019-12-31 16:42:02 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/_form.html.erb (Duration: 44.5ms | Allocations: 10238)
+  Rendered admin/new.html.erb within layouts/application (Duration: 48.5ms | Allocations: 10907)
+Completed 200 OK in 258ms (Views: 241.0ms | ActiveRecord: 1.8ms | Allocations: 82490)
+
+
+Started GET "/admin/yazilar" for ::1 at 2019-12-31 16:43:35 -0500
+Processing by AdminController#yazilar as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/yazilar.html.erb within layouts/application
+  [1m[36mYazilar Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "yazilars" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/yazilar.html.erb:16
+  [1m[36mYazilar Load (1.4ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/admin/yazilar.html.erb:17
+  Rendered admin/yazilar.html.erb within layouts/application (Duration: 17.7ms | Allocations: 3039)
+Completed 200 OK in 208ms (Views: 194.3ms | ActiveRecord: 2.9ms | Allocations: 76188)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/admin/yazilar" for ::1 at 2019-12-31 16:57:43 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#yazilar as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/yazilar.html.erb within layouts/application
+  [1m[36mYazilar Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "yazilars" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/yazilar.html.erb:16
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/admin/yazilar.html.erb:17
+  Rendered admin/yazilar.html.erb within layouts/application (Duration: 66.2ms | Allocations: 10016)
+Completed 500 Internal Server Error in 564ms (ActiveRecord: 27.4ms | Allocations: 310962)
+
+
+  
+ActionView::Template::Error (The asset "app.js" is not present in the asset pipeline.):
+    4:     <title>Thats My Study of Rails</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= javascript_include_tag 'app' %>
+    8:     <link rel="stylesheet"
+    9:           href="https://fonts.googleapis.com/css?family=anaglyph">
+   10:     <style>
+  
+app/views/layouts/application.html.erb:7
+Started GET "/admin/yazilar" for ::1 at 2019-12-31 16:58:24 -0500
+Processing by AdminController#yazilar as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/yazilar.html.erb within layouts/application
+  [1m[36mYazilar Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM "yazilars" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/yazilar.html.erb:16
+  [1m[36mYazilar Load (2.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/admin/yazilar.html.erb:17
+  Rendered admin/yazilar.html.erb within layouts/application (Duration: 17.6ms | Allocations: 3040)
+Completed 200 OK in 5365ms (Views: 5344.4ms | ActiveRecord: 4.5ms | Allocations: 1268398)
+
+
+Started GET "/" for ::1 at 2019-12-31 16:58:35 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 1908)
+Completed 200 OK in 161ms (Views: 147.9ms | ActiveRecord: 2.0ms | Allocations: 75747)
+
+
+Started GET "/yazilar" for ::1 at 2019-12-31 16:58:38 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 14.4ms | Allocations: 1879)
+Completed 200 OK in 183ms (Views: 170.0ms | ActiveRecord: 2.7ms | Allocations: 75638)
+
+
+Started GET "/hakkimda/show" for ::1 at 2019-12-31 16:58:38 -0500
+Processing by HakkimdaController#show as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering hakkimda/show.html.erb within layouts/application
+  Rendered hakkimda/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 94)
+Completed 200 OK in 264ms (Views: 255.8ms | ActiveRecord: 0.9ms | Allocations: 73851)
+
+
+Started GET "/yazilar" for ::1 at 2019-12-31 16:58:40 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.6ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 12.9ms | Allocations: 1610)
+Completed 200 OK in 192ms (Views: 173.3ms | ActiveRecord: 2.4ms | Allocations: 74606)
+
+
+Started GET "/" for ::1 at 2019-12-31 16:58:41 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 1607)
+Completed 200 OK in 228ms (Views: 212.9ms | ActiveRecord: 2.5ms | Allocations: 74579)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 16:58:43 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1104)
+Completed 200 OK in 150ms (Views: 138.0ms | ActiveRecord: 0.7ms | Allocations: 74081)
+
+
+Started GET "/admin/kullanicilar" for ::1 at 2019-12-31 16:58:46 -0500
+Processing by AdminController#kullanicilar as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/kullanicilar.html.erb within layouts/application
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/kullanicilar.html.erb:2
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY id DESC[0m
+  ↳ app/views/admin/kullanicilar.html.erb:3
+  Rendered admin/kullanicilar.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1580)
+Completed 200 OK in 214ms (Views: 203.8ms | ActiveRecord: 1.9ms | Allocations: 74733)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/" for ::1 at 2019-12-31 17:05:53 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 46.8ms | Allocations: 8866)
+Completed 200 OK in 3473ms (Views: 3382.6ms | ActiveRecord: 26.9ms | Allocations: 1481137)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:05:56 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1605)
+Completed 200 OK in 191ms (Views: 178.3ms | ActiveRecord: 1.9ms | Allocations: 74584)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:05:57 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1600)
+Completed 200 OK in 180ms (Views: 171.9ms | ActiveRecord: 1.7ms | Allocations: 74574)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:05:57 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1600)
+Completed 200 OK in 252ms (Views: 242.6ms | ActiveRecord: 1.6ms | Allocations: 74578)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:05:57 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 1601)
+Completed 200 OK in 172ms (Views: 163.6ms | ActiveRecord: 1.9ms | Allocations: 74575)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:10:31 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 1882)
+Completed 200 OK in 231ms (Views: 217.9ms | ActiveRecord: 1.9ms | Allocations: 76263)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:10:41 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 1881)
+Completed 200 OK in 165ms (Views: 155.8ms | ActiveRecord: 1.6ms | Allocations: 76222)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:11:56 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 17.6ms | Allocations: 1881)
+Completed 200 OK in 219ms (Views: 206.5ms | ActiveRecord: 2.4ms | Allocations: 76226)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:12:01 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.7ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 1605)
+Completed 200 OK in 174ms (Views: 158.8ms | ActiveRecord: 2.4ms | Allocations: 74548)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:12:15 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1880)
+Completed 200 OK in 163ms (Views: 154.0ms | ActiveRecord: 1.4ms | Allocations: 76261)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:15:26 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 1881)
+Completed 200 OK in 211ms (Views: 196.9ms | ActiveRecord: 1.4ms | Allocations: 76225)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:15:34 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 1605)
+Completed 200 OK in 170ms (Views: 155.8ms | ActiveRecord: 2.1ms | Allocations: 74540)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:16:48 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 11.6ms | Allocations: 1881)
+Completed 200 OK in 209ms (Views: 196.5ms | ActiveRecord: 1.7ms | Allocations: 76230)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:16:57 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 1875)
+Completed 200 OK in 236ms (Views: 225.9ms | ActiveRecord: 1.7ms | Allocations: 76218)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:19:30 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.6ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 1881)
+Completed 200 OK in 242ms (Views: 231.1ms | ActiveRecord: 2.2ms | Allocations: 76235)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:19:39 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 1881)
+Completed 200 OK in 229ms (Views: 215.4ms | ActiveRecord: 1.6ms | Allocations: 76229)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:20:16 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1605)
+Completed 200 OK in 215ms (Views: 202.1ms | ActiveRecord: 1.7ms | Allocations: 74537)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:20:23 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.4ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 1881)
+Completed 200 OK in 225ms (Views: 211.6ms | ActiveRecord: 2.0ms | Allocations: 76222)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:20:32 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.5ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 1881)
+Completed 200 OK in 173ms (Views: 159.0ms | ActiveRecord: 2.1ms | Allocations: 76221)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:20:46 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 1881)
+Completed 200 OK in 167ms (Views: 156.6ms | ActiveRecord: 1.6ms | Allocations: 76221)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:21:53 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 1881)
+Completed 200 OK in 173ms (Views: 163.1ms | ActiveRecord: 1.4ms | Allocations: 76239)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:22:27 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 1881)
+Completed 200 OK in 167ms (Views: 154.2ms | ActiveRecord: 1.7ms | Allocations: 76233)
+
+
+Started GET "/" for ::1 at 2019-12-31 17:23:19 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.4ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 1881)
+Completed 200 OK in 175ms (Views: 163.5ms | ActiveRecord: 2.0ms | Allocations: 76217)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/admin" for ::1 at 2019-12-31 22:12:37 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 3059.6ms | Allocations: 1386381)
+Completed 200 OK in 3427ms (Views: 3345.3ms | ActiveRecord: 12.6ms | Allocations: 1473890)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:13:10 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1094)
+Completed 200 OK in 165ms (Views: 152.7ms | ActiveRecord: 1.2ms | Allocations: 75315)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:13:50 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 909)
+Completed 200 OK in 908ms (Views: 898.7ms | ActiveRecord: 1.0ms | Allocations: 125540)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:15:08 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 905)
+Completed 500 Internal Server Error in 171ms (ActiveRecord: 0.7ms | Allocations: 46286)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/assets/config
+  /home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/assets/images
+  /home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/assets/javascripts
+  /home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/assets/stylesheets
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/bootstrap-wysihtml5-rails-0.3.3.8/vendor/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/bootstrap-wysihtml5-rails-0.3.3.8/vendor/assets/stylesheets
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/coffee-rails-5.0.0/lib/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/ckeditor-5.0.0/app/assets/images
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/ckeditor-5.0.0/app/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/ckeditor-5.0.0/app/assets/stylesheets
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/actioncable-6.0.2.1/app/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/activestorage-6.0.2.1/app/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/actionview-6.0.2.1/lib/assets/compiled
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/safa/rails/StartworkofRor/github/rails-blog-deneme/node_modules
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/popper_js-1.14.5/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/bootstrap-4.3.1/assets/stylesheets
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/bootstrap-4.3.1/assets/javascripts):
+    15:       }
+    16:     </style>
+    17:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:   </head>
+    20: 
+    21:   <body style="background-color:#b3c6ff ">
+  
+app/assets/javascripts/application.js:17
+app/views/layouts/application.html.erb:18
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/admin" for ::1 at 2019-12-31 22:17:03 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 25270.0ms | Allocations: 1672285)
+Completed 200 OK in 26393ms (Views: 26311.1ms | ActiveRecord: 13.3ms | Allocations: 1775119)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:19:37 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 1097)
+Completed 200 OK in 175ms (Views: 164.7ms | ActiveRecord: 0.7ms | Allocations: 79193)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:19:45 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1098)
+Completed 200 OK in 221ms (Views: 202.3ms | ActiveRecord: 1.6ms | Allocations: 79002)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:20:25 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 914)
+Completed 200 OK in 278ms (Views: 267.8ms | ActiveRecord: 1.0ms | Allocations: 77411)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:21:05 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1117)
+Completed 200 OK in 182ms (Views: 170.8ms | ActiveRecord: 0.7ms | Allocations: 79033)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:21:30 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1114)
+Completed 200 OK in 172ms (Views: 161.4ms | ActiveRecord: 0.8ms | Allocations: 79030)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:22:26 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 1114)
+Completed 200 OK in 188ms (Views: 176.1ms | ActiveRecord: 1.0ms | Allocations: 79014)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:23:32 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1094)
+Completed 200 OK in 198ms (Views: 185.3ms | ActiveRecord: 0.8ms | Allocations: 79010)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:28:24 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1112)
+Completed 200 OK in 196ms (Views: 182.9ms | ActiveRecord: 0.7ms | Allocations: 79016)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:30:28 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1112)
+Completed 200 OK in 228ms (Views: 217.3ms | ActiveRecord: 0.6ms | Allocations: 79022)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:31:34 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1112)
+Completed 200 OK in 186ms (Views: 174.2ms | ActiveRecord: 0.7ms | Allocations: 79020)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:32:02 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1112)
+Completed 200 OK in 196ms (Views: 187.0ms | ActiveRecord: 0.8ms | Allocations: 79012)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:32:34 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1110)
+Completed 200 OK in 171ms (Views: 161.2ms | ActiveRecord: 0.6ms | Allocations: 79004)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:33:25 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1111)
+Completed 200 OK in 201ms (Views: 185.6ms | ActiveRecord: 0.8ms | Allocations: 79009)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:33:55 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 1112)
+Completed 200 OK in 218ms (Views: 205.2ms | ActiveRecord: 0.8ms | Allocations: 79016)
+
+
+Started GET "/" for ::1 at 2019-12-31 22:34:10 -0500
+Processing by IndexController#index as HTML
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 189)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-12-31 22:34:10 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 4.9ms | Allocations: 618)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 21.0ms | Allocations: 2799)
+Completed 200 OK in 197ms (Views: 192.3ms | ActiveRecord: 0.0ms | Allocations: 79612)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-12-31 22:34:22 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Tq7Pnt/mj4rTzVC5KPlCWVrZ7iXDg/Uv0ujm/JTpaHQMIrhnAp0whn95VWEfErvRqCrytXpGfpF87kNc1HffCw==", "user"=>{"email"=>"safa@safabayar.tech", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "safa@safabayar.tech"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 474ms (ActiveRecord: 0.7ms | Allocations: 5322)
+
+
+Started GET "/" for ::1 at 2019-12-31 22:34:22 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 50.2ms | Allocations: 8330)
+Completed 200 OK in 216ms (Views: 193.2ms | ActiveRecord: 13.0ms | Allocations: 85754)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:34:31 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 916)
+Completed 200 OK in 307ms (Views: 297.2ms | ActiveRecord: 0.7ms | Allocations: 77456)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:35:18 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 1111)
+Completed 200 OK in 197ms (Views: 186.3ms | ActiveRecord: 0.8ms | Allocations: 79046)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:35:19 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 913)
+Completed 200 OK in 360ms (Views: 345.8ms | ActiveRecord: 2.0ms | Allocations: 77439)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:36:17 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1114)
+Completed 200 OK in 268ms (Views: 258.1ms | ActiveRecord: 0.7ms | Allocations: 79031)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:36:45 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  
+LoadError (cannot load such file -- assets/javascript/app.vue):
+  
+app/controllers/application_controller.rb:4:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/admin_controller.rb:1:in `<main>'
+Started GET "/admin" for ::1 at 2019-12-31 22:40:40 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 3273.2ms | Allocations: 1388758)
+Completed 200 OK in 3631ms (Views: 3541.9ms | ActiveRecord: 13.7ms | Allocations: 1480600)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 22:41:24 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 2c49db7b6263b7066ebd
+Version: webpack 4.41.5
+Time: 7584ms
+Built at: 2019-12-31 10:41:36 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-056cabb946a21a6fe750.js    237 KiB  application  [emitted] [immutable]  application
+js/application-056cabb946a21a6fe750.js.map    291 KiB  application  [emitted] [dev]        application
+      js/hello_vue-26e7a2e88625f71a5d96.js    242 KiB    hello_vue  [emitted] [immutable]  hello_vue
+  js/hello_vue-26e7a2e88625f71a5d96.js.map    295 KiB    hello_vue  [emitted] [dev]        hello_vue
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-056cabb946a21a6fe750.js js/application-056cabb946a21a6fe750.js.map
+Entrypoint hello_vue = js/hello_vue-26e7a2e88625f71a5d96.js js/hello_vue-26e7a2e88625f71a5d96.js.map
+[./app/javascript/app.vue] 352 bytes {hello_vue} [built]
+[./app/javascript/packs/application.js] 1.13 KiB {application} [built]
+[./app/javascript/packs/hello_vue.js] 1.89 KiB {hello_vue} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} {hello_vue} [built]
+    + 5 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '../components/app.vue' in '/home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 16:0-40 23:11-14
+
+  Rendered admin/index.html.erb within layouts/application (Duration: 12996.6ms | Allocations: 8796)
+Completed 500 Internal Server Error in 13016ms (ActiveRecord: 1.0ms | Allocations: 11887)
+
+
+  
+ActionView::Template::Error (Webpacker can't find app in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-056cabb946a21a6fe750.js",
+  "application.js.map": "/packs/js/application-056cabb946a21a6fe750.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-056cabb946a21a6fe750.js"
+      ],
+      "js.map": [
+        "/packs/js/application-056cabb946a21a6fe750.js.map"
+      ]
+    },
+    "hello_vue": {
+      "js": [
+        "/packs/js/hello_vue-26e7a2e88625f71a5d96.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_vue-26e7a2e88625f71a5d96.js.map"
+      ]
+    }
+  },
+  "hello_vue.js": "/packs/js/hello_vue-26e7a2e88625f71a5d96.js",
+  "hello_vue.js.map": "/packs/js/hello_vue-26e7a2e88625f71a5d96.js.map"
+}
+):
+    2:   <%= image_tag("Admin_20084.jpg",:class=>"rounded mx-auto d-block", :alt=>"admin") %>
+    3: </div>
+    4: <br>
+    5: <%= javascript_pack_tag 'app' %>
+    6: <div class="app">
+    7:   {{message}}
+    8: </div>
+  
+app/views/admin/index.html.erb:5
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/admin" for ::1 at 2019-12-31 22:43:17 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 2774.3ms | Allocations: 1389732)
+Completed 500 Internal Server Error in 2919ms (ActiveRecord: 26.8ms | Allocations: 1400772)
+
+
+  
+ActionView::Template::Error (Webpacker can't find app in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-056cabb946a21a6fe750.js",
+  "application.js.map": "/packs/js/application-056cabb946a21a6fe750.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-056cabb946a21a6fe750.js"
+      ],
+      "js.map": [
+        "/packs/js/application-056cabb946a21a6fe750.js.map"
+      ]
+    },
+    "hello_vue": {
+      "js": [
+        "/packs/js/hello_vue-26e7a2e88625f71a5d96.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_vue-26e7a2e88625f71a5d96.js.map"
+      ]
+    }
+  },
+  "hello_vue.js": "/packs/js/hello_vue-26e7a2e88625f71a5d96.js",
+  "hello_vue.js.map": "/packs/js/hello_vue-26e7a2e88625f71a5d96.js.map"
+}
+):
+    2:   <%= image_tag("Admin_20084.jpg",:class=>"rounded mx-auto d-block", :alt=>"admin") %>
+    3: </div>
+    4: <br>
+    5: <%= javascript_pack_tag 'app' %>
+    6: <div class="app">
+    7:   {{message}}
+    8: </div>
+  
+app/views/admin/index.html.erb:5
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/admin" for ::1 at 2019-12-31 22:54:51 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 4644.6ms | Allocations: 1466533)
+Completed 500 Internal Server Error in 4774ms (ActiveRecord: 17.1ms | Allocations: 1477573)
+
+
+  
+ActionView::Template::Error (Webpacker can't find app in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-3404027f09fbaf7d50f1.js",
+  "application.js.map": "/packs/js/application-3404027f09fbaf7d50f1.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-3404027f09fbaf7d50f1.js"
+      ],
+      "js.map": [
+        "/packs/js/application-3404027f09fbaf7d50f1.js.map"
+      ]
+    },
+    "hello_vue": {
+      "js": [
+        "/packs/js/hello_vue-ea80215df5f0118e0a3a.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_vue-ea80215df5f0118e0a3a.js.map"
+      ]
+    }
+  },
+  "hello_vue.js": "/packs/js/hello_vue-ea80215df5f0118e0a3a.js",
+  "hello_vue.js.map": "/packs/js/hello_vue-ea80215df5f0118e0a3a.js.map"
+}
+):
+    2:   <%= image_tag("Admin_20084.jpg",:class=>"rounded mx-auto d-block", :alt=>"admin") %>
+    3: </div>
+    4: <br>
+    5: <%= javascript_pack_tag 'app' %>
+    6: <div class="app">
+    7:   {{message}}
+    8: </div>
+  
+app/views/admin/index.html.erb:5
+Started GET "/admin" for ::1 at 2019-12-31 22:57:59 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 4003)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 1.6ms | Allocations: 6180)
+
+
+  
+ActionView::Template::Error (Webpacker can't find app in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-3404027f09fbaf7d50f1.js",
+  "application.js.map": "/packs/js/application-3404027f09fbaf7d50f1.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-3404027f09fbaf7d50f1.js"
+      ],
+      "js.map": [
+        "/packs/js/application-3404027f09fbaf7d50f1.js.map"
+      ]
+    },
+    "hello_vue": {
+      "js": [
+        "/packs/js/hello_vue-ea80215df5f0118e0a3a.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_vue-ea80215df5f0118e0a3a.js.map"
+      ]
+    }
+  },
+  "hello_vue.js": "/packs/js/hello_vue-ea80215df5f0118e0a3a.js",
+  "hello_vue.js.map": "/packs/js/hello_vue-ea80215df5f0118e0a3a.js.map"
+}
+):
+    2:   <%= image_tag("Admin_20084.jpg",:class=>"rounded mx-auto d-block", :alt=>"admin") %>
+    3: </div>
+    4: <br>
+    5: <%= javascript_pack_tag 'app' %>
+    6: <div class="app">
+    7:   {{message}}
+    8: </div>
+  
+app/views/admin/index.html.erb:5
+Started GET "/admin" for ::1 at 2019-12-31 22:58:28 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 14.2ms | Allocations: 3989)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 1.3ms | Allocations: 6107)
+
+
+  
+ActionView::Template::Error (Webpacker can't find app in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-3404027f09fbaf7d50f1.js",
+  "application.js.map": "/packs/js/application-3404027f09fbaf7d50f1.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-3404027f09fbaf7d50f1.js"
+      ],
+      "js.map": [
+        "/packs/js/application-3404027f09fbaf7d50f1.js.map"
+      ]
+    },
+    "hello_vue": {
+      "js": [
+        "/packs/js/hello_vue-ea80215df5f0118e0a3a.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_vue-ea80215df5f0118e0a3a.js.map"
+      ]
+    }
+  },
+  "hello_vue.js": "/packs/js/hello_vue-ea80215df5f0118e0a3a.js",
+  "hello_vue.js.map": "/packs/js/hello_vue-ea80215df5f0118e0a3a.js.map"
+}
+):
+    2:   <%= image_tag("Admin_20084.jpg",:class=>"rounded mx-auto d-block", :alt=>"admin") %>
+    3: </div>
+    4: <br>
+    5: <%= javascript_pack_tag 'app' %>
+    6: <div class="app">
+    7:   {{message}}
+    8: </div>
+  
+app/views/admin/index.html.erb:5
+Started GET "/admin" for ::1 at 2019-12-31 22:59:03 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 3989)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 1.0ms | Allocations: 6107)
+
+
+  
+ActionView::Template::Error (Webpacker can't find app in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-3404027f09fbaf7d50f1.js",
+  "application.js.map": "/packs/js/application-3404027f09fbaf7d50f1.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-3404027f09fbaf7d50f1.js"
+      ],
+      "js.map": [
+        "/packs/js/application-3404027f09fbaf7d50f1.js.map"
+      ]
+    },
+    "hello_vue": {
+      "js": [
+        "/packs/js/hello_vue-ea80215df5f0118e0a3a.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_vue-ea80215df5f0118e0a3a.js.map"
+      ]
+    }
+  },
+  "hello_vue.js": "/packs/js/hello_vue-ea80215df5f0118e0a3a.js",
+  "hello_vue.js.map": "/packs/js/hello_vue-ea80215df5f0118e0a3a.js.map"
+}
+):
+    2:   <%= image_tag("Admin_20084.jpg",:class=>"rounded mx-auto d-block", :alt=>"admin") %>
+    3: </div>
+    4: <br>
+    5: <%= javascript_pack_tag 'app' %>
+    6: <div class="app">
+    7:   {{message}}
+    8: </div>
+  
+app/views/admin/index.html.erb:5
+Started GET "/admin" for ::1 at 2019-12-31 23:01:32 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: b0496e613c1e0381c8cf
+Version: webpack 4.41.5
+Time: 5764ms
+Built at: 2019-12-31 11:01:43 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-a88b3dca6f6d5585234a.js    238 KiB  application  [emitted] [immutable]  application
+js/application-a88b3dca6f6d5585234a.js.map    291 KiB  application  [emitted] [dev]        application
+      js/hello_vue-6e2429401d38add80da5.js    330 KiB    hello_vue  [emitted] [immutable]  hello_vue
+  js/hello_vue-6e2429401d38add80da5.js.map    407 KiB    hello_vue  [emitted] [dev]        hello_vue
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-a88b3dca6f6d5585234a.js js/application-a88b3dca6f6d5585234a.js.map
+Entrypoint hello_vue = js/hello_vue-6e2429401d38add80da5.js js/hello_vue-6e2429401d38add80da5.js.map
+[./app/javascript/packs/application.js] 1.26 KiB {application} [built]
+[./app/javascript/packs/hello_vue.js] 1.81 KiB {hello_vue} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} {hello_vue} [built]
+    + 5 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '../components/app.vue' in '/home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 16:0-40 32:11-14
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '@rails/activestorage' in '/home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 22:0-31
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '@rails/ujs' in '/home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 18:0-21
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'channels' in '/home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 24:0-19
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'turbolinks' in '/home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 20:0-21
+
+  Rendered admin/index.html.erb within layouts/application (Duration: 11301.9ms | Allocations: 5247)
+Completed 500 Internal Server Error in 11316ms (ActiveRecord: 0.9ms | Allocations: 7365)
+
+
+  
+ActionView::Template::Error (Webpacker can't find app in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-a88b3dca6f6d5585234a.js",
+  "application.js.map": "/packs/js/application-a88b3dca6f6d5585234a.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-a88b3dca6f6d5585234a.js"
+      ],
+      "js.map": [
+        "/packs/js/application-a88b3dca6f6d5585234a.js.map"
+      ]
+    },
+    "hello_vue": {
+      "js": [
+        "/packs/js/hello_vue-6e2429401d38add80da5.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_vue-6e2429401d38add80da5.js.map"
+      ]
+    }
+  },
+  "hello_vue.js": "/packs/js/hello_vue-6e2429401d38add80da5.js",
+  "hello_vue.js.map": "/packs/js/hello_vue-6e2429401d38add80da5.js.map"
+}
+):
+    2:   <%= image_tag("Admin_20084.jpg",:class=>"rounded mx-auto d-block", :alt=>"admin") %>
+    3: </div>
+    4: <br>
+    5: <%= javascript_pack_tag 'app' %>
+    6: <div class="app">
+    7:   {{message}}
+    8: </div>
+  
+app/views/admin/index.html.erb:5
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/admin" for ::1 at 2019-12-31 23:09:11 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 4517.9ms | Allocations: 1388758)
+Completed 200 OK in 5018ms (Views: 4885.5ms | ActiveRecord: 15.2ms | Allocations: 1480582)
+
+
+Started GET "/admin" for ::1 at 2019-12-31 23:09:23 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 55.5ms | Allocations: 7701)
+Completed 500 Internal Server Error in 76ms (ActiveRecord: 1.1ms | Allocations: 10793)
+
+
+  
+ActionView::Template::Error (Webpacker can't find app in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-a88b3dca6f6d5585234a.js",
+  "application.js.map": "/packs/js/application-a88b3dca6f6d5585234a.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-a88b3dca6f6d5585234a.js"
+      ],
+      "js.map": [
+        "/packs/js/application-a88b3dca6f6d5585234a.js.map"
+      ]
+    },
+    "hello_vue": {
+      "js": [
+        "/packs/js/hello_vue-6e2429401d38add80da5.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_vue-6e2429401d38add80da5.js.map"
+      ]
+    }
+  },
+  "hello_vue.js": "/packs/js/hello_vue-6e2429401d38add80da5.js",
+  "hello_vue.js.map": "/packs/js/hello_vue-6e2429401d38add80da5.js.map"
+}
+):
+    2:   <%= image_tag("Admin_20084.jpg",:class=>"rounded mx-auto d-block", :alt=>"admin") %>
+    3: </div>
+    4: <br>
+    5: <%= javascript_pack_tag 'app' %>
+    6: <div class="app">
+    7:   {{message}}
+    8: </div>
+  
+app/views/admin/index.html.erb:5
+Started GET "/admin" for ::1 at 2019-12-31 23:09:42 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 15.8ms | Allocations: 3503)
+Completed 200 OK in 212ms (Views: 197.1ms | ActiveRecord: 1.0ms | Allocations: 81920)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 01:40:08 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 10.3ms | Allocations: 3280)
+Completed 200 OK in 226ms (Views: 213.4ms | ActiveRecord: 2.9ms | Allocations: 80316)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 01:40:17 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: c0dcabad07764135adcf
+Version: webpack 4.41.5
+Time: 3623ms
+Built at: 2020-01-01 1:40:25 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-056cabb946a21a6fe750.js    237 KiB  application  [emitted] [immutable]  application
+js/application-056cabb946a21a6fe750.js.map    291 KiB  application  [emitted] [dev]        application
+      js/hello_vue-6e2429401d38add80da5.js    330 KiB    hello_vue  [emitted] [immutable]  hello_vue
+  js/hello_vue-6e2429401d38add80da5.js.map    407 KiB    hello_vue  [emitted] [dev]        hello_vue
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-056cabb946a21a6fe750.js js/application-056cabb946a21a6fe750.js.map
+Entrypoint hello_vue = js/hello_vue-6e2429401d38add80da5.js js/hello_vue-6e2429401d38add80da5.js.map
+[./app/javascript/packs/application.js] 1.13 KiB {application} [built]
+[./app/javascript/packs/hello_vue.js] 1.81 KiB {hello_vue} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} {hello_vue} [built]
+    + 5 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '../components/app.vue' in '/home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 16:0-40 23:11-14
+
+  Rendered admin/index.html.erb within layouts/application (Duration: 8115.3ms | Allocations: 4533)
+Completed 200 OK in 8269ms (Views: 8259.7ms | ActiveRecord: 1.0ms | Allocations: 81467)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 01:41:26 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 0cb77eb6f0b76d9db301
+Version: webpack 4.41.5
+Time: 3163ms
+Built at: 2020-01-01 1:41:34 AM
+                                     Asset       Size       Chunks                         Chunk Names
+            js/app-7186d95ce0d6e19bc084.js   7.81 KiB          app  [emitted] [immutable]  app
+        js/app-7186d95ce0d6e19bc084.js.map    7.3 KiB          app  [emitted] [dev]        app
+    js/application-056cabb946a21a6fe750.js    237 KiB  application  [emitted] [immutable]  application
+js/application-056cabb946a21a6fe750.js.map    291 KiB  application  [emitted] [dev]        application
+      js/hello_vue-6e2429401d38add80da5.js    330 KiB    hello_vue  [emitted] [immutable]  hello_vue
+  js/hello_vue-6e2429401d38add80da5.js.map    407 KiB    hello_vue  [emitted] [dev]        hello_vue
+                             manifest.json  972 bytes               [emitted]              
+Entrypoint app = js/app-7186d95ce0d6e19bc084.js js/app-7186d95ce0d6e19bc084.js.map
+Entrypoint application = js/application-056cabb946a21a6fe750.js js/application-056cabb946a21a6fe750.js.map
+Entrypoint hello_vue = js/hello_vue-6e2429401d38add80da5.js js/hello_vue-6e2429401d38add80da5.js.map
+[./app/javascript/packs/app.vue] 361 bytes {app} [built]
+[./app/javascript/packs/application.js] 1.13 KiB {application} [built]
+[./app/javascript/packs/hello_vue.js] 1.81 KiB {hello_vue} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} {hello_vue} [built]
+    + 6 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '../components/app.vue' in '/home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 16:0-40 23:11-14
+
+  Rendered admin/index.html.erb within layouts/application (Duration: 7862.4ms | Allocations: 4540)
+Completed 200 OK in 8024ms (Views: 8014.2ms | ActiveRecord: 0.9ms | Allocations: 81476)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 01:43:48 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: c26763f529e66e3ba482
+Version: webpack 4.41.5
+Time: 3327ms
+Built at: 2020-01-01 1:43:56 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0d66bb2eb1c55922e4d8.js    238 KiB  application  [emitted] [immutable]  application
+js/application-0d66bb2eb1c55922e4d8.js.map    291 KiB  application  [emitted] [dev]        application
+      js/hello_vue-6e2429401d38add80da5.js    330 KiB    hello_vue  [emitted] [immutable]  hello_vue
+  js/hello_vue-6e2429401d38add80da5.js.map    407 KiB    hello_vue  [emitted] [dev]        hello_vue
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-0d66bb2eb1c55922e4d8.js js/application-0d66bb2eb1c55922e4d8.js.map
+Entrypoint hello_vue = js/hello_vue-6e2429401d38add80da5.js js/hello_vue-6e2429401d38add80da5.js.map
+[./app/javascript/packs/application.js] 1.26 KiB {application} [built]
+[./app/javascript/packs/hello_vue.js] 1.81 KiB {hello_vue} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} {hello_vue} [built]
+    + 5 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '../components/App.vue' in '/home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 17:0-40 26:11-14
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '../components/Login.vue' in '/home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 19:0-44
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '../components/SignUp.vue' in '/home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 18:0-46
+
+  Rendered admin/index.html.erb within layouts/application (Duration: 7944.6ms | Allocations: 4503)
+Completed 200 OK in 8102ms (Views: 8090.8ms | ActiveRecord: 1.0ms | Allocations: 81453)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 01:44:34 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs
+[Webpacker] Hash: be6eb84baf53bb023915
+Version: webpack 4.41.5
+Time: 3277ms
+Built at: 2020-01-01 1:44:42 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0821a07e49eb52ceced6.js    237 KiB  application  [emitted] [immutable]  application
+js/application-0821a07e49eb52ceced6.js.map    291 KiB  application  [emitted] [dev]        application
+      js/hello_vue-6e2429401d38add80da5.js    330 KiB    hello_vue  [emitted] [immutable]  hello_vue
+  js/hello_vue-6e2429401d38add80da5.js.map    407 KiB    hello_vue  [emitted] [dev]        hello_vue
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-0821a07e49eb52ceced6.js js/application-0821a07e49eb52ceced6.js.map
+Entrypoint hello_vue = js/hello_vue-6e2429401d38add80da5.js js/hello_vue-6e2429401d38add80da5.js.map
+[./app/javascript/packs/application.js] 1.27 KiB {application} [built]
+[./app/javascript/packs/hello_vue.js] 1.81 KiB {hello_vue} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} {hello_vue} [built]
+    + 5 hidden modules
+
+  Rendered admin/index.html.erb within layouts/application (Duration: 8192.9ms | Allocations: 4586)
+Completed 200 OK in 8429ms (Views: 8421.5ms | ActiveRecord: 0.8ms | Allocations: 81530)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 01:45:23 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 3276)
+Completed 200 OK in 189ms (Views: 180.8ms | ActiveRecord: 1.0ms | Allocations: 80216)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 01:45:48 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 3276)
+Completed 200 OK in 169ms (Views: 160.6ms | ActiveRecord: 0.7ms | Allocations: 80213)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 01:46:16 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 3494)
+Completed 200 OK in 175ms (Views: 165.0ms | ActiveRecord: 0.6ms | Allocations: 81844)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 01:46:57 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs
+[Webpacker] Hash: 255cb58c50846de6b47f
+Version: webpack 4.41.5
+Time: 3267ms
+Built at: 2020-01-01 1:47:05 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-aae663b6c6d2bd2d6e7c.js    237 KiB  application  [emitted] [immutable]  application
+js/application-aae663b6c6d2bd2d6e7c.js.map    291 KiB  application  [emitted] [dev]        application
+      js/hello_vue-6e2429401d38add80da5.js    330 KiB    hello_vue  [emitted] [immutable]  hello_vue
+  js/hello_vue-6e2429401d38add80da5.js.map    407 KiB    hello_vue  [emitted] [dev]        hello_vue
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-aae663b6c6d2bd2d6e7c.js js/application-aae663b6c6d2bd2d6e7c.js.map
+Entrypoint hello_vue = js/hello_vue-6e2429401d38add80da5.js js/hello_vue-6e2429401d38add80da5.js.map
+[./app/javascript/packs/application.js] 1.13 KiB {application} [built]
+[./app/javascript/packs/hello_vue.js] 1.81 KiB {hello_vue} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} {hello_vue} [built]
+    + 5 hidden modules
+
+  Rendered admin/index.html.erb within layouts/application (Duration: 8054.0ms | Allocations: 4591)
+Completed 200 OK in 8217ms (Views: 8208.1ms | ActiveRecord: 0.7ms | Allocations: 81531)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/admin" for ::1 at 2020-01-01 01:48:37 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 3196.9ms | Allocations: 1391099)
+Completed 200 OK in 3677ms (Views: 3559.8ms | ActiveRecord: 16.6ms | Allocations: 1482908)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/" for ::1 at 2020-01-01 15:20:57 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 48.3ms | Allocations: 8866)
+Completed 200 OK in 3480ms (Views: 3377.9ms | ActiveRecord: 31.4ms | Allocations: 1521891)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 15:21:06 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 13.7ms | Allocations: 3511)
+Completed 200 OK in 222ms (Views: 211.9ms | ActiveRecord: 1.1ms | Allocations: 81270)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 15:21:46 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 3276)
+Completed 200 OK in 163ms (Views: 152.4ms | ActiveRecord: 1.0ms | Allocations: 80250)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 15:23:07 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs
+[Webpacker] Hash: 318f6000b78a81f3d810
+Version: webpack 4.41.5
+Time: 3283ms
+Built at: 2020-01-01 3:23:15 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e60c2b33b13a7e5a93fe.js    237 KiB  application  [emitted] [immutable]  application
+js/application-e60c2b33b13a7e5a93fe.js.map    291 KiB  application  [emitted] [dev]        application
+      js/hello_vue-6cf13daa10e392c1b31b.js    330 KiB    hello_vue  [emitted] [immutable]  hello_vue
+  js/hello_vue-6cf13daa10e392c1b31b.js.map    407 KiB    hello_vue  [emitted] [dev]        hello_vue
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-e60c2b33b13a7e5a93fe.js js/application-e60c2b33b13a7e5a93fe.js.map
+Entrypoint hello_vue = js/hello_vue-6cf13daa10e392c1b31b.js js/hello_vue-6cf13daa10e392c1b31b.js.map
+[./app/javascript/packs/application.js] 1.26 KiB {application} [built]
+[./app/javascript/packs/hello_vue.js] 1.78 KiB {hello_vue} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} {hello_vue} [built]
+    + 5 hidden modules
+
+  Rendered admin/index.html.erb within layouts/application (Duration: 7763.0ms | Allocations: 4823)
+Completed 200 OK in 7916ms (Views: 7906.0ms | ActiveRecord: 0.9ms | Allocations: 83181)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 15:23:27 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 12.8ms | Allocations: 3483)
+Completed 200 OK in 175ms (Views: 165.7ms | ActiveRecord: 0.9ms | Allocations: 81835)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 15:28:30 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 3484)
+Completed 200 OK in 177ms (Views: 165.7ms | ActiveRecord: 1.2ms | Allocations: 81832)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/admin" for ::1 at 2020-01-01 15:29:53 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs
+[Webpacker] Hash: c00ed8bf51f0e5b4329f
+Version: webpack 4.41.5
+Time: 3130ms
+Built at: 2020-01-01 3:30:03 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e60c2b33b13a7e5a93fe.js    237 KiB  application  [emitted] [immutable]  application
+js/application-e60c2b33b13a7e5a93fe.js.map    291 KiB  application  [emitted] [dev]        application
+      js/hello_vue-8bef7611eb818d1db33a.js    330 KiB    hello_vue  [emitted] [immutable]  hello_vue
+  js/hello_vue-8bef7611eb818d1db33a.js.map    407 KiB    hello_vue  [emitted] [dev]        hello_vue
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-e60c2b33b13a7e5a93fe.js js/application-e60c2b33b13a7e5a93fe.js.map
+Entrypoint hello_vue = js/hello_vue-8bef7611eb818d1db33a.js js/hello_vue-8bef7611eb818d1db33a.js.map
+[./app/javascript/packs/application.js] 1.26 KiB {application} [built]
+[./app/javascript/packs/hello_vue.js] 1.83 KiB {hello_vue} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} {hello_vue} [built]
+    + 5 hidden modules
+
+  Rendered admin/index.html.erb within layouts/application (Duration: 10123.6ms | Allocations: 1392431)
+Completed 200 OK in 10508ms (Views: 10395.3ms | ActiveRecord: 13.0ms | Allocations: 1484245)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 15:30:04 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 3280)
+Completed 200 OK in 155ms (Views: 148.1ms | ActiveRecord: 0.8ms | Allocations: 80256)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 15:36:41 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs
+[Webpacker] Hash: 9f4347a79483c8d6a854
+Version: webpack 4.41.5
+Time: 3694ms
+Built at: 2020-01-01 3:36:49 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-aae663b6c6d2bd2d6e7c.js    237 KiB  application  [emitted] [immutable]  application
+js/application-aae663b6c6d2bd2d6e7c.js.map    291 KiB  application  [emitted] [dev]        application
+      js/hello_vue-8bef7611eb818d1db33a.js    330 KiB    hello_vue  [emitted] [immutable]  hello_vue
+  js/hello_vue-8bef7611eb818d1db33a.js.map    407 KiB    hello_vue  [emitted] [dev]        hello_vue
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-aae663b6c6d2bd2d6e7c.js js/application-aae663b6c6d2bd2d6e7c.js.map
+Entrypoint hello_vue = js/hello_vue-8bef7611eb818d1db33a.js js/hello_vue-8bef7611eb818d1db33a.js.map
+[./app/javascript/packs/application.js] 1.13 KiB {application} [built]
+[./app/javascript/packs/hello_vue.js] 1.83 KiB {hello_vue} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} {hello_vue} [built]
+    + 5 hidden modules
+
+  Rendered admin/index.html.erb within layouts/application (Duration: 7962.7ms | Allocations: 4586)
+Completed 200 OK in 8263ms (Views: 8250.4ms | ActiveRecord: 2.1ms | Allocations: 81631)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/admin" for ::1 at 2020-01-01 15:39:13 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 3098.7ms | Allocations: 1391567)
+Completed 500 Internal Server Error in 3199ms (ActiveRecord: 14.8ms | Allocations: 1402611)
+
+
+  
+ActionView::Template::Error (Webpacker can't find app/assets/javascript/packs/hello_vue.js in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-aae663b6c6d2bd2d6e7c.js",
+  "application.js.map": "/packs/js/application-aae663b6c6d2bd2d6e7c.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-aae663b6c6d2bd2d6e7c.js"
+      ],
+      "js.map": [
+        "/packs/js/application-aae663b6c6d2bd2d6e7c.js.map"
+      ]
+    },
+    "hello_vue": {
+      "js": [
+        "/packs/js/hello_vue-8bef7611eb818d1db33a.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_vue-8bef7611eb818d1db33a.js.map"
+      ]
+    }
+  },
+  "hello_vue.js": "/packs/js/hello_vue-8bef7611eb818d1db33a.js",
+  "hello_vue.js.map": "/packs/js/hello_vue-8bef7611eb818d1db33a.js.map"
+}
+):
+    2:   <%= image_tag("Admin_20084.jpg",:class=>"rounded mx-auto d-block", :alt=>"admin") %>
+    3: </div>
+    4: <br>
+    5: <%= javascript_pack_tag 'app/assets/javascript/packs/hello_vue.js' %>
+    6: <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    7: <div id="#app-2">
+    8:   <span v-bind:title="message">
+  
+app/views/admin/index.html.erb:5
+Started GET "/admin" for ::1 at 2020-01-01 15:39:37 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered admin/index.html.erb within layouts/application (Duration: 16.9ms | Allocations: 4017)
+Completed 200 OK in 278ms (Views: 264.6ms | ActiveRecord: 1.8ms | Allocations: 87925)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/admin" for ::1 at 2020-01-01 16:04:55 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 3663.4ms | Allocations: 1468410)
+Completed 200 OK in 4476ms (Views: 4371.0ms | ActiveRecord: 11.9ms | Allocations: 1566070)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 16:06:16 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1095)
+Completed 200 OK in 178ms (Views: 169.2ms | ActiveRecord: 1.0ms | Allocations: 79710)
+
+
+Started GET "/" for ::1 at 2020-01-01 16:06:19 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 41.7ms | Allocations: 8328)
+Completed 200 OK in 210ms (Views: 192.2ms | ActiveRecord: 10.2ms | Allocations: 86254)
+
+
+Started GET "/" for ::1 at 2020-01-01 16:07:41 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 13.4ms | Allocations: 1875)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs
+[Webpacker] Hash: 2da6146a4de4dff1eb82
+Version: webpack 4.41.5
+Time: 5166ms
+Built at: 2020-01-01 4:07:52 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-dc82f394b2aaf8cfb838.js    335 KiB  application  [emitted] [immutable]  application
+js/application-dc82f394b2aaf8cfb838.js.map    411 KiB  application  [emitted] [dev]        application
+      js/hello_vue-2226fbb3b5976942ec5c.js    330 KiB    hello_vue  [emitted] [immutable]  hello_vue
+  js/hello_vue-2226fbb3b5976942ec5c.js.map    407 KiB    hello_vue  [emitted] [dev]        hello_vue
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-dc82f394b2aaf8cfb838.js js/application-dc82f394b2aaf8cfb838.js.map
+Entrypoint hello_vue = js/hello_vue-2226fbb3b5976942ec5c.js js/hello_vue-2226fbb3b5976942ec5c.js.map
+[./app/javascript/app.vue] 352 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.11 KiB {application} [built]
+[./app/javascript/packs/hello_vue.js] 1.43 KiB {hello_vue} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} {hello_vue} [built]
+    + 6 hidden modules
+
+Completed 200 OK in 11250ms (Views: 11240.6ms | ActiveRecord: 2.2ms | Allocations: 84126)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 16:08:01 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1093)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 184ms (Views: 171.3ms | ActiveRecord: 0.8ms | Allocations: 81210)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/admin" for ::1 at 2020-01-01 16:15:53 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 2784.9ms | Allocations: 1389080)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs
+[Webpacker] Hash: cb3b7c308f9507f94c33
+Version: webpack 4.41.5
+Time: 2952ms
+Built at: 2020-01-01 4:16:04 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-08b50ce7c6e681db5f4d.js    336 KiB  application  [emitted] [immutable]  application
+js/application-08b50ce7c6e681db5f4d.js.map    411 KiB  application  [emitted] [dev]        application
+      js/hello_vue-2da26838b623e056d858.js   5.12 KiB    hello_vue  [emitted] [immutable]  hello_vue
+  js/hello_vue-2da26838b623e056d858.js.map   5.04 KiB    hello_vue  [emitted] [dev]        hello_vue
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-08b50ce7c6e681db5f4d.js js/application-08b50ce7c6e681db5f4d.js.map
+Entrypoint hello_vue = js/hello_vue-2da26838b623e056d858.js js/hello_vue-2da26838b623e056d858.js.map
+[./app/javascript/app.vue] 352 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.17 KiB {application} [built]
+[./app/javascript/packs/hello_vue.js] 1.23 KiB {hello_vue} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} [built]
+    + 6 hidden modules
+
+Completed 200 OK in 10806ms (Views: 10712.3ms | ActiveRecord: 13.5ms | Allocations: 1484619)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 16:16:20 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 914)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 153ms (Views: 143.4ms | ActiveRecord: 1.0ms | Allocations: 80269)
+
+
+Started GET "/admin" for ::1 at 2020-01-01 16:16:32 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 910)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs
+[Webpacker] Hash: 11d9060f8e5aca646195
+Version: webpack 4.41.5
+Time: 2668ms
+Built at: 2020-01-01 4:16:39 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-dc82f394b2aaf8cfb838.js    335 KiB  application  [emitted] [immutable]  application
+js/application-dc82f394b2aaf8cfb838.js.map    411 KiB  application  [emitted] [dev]        application
+      js/hello_vue-2da26838b623e056d858.js   5.12 KiB    hello_vue  [emitted] [immutable]  hello_vue
+  js/hello_vue-2da26838b623e056d858.js.map   5.04 KiB    hello_vue  [emitted] [dev]        hello_vue
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-dc82f394b2aaf8cfb838.js js/application-dc82f394b2aaf8cfb838.js.map
+Entrypoint hello_vue = js/hello_vue-2da26838b623e056d858.js js/hello_vue-2da26838b623e056d858.js.map
+[./app/javascript/app.vue] 352 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.11 KiB {application} [built]
+[./app/javascript/packs/hello_vue.js] 1.23 KiB {hello_vue} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} [built]
+    + 6 hidden modules
+
+Completed 200 OK in 7126ms (Views: 7116.0ms | ActiveRecord: 0.8ms | Allocations: 81562)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/admin" for ::1 at 2020-01-01 16:27:43 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 2841.4ms | Allocations: 1389080)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/safa/rails/StartworkofRor/github/rails-blog-deneme/public/packs
+[Webpacker] Hash: d6d84b09b3482b97dfc4
+Version: webpack 4.41.5
+Time: 6314ms
+Built at: 2020-01-01 4:27:57 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b155be77f6ffedae77db.js    359 KiB  application  [emitted] [immutable]  application
+js/application-b155be77f6ffedae77db.js.map    426 KiB  application  [emitted] [dev]        application
+      js/hello_vue-2da26838b623e056d858.js   5.12 KiB    hello_vue  [emitted] [immutable]  hello_vue
+  js/hello_vue-2da26838b623e056d858.js.map   5.04 KiB    hello_vue  [emitted] [dev]        hello_vue
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-b155be77f6ffedae77db.js js/application-b155be77f6ffedae77db.js.map
+Entrypoint hello_vue = js/hello_vue-2da26838b623e056d858.js js/hello_vue-2da26838b623e056d858.js.map
+[./app/javascript/app.vue] 1.19 KiB {application} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {application} [built]
+[./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] 746 bytes {application} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.11 KiB {application} [built]
+[./app/javascript/packs/hello_vue.js] 1.23 KiB {hello_vue} [built]
+[./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=script&lang=js&] ./node_modules/babel-loader/lib??ref--8-0!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=script&lang=js& 115 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] ./node_modules/css-loader/dist/cjs.js??ref--3-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--3-2!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css& 864 bytes {application} [built]
+[./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css&] ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??ref--3-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--3-2!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=style&index=0&id=6fb8108a&scoped=true&lang=css& 824 bytes {application} [built]
+[./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true& 288 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} [built]
+    + 8 hidden modules
+
+Completed 200 OK in 14183ms (Views: 14084.1ms | ActiveRecord: 14.7ms | Allocations: 1484618)
+
+
