@@ -1,7 +1,8 @@
-<p>
+<div class="postspacewith-menu">
+  <div class="container">
   <% @posts.each do |post| %>
-  <div class="container anasayfa-menu">
-    <div class="row">
+  <div class="anasayfa-menu row">
+    <div class="col-8">
       <div class="col-9"><h2><%= post.title %></h2></div>
       <div class="col-4"><%= post.slug %></div>
       <% if post.body.nil?  %>
@@ -13,8 +14,10 @@
           <%= raw Markdown.new(post.body.first(200) + "..." ).to_html %>
         </div>
       <% end %>
-      <%= link_to('Yazinin Tamami...', {:controller => 'yazilar',:action => 'show', :id => post.id}, :class => 'btn btn-primary btn-xl show') %>
-    </div>
+      </div>
+      <div class="buttons container col-4">
+        <%= link_to('Yazinin Tamami...', {:controller => 'yazilar',:action => 'show', :id => post.id}, :class => 'btn btn-primary btn-xl show') %>
+      </div>
   </div>
   <% end %>
-</p>
+</div>

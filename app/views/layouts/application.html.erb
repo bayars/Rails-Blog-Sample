@@ -43,7 +43,7 @@
         </ul>
       </div>
     </nav>
-    <p class="float-right mw-100">
+    <p class="login-ismi">
     <% if user_signed_in? %>
       Logged in as <strong><%= current_user.email %></strong>.
       <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
@@ -59,13 +59,8 @@
     <% if alert %>
       <p class="alert alert-danger"><%= alert %></p>
     <% end %>
-    <div class="container" data-behaivour="vue">
+    <div class="container yazi">
     <%= yield %>
-    <app></app>
     </div>
   </body>
 </html>
-
-<!-- <div class="text-white bg-dark  ">
-  <a class="nav-link" href="/admin">Admin Sayfasi</a>
-</div> -->
