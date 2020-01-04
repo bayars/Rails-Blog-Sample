@@ -1,5 +1,4 @@
 <div class="postspacewith-menu">
-  <div class="container">
   <% @posts.each do |post| %>
   <div class="anasayfa-menu row">
     <div class="col-8">
@@ -19,5 +18,6 @@
         <%= link_to('Yazinin Tamami...', {:controller => 'yazilar',:action => 'show', :id => post.id}, :class => 'btn btn-primary btn-xl show') %>
       </div>
   </div>
+  <hr/>
   <% end %>
 </div>

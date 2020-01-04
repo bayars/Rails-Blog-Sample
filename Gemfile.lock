@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/galetahub/ckeditor.git
+  revision: bfe47345606e5dc977f8928d9d9db207232671d6
+  specs:
+    ckeditor (5.0.0)
+      orm_adapter (~> 0.5.0)
+
+GIT
   remote: https://github.com/rails/jbuilder.git
   revision: bec0d6c840c3486ee589d5de0ba9c348ccbc27ee
   branch: master
@@ -103,8 +110,6 @@ GEM
     chromedriver-helper (2.1.1)
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
-    ckeditor (5.0.0)
-      orm_adapter (~> 0.5.0)
     climate_control (0.2.0)
     coffee-rails (5.0.0)
       coffee-script (>= 2.2.0)
@@ -335,7 +340,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   carrierwave
   chromedriver-helper
-  ckeditor (~> 5.0)
+  ckeditor!
   coffee-rails (~> 5.0)
   devise (~> 4.2)
   factory_bot (~> 5.1, >= 5.1.1)

@@ -23,8 +23,7 @@ gem 'webpacker'
 gem 'foreman'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'paperclip'
-gem 'ckeditor', '~> 5.0'
-gem "mini_magick"
+gem 'ckeditor', github: 'galetahub/ckeditor'
 gem 'carrierwave'
 gem 'mini_magick'
 

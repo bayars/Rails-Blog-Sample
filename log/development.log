@@ -28727,3 +28727,1761 @@ Processing by IndexController#index as HTML
 Completed 200 OK in 226ms (Views: 217.1ms | ActiveRecord: 1.7ms | Allocations: 80862)
 
 
+Started GET "/" for ::1 at 2020-01-03 11:56:48 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.7ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 1920)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 222ms (Views: 204.6ms | ActiveRecord: 3.2ms | Allocations: 82692)
+
+
+Started GET "/" for ::1 at 2020-01-03 11:56:53 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1604)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 237ms (Views: 227.1ms | ActiveRecord: 1.5ms | Allocations: 80811)
+
+
+Started GET "/" for ::1 at 2020-01-03 11:56:55 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 170ms (Views: 161.0ms | ActiveRecord: 1.8ms | Allocations: 80841)
+
+
+Started GET "/" for ::1 at 2020-01-03 23:56:57 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 13.7ms | Allocations: 1888)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 331ms (Views: 320.2ms | ActiveRecord: 2.3ms | Allocations: 82516)
+
+
+Started GET "/" for ::1 at 2020-01-03 23:57:58 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1605)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3982ms (Views: 3972.0ms | ActiveRecord: 1.9ms | Allocations: 109779)
+
+
+Started GET "/" for ::1 at 2020-01-03 23:58:42 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 1601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4050ms (Views: 4041.9ms | ActiveRecord: 1.7ms | Allocations: 110222)
+
+
+Started GET "/" for ::1 at 2020-01-03 23:59:46 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4004ms (Views: 3995.8ms | ActiveRecord: 1.2ms | Allocations: 110257)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:00:33 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 1601)
+Started GET "/" for ::1 at 2020-01-04 00:00:37 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.5ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 62.4ms | Allocations: 8874)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3629ms (Views: 3541.5ms | ActiveRecord: 25.3ms | Allocations: 1533895)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:01:01 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 1606)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5690ms (Views: 5680.2ms | ActiveRecord: 1.7ms | Allocations: 110359)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:04:39 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 1892)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4235ms (Views: 4225.1ms | ActiveRecord: 1.7ms | Allocations: 111037)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:05:08 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 1885)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 252ms (Views: 240.6ms | ActiveRecord: 2.0ms | Allocations: 84058)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:06:50 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 16.6ms | Allocations: 1606)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4278ms (Views: 4265.8ms | ActiveRecord: 2.6ms | Allocations: 109784)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:07:03 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1602)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 183ms (Views: 172.1ms | ActiveRecord: 1.9ms | Allocations: 81626)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:08:10 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 11.6ms | Allocations: 1602)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4014ms (Views: 4005.1ms | ActiveRecord: 1.5ms | Allocations: 110764)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:08:30 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 1892)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 212ms (Views: 199.4ms | ActiveRecord: 1.6ms | Allocations: 82572)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:08:35 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.4ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:3
+  Rendered index/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 1606)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 191ms (Views: 175.7ms | ActiveRecord: 2.0ms | Allocations: 80823)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:08:54 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 11.0ms | Allocations: 1887)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 278ms (Views: 264.7ms | ActiveRecord: 2.0ms | Allocations: 82526)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:08:55 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 1889)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 186ms (Views: 175.2ms | ActiveRecord: 2.1ms | Allocations: 81913)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:08:56 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (5.5ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 20.4ms | Allocations: 1610)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 201ms (Views: 184.7ms | ActiveRecord: 6.0ms | Allocations: 80892)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:08:58 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.5ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 233ms (Views: 221.7ms | ActiveRecord: 2.0ms | Allocations: 80866)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:08:59 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.4ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 1604)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 202ms (Views: 176.6ms | ActiveRecord: 2.2ms | Allocations: 80882)
+
+
+Started GET "/yazilar/show/10" for ::1 at 2020-01-04 00:09:05 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 234)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 186ms (Views: 166.7ms | ActiveRecord: 1.5ms | Allocations: 80344)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:10:40 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 16.0ms | Allocations: 1861)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4314ms (Views: 4300.9ms | ActiveRecord: 1.6ms | Allocations: 112506)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:12:10 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:3
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 11.6ms | Allocations: 1873)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 200ms (Views: 190.0ms | ActiveRecord: 1.5ms | Allocations: 82543)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:13:44 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:3
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 1608)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3026ms (Views: 3013.6ms | ActiveRecord: 1.7ms | Allocations: 102162)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:13:56 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:3
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 1604)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3075ms (Views: 3065.1ms | ActiveRecord: 1.9ms | Allocations: 101696)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:14:04 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:3
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 1604)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3182ms (Views: 3171.8ms | ActiveRecord: 1.8ms | Allocations: 100722)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:14:32 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:3
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 1603)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 268ms (Views: 256.5ms | ActiveRecord: 1.7ms | Allocations: 81331)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:16:44 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:3
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 1604)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4159ms (Views: 4149.1ms | ActiveRecord: 1.6ms | Allocations: 110286)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:17:30 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:3
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 1604)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4432ms (Views: 4416.4ms | ActiveRecord: 2.0ms | Allocations: 109780)
+
+
+Started GET "/hakkimda/show" for ::1 at 2020-01-04 00:17:43 -0500
+Processing by HakkimdaController#show as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering hakkimda/show.html.erb within layouts/application
+  Rendered hakkimda/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 187ms (Views: 176.3ms | ActiveRecord: 0.7ms | Allocations: 80092)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:17:44 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:3
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 1611)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 295ms (Views: 278.6ms | ActiveRecord: 2.0ms | Allocations: 80871)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:17:45 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 1888)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 204ms (Views: 190.4ms | ActiveRecord: 1.5ms | Allocations: 81890)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:20:31 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 167ms (Views: 157.4ms | ActiveRecord: 1.9ms | Allocations: 80827)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:20:35 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 1602)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 187ms (Views: 176.5ms | ActiveRecord: 1.6ms | Allocations: 80794)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:20:42 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1602)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 174ms (Views: 164.4ms | ActiveRecord: 1.5ms | Allocations: 80797)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:20:45 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.4ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 17.6ms | Allocations: 1601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 233ms (Views: 218.8ms | ActiveRecord: 2.0ms | Allocations: 80824)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:20:45 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:3
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 1610)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 164ms (Views: 152.8ms | ActiveRecord: 1.5ms | Allocations: 80864)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:20:52 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 1601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 244ms (Views: 232.4ms | ActiveRecord: 1.5ms | Allocations: 80848)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:21:25 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 1888)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4184ms (Views: 4172.9ms | ActiveRecord: 1.6ms | Allocations: 111500)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:21:32 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1868)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 185ms (Views: 171.9ms | ActiveRecord: 1.6ms | Allocations: 81894)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:21:38 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 1608)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 183ms (Views: 165.3ms | ActiveRecord: 2.1ms | Allocations: 80842)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:21:39 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.5ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 15.7ms | Allocations: 1604)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 226ms (Views: 209.7ms | ActiveRecord: 3.5ms | Allocations: 80862)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:21:56 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 1866)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 197ms (Views: 186.1ms | ActiveRecord: 1.6ms | Allocations: 82545)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:26:22 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 14.7ms | Allocations: 1608)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 243ms (Views: 232.8ms | ActiveRecord: 1.9ms | Allocations: 80827)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:27:23 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (2.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 14.5ms | Allocations: 1866)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4260ms (Views: 4247.4ms | ActiveRecord: 2.8ms | Allocations: 106494)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:27:42 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 1608)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4468ms (Views: 4455.8ms | ActiveRecord: 1.7ms | Allocations: 106702)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:27:52 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 1604)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4212ms (Views: 4201.6ms | ActiveRecord: 1.6ms | Allocations: 108510)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:28:07 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 12.9ms | Allocations: 1888)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 397ms (Views: 385.6ms | ActiveRecord: 1.8ms | Allocations: 81895)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:28:08 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 1611)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 204ms (Views: 194.1ms | ActiveRecord: 1.6ms | Allocations: 80869)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:28:18 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 1603)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4224ms (Views: 4215.2ms | ActiveRecord: 1.5ms | Allocations: 110338)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:28:32 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.5ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 1604)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3104ms (Views: 3092.5ms | ActiveRecord: 2.4ms | Allocations: 107258)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:28:42 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 1604)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3345ms (Views: 3335.3ms | ActiveRecord: 1.5ms | Allocations: 107783)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:28:51 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1602)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 181ms (Views: 171.1ms | ActiveRecord: 1.8ms | Allocations: 80828)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:28:53 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 1603)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 205ms (Views: 191.5ms | ActiveRecord: 2.5ms | Allocations: 80854)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:28:55 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 12.9ms | Allocations: 1601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 198ms (Views: 173.0ms | ActiveRecord: 3.9ms | Allocations: 80830)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:28:56 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (2.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 12.1ms | Allocations: 1603)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 271ms (Views: 254.7ms | ActiveRecord: 2.8ms | Allocations: 80862)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:28:57 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 1602)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 208ms (Views: 196.4ms | ActiveRecord: 1.8ms | Allocations: 80829)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:29:00 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 17.3ms | Allocations: 1603)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 208ms (Views: 195.3ms | ActiveRecord: 1.9ms | Allocations: 80844)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:29:01 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.7ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 1601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 269ms (Views: 259.7ms | ActiveRecord: 1.3ms | Allocations: 80838)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:29:01 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1604)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 227ms (Views: 208.5ms | ActiveRecord: 2.7ms | Allocations: 80857)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:29:02 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (3.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 16.5ms | Allocations: 1601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 226ms (Views: 208.2ms | ActiveRecord: 4.4ms | Allocations: 80830)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:29:03 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 1603)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 287ms (Views: 275.1ms | ActiveRecord: 1.6ms | Allocations: 80855)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:29:04 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 13.4ms | Allocations: 1602)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 203ms (Views: 186.4ms | ActiveRecord: 2.9ms | Allocations: 80828)
+
+
+Started GET "/yazilar" for ::1 at 2020-01-04 00:29:04 -0500
+Processing by YazilarController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering yazilar/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/yazilar/index.html.erb:2
+  Rendered yazilar/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 1603)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 207ms (Views: 179.1ms | ActiveRecord: 1.8ms | Allocations: 80850)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:29:07 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 192ms (Views: 179.8ms | ActiveRecord: 1.5ms | Allocations: 80832)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/" for ::1 at 2020-01-04 00:32:56 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.4ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 51.8ms | Allocations: 8872)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3943ms (Views: 3852.8ms | ActiveRecord: 24.3ms | Allocations: 1535388)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:33:06 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.5ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 1605)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 199ms (Views: 187.3ms | ActiveRecord: 2.4ms | Allocations: 81043)
+
+
+Started GET "/hakkimda/show" for ::1 at 2020-01-04 00:33:07 -0500
+Processing by HakkimdaController#show as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering hakkimda/show.html.erb within layouts/application
+  Rendered hakkimda/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 187ms (Views: 178.0ms | ActiveRecord: 0.8ms | Allocations: 80371)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:33:08 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1607)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 241ms (Views: 231.1ms | ActiveRecord: 1.6ms | Allocations: 81096)
+
+
+Started GET "/yazilar/show/2" for ::1 at 2020-01-04 00:33:10 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (1.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 2.1ms | Allocations: 243)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 194ms (Views: 170.9ms | ActiveRecord: 2.0ms | Allocations: 81208)
+
+
+Started GET "/yazilar/show/8" for ::1 at 2020-01-04 00:33:13 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.7ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 180ms (Views: 165.4ms | ActiveRecord: 1.7ms | Allocations: 80114)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:33:14 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1608)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 234ms (Views: 226.0ms | ActiveRecord: 1.3ms | Allocations: 81097)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-04 00:33:22 -0500
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 24ms (ActiveRecord: 0.6ms | Allocations: 5140)
+
+
+Started GET "/" for ::1 at 2020-01-04 00:33:22 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1601)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 174ms (Views: 162.4ms | ActiveRecord: 1.7ms | Allocations: 81109)
+
+
+Started GET "/users/sign_out" for ::1 at 2020-01-04 00:33:32 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+unicorn (5.5.2) lib/unicorn/http_server.rb:605:in `process_client'
+unicorn (5.5.2) lib/unicorn/http_server.rb:700:in `worker_loop'
+unicorn (5.5.2) lib/unicorn/http_server.rb:548:in `spawn_missing_workers'
+unicorn (5.5.2) lib/unicorn/http_server.rb:144:in `start'
+unicorn-rails (2.2.1) lib/unicorn_rails.rb:33:in `run'
+rack (2.0.8) lib/rack/server.rb:297:in `start'
+railties (6.0.2.1) lib/rails/commands/server/server_command.rb:39:in `start'
+railties (6.0.2.1) lib/rails/commands/server/server_command.rb:147:in `block in perform'
+railties (6.0.2.1) lib/rails/commands/server/server_command.rb:138:in `tap'
+railties (6.0.2.1) lib/rails/commands/server/server_command.rb:138:in `perform'
+thor (1.0.1) lib/thor/command.rb:27:in `run'
+thor (1.0.1) lib/thor/invocation.rb:127:in `invoke_command'
+thor (1.0.1) lib/thor.rb:392:in `dispatch'
+railties (6.0.2.1) lib/rails/command/base.rb:69:in `perform'
+railties (6.0.2.1) lib/rails/command.rb:46:in `invoke'
+railties (6.0.2.1) lib/rails/commands.rb:18:in `<main>'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+activesupport (6.0.2.1) lib/active_support/dependencies.rb:325:in `block in require'
+activesupport (6.0.2.1) lib/active_support/dependencies.rb:291:in `load_dependency'
+activesupport (6.0.2.1) lib/active_support/dependencies.rb:325:in `require'
+bin/rails:4:in `<main>'
+Started GET "/admin" for ::1 at 2020-01-04 00:33:53 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1120)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 183ms (Views: 170.8ms | ActiveRecord: 0.6ms | Allocations: 81254)
+
+
+Started GET "/admin/kullanicilar" for ::1 at 2020-01-04 00:33:57 -0500
+Processing by AdminController#kullanicilar as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/kullanicilar.html.erb within layouts/application
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/kullanicilar.html.erb:2
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY id DESC[0m
+  ↳ app/views/admin/kullanicilar.html.erb:3
+  Rendered admin/kullanicilar.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1596)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 178ms (Views: 165.0ms | ActiveRecord: 2.2ms | Allocations: 81268)
+
+
+Started GET "/admin/kullanicilar" for ::1 at 2020-01-04 00:34:00 -0500
+Processing by AdminController#kullanicilar as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/kullanicilar.html.erb within layouts/application
+  [1m[36mUser Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/kullanicilar.html.erb:2
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY id DESC[0m
+  ↳ app/views/admin/kullanicilar.html.erb:3
+  Rendered admin/kullanicilar.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1320)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 243ms (Views: 234.5ms | ActiveRecord: 2.2ms | Allocations: 80845)
+
+
+Started GET "/admin/kullanicilar" for ::1 at 2020-01-04 00:35:13 -0500
+Processing by AdminController#kullanicilar as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/kullanicilar.html.erb within layouts/application
+  [1m[36mUser Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/kullanicilar.html.erb:2
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY id DESC[0m
+  ↳ app/views/admin/kullanicilar.html.erb:3
+  Rendered admin/kullanicilar.html.erb within layouts/application (Duration: 10.1ms | Allocations: 1319)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5923ms (Views: 5910.1ms | ActiveRecord: 2.7ms | Allocations: 110575)
+
+
+Started GET "/admin/kullanicilar" for ::1 at 2020-01-04 00:35:52 -0500
+Processing by AdminController#kullanicilar as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/kullanicilar.html.erb within layouts/application
+  [1m[36mUser Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/kullanicilar.html.erb:2
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY id DESC[0m
+  ↳ app/views/admin/kullanicilar.html.erb:3
+  Rendered admin/kullanicilar.html.erb within layouts/application (Duration: 21.5ms | Allocations: 1319)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7034ms (Views: 7019.8ms | ActiveRecord: 3.4ms | Allocations: 127904)
+
+
+Started GET "/admin/kullanicilar" for ::1 at 2020-01-04 00:37:01 -0500
+Processing by AdminController#kullanicilar as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/kullanicilar.html.erb within layouts/application
+  [1m[36mUser Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/kullanicilar.html.erb:2
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY id DESC[0m
+  ↳ app/views/admin/kullanicilar.html.erb:3
+  Rendered admin/kullanicilar.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1319)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5940ms (Views: 5927.2ms | ActiveRecord: 2.3ms | Allocations: 123408)
+
+
+Started GET "/admin/kullanicilar" for ::1 at 2020-01-04 00:37:14 -0500
+Processing by AdminController#kullanicilar as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/kullanicilar.html.erb within layouts/application
+  [1m[36mUser Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/kullanicilar.html.erb:2
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY id DESC[0m
+  ↳ app/views/admin/kullanicilar.html.erb:3
+  Rendered admin/kullanicilar.html.erb within layouts/application (Duration: 9.0ms | Allocations: 1319)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6148ms (Views: 6138.7ms | ActiveRecord: 3.1ms | Allocations: 124876)
+
+
+Started GET "/admin" for ::1 at 2020-01-04 00:37:26 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 15.1ms | Allocations: 914)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 461ms (Views: 447.3ms | ActiveRecord: 0.7ms | Allocations: 79455)
+
+
+Started GET "/admin/yazilar" for ::1 at 2020-01-04 00:37:29 -0500
+Processing by AdminController#yazilar as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/yazilar.html.erb within layouts/application
+  [1m[36mYazilar Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "yazilars" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/yazilar.html.erb:16
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/admin/yazilar.html.erb:17
+  Rendered admin/yazilar.html.erb within layouts/application (Duration: 14.5ms | Allocations: 3089)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 203ms (Views: 191.6ms | ActiveRecord: 2.3ms | Allocations: 81941)
+
+
+Started GET "/admin/show/10" for ::1 at 2020-01-04 00:37:37 -0500
+Processing by AdminController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/admin_controller.rb:27:in `show'
+  Rendering admin/show.html.erb within layouts/application
+  Rendered admin/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 227)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 185ms (Views: 171.3ms | ActiveRecord: 1.4ms | Allocations: 79648)
+
+
+Started GET "/admin/new" for ::1 at 2020-01-04 00:37:49 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/_form.html.erb (Duration: 40.0ms | Allocations: 6869)
+  Rendered admin/new.html.erb within layouts/application (Duration: 45.2ms | Allocations: 7533)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 226ms (Views: 210.5ms | ActiveRecord: 2.2ms | Allocations: 86925)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/admin/new" for ::1 at 2020-01-04 00:50:21 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/new.html.erb within layouts/application (Duration: 24.2ms | Allocations: 7151)
+Completed 500 Internal Server Error in 215ms (ActiveRecord: 28.3ms | Allocations: 25155)
+
+
+Started GET "/admin/new" for ::1 at 2020-01-04 00:50:24 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1232)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 1.9ms | Allocations: 3959)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <% @page_title = 'Yazi Ekleme' %>
+<div class="container">
+  <div class="user new">
+    <h2>Yazi Ekleme</h2>
+
+= form.input :yazilar, as: :ckeditor, input_html: { ckeditor: { toolbar: 'Full' } }
+
+    <%# <%= form_for(:yazilar, :url => {:action => 'create'}) do |f| %>
+
+      <%= render(:partial => 'form', :locals => {:f => f} ) %>
+
+      <div class="form-buttons">
+        <%= submit_tag('Yaziyi Yayimla') %>
+      </div>
+
+    <% end %> %>
+  </div>
+</div>
+
+):
+1:    <% @page_title = 'Yazi Ekleme' %>
+2:    <div class="container">
+3:      <div class="user new">
+4:        <h2>Yazi Ekleme</h2>
+5:    
+6:    = form.input :yazilar, as: :ckeditor, input_html: { ckeditor: { toolbar: 'Full' } }
+7:    
+8:        <%# <%= form_for(:yazilar, :url => {:action => 'create'}) do |f| %>
+9:    
+10:          <%= render(:partial => 'form', :locals => {:f => f} ) %>
+11:    
+12:          <div class="form-buttons">
+13:            <%= submit_tag('Yaziyi Yayimla') %>
+14:          </div>
+15:    
+16:        <% end %> %>
+17:      </div>
+18:    </div>
+  
+app/views/admin/new.html.erb:21: syntax error, unexpected end, expecting end-of-input
+app/views/admin/new.html.erb:21: syntax error, unexpected end, expecting end-of-input
+app/views/admin/new.html.erb:21: syntax error, unexpected end, expecting end-of-input
+app/views/admin/new.html.erb:21: syntax error, unexpected end, expecting end-of-input
+app/views/admin/new.html.erb:21: syntax error, unexpected end, expecting end-of-input
+app/views/admin/new.html.erb:21: syntax error, unexpected end, expecting end-of-input
+Started GET "/admin/new" for ::1 at 2020-01-04 00:50:46 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20103ms (Views: 20083.2ms | ActiveRecord: 2.4ms | Allocations: 1771539)
+
+
+Started GET "/admin/new" for ::1 at 2020-01-04 00:51:30 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 116)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 242ms (Views: 225.4ms | ActiveRecord: 1.6ms | Allocations: 81262)
+
+
+Started GET "/admin/new" for ::1 at 2020-01-04 00:52:40 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/_form.html.erb (Duration: 3.0ms | Allocations: 1443)
+  Rendered admin/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1873)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 1.9ms | Allocations: 5550)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<table summary="Subject form fields">
+  <tr>
+    <th>Yazinin Ismi</th>
+    <td><%= f.text_field(:title) %></td>
+  </tr>
+  <tr>
+    <th><%= f.label(:created_at) %></th>
+    <td><%= f.datetime_select(:created_at,:order => [:month,:year,:day]) %></td>
+  </tr>
+  <tr>
+    <th>Yazinin Durumu: </th>
+    <td><%= f.text_field(:status) %></td>
+  </tr>
+  <tr>
+    <th>Yazi: </th>
+    <td><%= = f.input :body, as: :ckeditor, input_html: { ckeditor: { toolbar: 'Full' } } %></td>
+  </tr>
+</table>
+
+):
+1:    
+2:    <table summary="Subject form fields">
+3:      <tr>
+4:        <th>Yazinin Ismi</th>
+5:        <td><%= f.text_field(:title) %></td>
+6:      </tr>
+7:      <tr>
+8:        <th><%= f.label(:created_at) %></th>
+9:        <td><%= f.datetime_select(:created_at,:order => [:month,:year,:day]) %></td>
+10:      </tr>
+11:      <tr>
+12:        <th>Yazinin Durumu: </th>
+13:        <td><%= f.text_field(:status) %></td>
+14:      </tr>
+15:      <tr>
+16:        <th>Yazi: </th>
+17:        <td><%= = f.input :body, as: :ckeditor, input_html: { ckeditor: { toolbar: 'Full' } } %></td>
+18:      </tr>
+19:    </table>
+  
+app/views/admin/_form.html.erb:17: syntax error, unexpected '='
+app/views/admin/_form.html.erb:17: syntax error, unexpected '='
+app/views/admin/_form.html.erb:17: syntax error, unexpected '='
+app/views/admin/_form.html.erb:17: syntax error, unexpected '='
+app/views/admin/_form.html.erb:17: syntax error, unexpected '='
+app/views/admin/_form.html.erb:17: syntax error, unexpected '='
+app/views/admin/new.html.erb:8
+app/views/admin/new.html.erb:6
+Started GET "/admin/new" for ::1 at 2020-01-04 00:52:59 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/_form.html.erb (Duration: 87.7ms | Allocations: 17262)
+  Rendered admin/new.html.erb within layouts/application (Duration: 90.6ms | Allocations: 17672)
+Completed 500 Internal Server Error in 112ms (ActiveRecord: 2.0ms | Allocations: 21345)
+
+
+  
+ActionView::Template::Error (undefined method `input' for #<ActionView::Helpers::FormBuilder:0x000055ab19f7cf28>):
+    14:   </tr>
+    15:   <tr>
+    16:     <th>Yazi: </th>
+    17:     <td><%= f.input :body, as: :ckeditor, input_html: { ckeditor: { toolbar: 'Full' } } %></td>
+    18:   </tr>
+    19: </table>
+  
+app/views/admin/_form.html.erb:17
+app/views/admin/new.html.erb:8
+app/views/admin/new.html.erb:6
+Started GET "/admin/new" for ::1 at 2020-01-04 00:53:38 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/_form.html.erb (Duration: 35.9ms | Allocations: 7532)
+  Rendered admin/new.html.erb within layouts/application (Duration: 39.9ms | Allocations: 7942)
+Completed 500 Internal Server Error in 65ms (ActiveRecord: 1.7ms | Allocations: 11615)
+
+
+  
+ActionView::Template::Error (undefined method `textarea' for #<ActionView::Helpers::FormBuilder:0x000055ab1ca785b0>
+Did you mean?  text_area):
+    14:   </tr>
+    15:   <tr>
+    16:     <th>Yazi: </th>
+    17:     <td><%= f.textarea :body, as: :ckeditor, input_html: { ckeditor: { toolbar: 'Full' } } %></td>
+    18:   </tr>
+    19: </table>
+  
+app/views/admin/_form.html.erb:17
+app/views/admin/new.html.erb:8
+app/views/admin/new.html.erb:6
+Started GET "/admin/new" for ::1 at 2020-01-04 01:00:55 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/_form.html.erb (Duration: 40.1ms | Allocations: 8156)
+  Rendered admin/new.html.erb within layouts/application (Duration: 47.0ms | Allocations: 9303)
+Completed 500 Internal Server Error in 148ms (ActiveRecord: 3.8ms | Allocations: 45491)
+
+
+  
+ActionView::Template::Error (couldn't find file 'ckeditor/init' with type 'application/javascript'
+Checked in these paths: 
+  /home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/assets/config
+  /home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/assets/images
+  /home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/assets/javascripts
+  /home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/assets/stylesheets
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/bootstrap-wysihtml5-rails-0.3.3.8/vendor/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/bootstrap-wysihtml5-rails-0.3.3.8/vendor/assets/stylesheets
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/coffee-rails-5.0.0/lib/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/bundler/gems/ckeditor-bfe47345606e/app/assets/images
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/bundler/gems/ckeditor-bfe47345606e/app/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/bundler/gems/ckeditor-bfe47345606e/app/assets/stylesheets
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/jquery-rails-4.3.5/vendor/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/actioncable-6.0.2.1/app/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/activestorage-6.0.2.1/app/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/actionview-6.0.2.1/lib/assets/compiled
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/safa/rails/StartworkofRor/github/rails-blog-deneme/node_modules
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/popper_js-1.14.5/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/bootstrap-4.3.1/assets/stylesheets
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/bootstrap-4.3.1/assets/javascripts):
+    15:       }
+    16:     </style>
+    17:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    20: <%= javascript_include_tag :ckeditor %>  </head>
+    21: 
+  
+app/assets/javascripts/application.js:22
+app/views/layouts/application.html.erb:18
+Started GET "/admin/new" for ::1 at 2020-01-04 01:01:09 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/_form.html.erb (Duration: 11.0ms | Allocations: 3600)
+  Rendered admin/new.html.erb within layouts/application (Duration: 12.7ms | Allocations: 3916)
+Completed 500 Internal Server Error in 156ms (ActiveRecord: 2.2ms | Allocations: 40369)
+
+
+  
+ActionView::Template::Error (couldn't find file 'ckeditor' with type 'application/javascript'
+Checked in these paths: 
+  /home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/assets/config
+  /home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/assets/images
+  /home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/assets/javascripts
+  /home/safa/rails/StartworkofRor/github/rails-blog-deneme/app/assets/stylesheets
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/bootstrap-wysihtml5-rails-0.3.3.8/vendor/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/bootstrap-wysihtml5-rails-0.3.3.8/vendor/assets/stylesheets
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/coffee-rails-5.0.0/lib/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/bundler/gems/ckeditor-bfe47345606e/app/assets/images
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/bundler/gems/ckeditor-bfe47345606e/app/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/bundler/gems/ckeditor-bfe47345606e/app/assets/stylesheets
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/jquery-rails-4.3.5/vendor/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/actioncable-6.0.2.1/app/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/activestorage-6.0.2.1/app/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/actionview-6.0.2.1/lib/assets/compiled
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/safa/rails/StartworkofRor/github/rails-blog-deneme/node_modules
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/popper_js-1.14.5/assets/javascripts
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/bootstrap-4.3.1/assets/stylesheets
+  /home/safa/.rvm/gems/ruby-2.6.5@blog/gems/bootstrap-4.3.1/assets/javascripts):
+    15:       }
+    16:     </style>
+    17:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    20: <%= javascript_include_tag :ckeditor %>  </head>
+    21: 
+  
+app/assets/javascripts/application.js:22
+app/views/layouts/application.html.erb:18
+Started GET "/admin/new" for ::1 at 2020-01-04 01:01:19 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/_form.html.erb (Duration: 11.1ms | Allocations: 3600)
+  Rendered admin/new.html.erb within layouts/application (Duration: 12.7ms | Allocations: 3909)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 172ms (ActiveRecord: 1.9ms | Allocations: 89927)
+
+
+  
+ActionView::Template::Error (The asset "ckeditor.js" is not present in the asset pipeline.):
+    17:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    20: <%= javascript_include_tag :ckeditor %>  </head>
+    21: 
+    22:   <body style="background-color:#b3c6ff ">
+    23: 
+  
+app/views/layouts/application.html.erb:20
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:20 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:20 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:20 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:21 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:21 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:23 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:26 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:28 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:29 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:35 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:36 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:37 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:40 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:50 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:54 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:02:55 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:03:02 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:03:03 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:03:05 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:03:06 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:03:07 -0500
+Started PUT "/__web_console/repl_sessions/7750c337e353f73326f5acd6f51aac4d" for ::1 at 2020-01-04 01:03:08 -0500
+Started GET "/admin/new" for ::1 at 2020-01-04 01:04:34 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/_form.html.erb (Duration: 2.1ms | Allocations: 1436)
+  Rendered admin/new.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1846)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 1.6ms | Allocations: 5520)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<table summary="Subject form fields">
+  <tr>
+    <th>Yazinin Ismi</th>
+    <td><%= f.text_field(:title) %></td>
+  </tr>
+  <tr>
+    <th><%= f.label(:created_at) %></th>
+    <td><%= f.datetime_select(:created_at,:order => [:month,:year,:day]) %></td>
+  </tr>
+  <tr>
+    <th>Yazinin Durumu: </th>
+    <td><%= f.text_field(:status) %></td>
+  </tr>
+  <tr>
+    <th>Yazi: </th>
+    <td><%=f.input :body, as :ckeditor  %></td>
+  </tr>
+</table>
+
+):
+1:    
+2:    <table summary="Subject form fields">
+3:      <tr>
+4:        <th>Yazinin Ismi</th>
+5:        <td><%= f.text_field(:title) %></td>
+6:      </tr>
+7:      <tr>
+8:        <th><%= f.label(:created_at) %></th>
+9:        <td><%= f.datetime_select(:created_at,:order => [:month,:year,:day]) %></td>
+10:      </tr>
+11:      <tr>
+12:        <th>Yazinin Durumu: </th>
+13:        <td><%= f.text_field(:status) %></td>
+14:      </tr>
+15:      <tr>
+16:        <th>Yazi: </th>
+17:        <td><%=f.input :body, as :ckeditor  %></td>
+18:      </tr>
+19:    </table>
+  
+app/views/admin/_form.html.erb:17: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/admin/_form.html.erb:17: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/admin/_form.html.erb:17: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/admin/_form.html.erb:17: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/admin/_form.html.erb:17: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/admin/_form.html.erb:17: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/admin/new.html.erb:8
+app/views/admin/new.html.erb:6
+Started GET "/admin/new" for ::1 at 2020-01-04 01:05:24 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/_form.html.erb (Duration: 3.3ms | Allocations: 1436)
+  Rendered admin/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1846)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 1.9ms | Allocations: 5520)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<table summary="Subject form fields">
+  <tr>
+    <th>Yazinin Ismi</th>
+    <td><%= f.text_field(:title) %></td>
+  </tr>
+  <tr>
+    <th><%= f.label(:created_at) %></th>
+    <td><%= f.datetime_select(:created_at,:order => [:month,:year,:day]) %></td>
+  </tr>
+  <tr>
+    <th>Yazinin Durumu: </th>
+    <td><%= f.text_field(:status) %></td>
+  </tr>
+  <tr>
+    <th>Yazi: </th>
+    <td><%=f.input :body, as :ckeditor  %></td>
+  </tr>
+</table>
+
+):
+1:    
+2:    <table summary="Subject form fields">
+3:      <tr>
+4:        <th>Yazinin Ismi</th>
+5:        <td><%= f.text_field(:title) %></td>
+6:      </tr>
+7:      <tr>
+8:        <th><%= f.label(:created_at) %></th>
+9:        <td><%= f.datetime_select(:created_at,:order => [:month,:year,:day]) %></td>
+10:      </tr>
+11:      <tr>
+12:        <th>Yazinin Durumu: </th>
+13:        <td><%= f.text_field(:status) %></td>
+14:      </tr>
+15:      <tr>
+16:        <th>Yazi: </th>
+17:        <td><%=f.input :body, as :ckeditor  %></td>
+18:      </tr>
+19:    </table>
+  
+app/views/admin/_form.html.erb:17: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/admin/_form.html.erb:17: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/admin/_form.html.erb:17: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/admin/_form.html.erb:17: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/admin/_form.html.erb:17: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/admin/_form.html.erb:17: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+app/views/admin/new.html.erb:8
+app/views/admin/new.html.erb:6
+Started GET "/admin/new" for ::1 at 2020-01-04 01:07:12 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/_form.html.erb (Duration: 13.3ms | Allocations: 3794)
+  Rendered admin/new.html.erb within layouts/application (Duration: 18.9ms | Allocations: 4431)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 196ms (Views: 180.3ms | ActiveRecord: 2.1ms | Allocations: 85365)
+
+
+Started GET "/" for ::1 at 2020-01-04 01:09:48 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1953)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 169ms (Views: 159.0ms | ActiveRecord: 1.6ms | Allocations: 81685)
+
+
+Started GET "/admin/new" for ::1 at 2020-01-04 01:10:27 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/_form.html.erb (Duration: 9.9ms | Allocations: 3761)
+  Rendered admin/new.html.erb within layouts/application (Duration: 14.8ms | Allocations: 4551)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 183ms (Views: 166.6ms | ActiveRecord: 1.6ms | Allocations: 85360)
+
+
+Started POST "/admin/create" for ::1 at 2020-01-04 01:10:54 -0500
+Processing by AdminController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"86goCuP+jTGcKm6iqAlGIy+lt8XXoAfURJupXIvaIb9kPOYWAbYNldsHq3AGnbCqtcDbUZcGTMAMA4h4DL6ZHA==", "yazilar"=>{"title"=>"Deneme", "created_at(2i)"=>"1", "created_at(1i)"=>"2020", "created_at(3i)"=>"4", "created_at(4i)"=>"06", "created_at(5i)"=>"07", "status"=>"0", "body"=>"<p>## Deneme Yazisi umarim calisir</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>;laskd;aks;dlkas ** ksakdasd ** ;laskdas</p>\r\n"}, "commit"=>"Yaziyi Yayimla"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/admin_controller.rb:14:in `create'
+  [1m[36mYazilar Create (3.8ms)[0m  [1m[32mINSERT INTO "yazilars" ("title", "body", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Deneme"], ["body", "<p>## Deneme Yazisi umarim calisir</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>;laskd;aks;dlkas ** ksakdasd ** ;laskdas</p>\r\n"], ["status", 0], ["created_at", "2020-01-04 06:07:00"], ["updated_at", "2020-01-04 06:10:54.659492"]]
+  ↳ app/controllers/admin_controller.rb:14:in `create'
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/admin_controller.rb:14:in `create'
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 29ms (ActiveRecord: 6.7ms | Allocations: 4745)
+
+
+Started GET "/admin" for ::1 at 2020-01-04 01:10:54 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1116)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 159ms (Views: 151.0ms | ActiveRecord: 0.6ms | Allocations: 80053)
+
+
+Started GET "/" for ::1 at 2020-01-04 01:10:58 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 2037)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 182ms (Views: 170.1ms | ActiveRecord: 1.4ms | Allocations: 81729)
+
+
+Started GET "/yazilar/show/13" for ::1 at 2020-01-04 01:11:15 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.6ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 232)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 223ms (Views: 210.9ms | ActiveRecord: 1.2ms | Allocations: 80611)
+
+
+Started GET "/yazilar/show/13" for ::1 at 2020-01-04 01:14:05 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1223)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 1.6ms | Allocations: 4857)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1)):
+    11:     <% if @posts.body.nil? %>
+    12:       <div class="col-8"><a> Body kismi bos </a></div>
+    13:     <% else %>
+    14:       <div class="col-8"><%= markdown.render(@posts.body) %></div>
+    15:     <% end %>
+    16:   </div>
+    17: </div>
+  
+app/helpers/yazilar_helper.rb:2:in `markdown'
+app/views/yazilar/show.html.erb:14
+Started GET "/yazilar/show/13" for ::1 at 2020-01-04 01:15:13 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 61.3ms | Allocations: 10334)
+Completed 500 Internal Server Error in 86ms (ActiveRecord: 1.5ms | Allocations: 13968)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `sarkdown' for #<#<Class:0x000055ab1f351130>:0x000055ab1f357030>
+Did you mean?  markdown):
+    11:     <% if @posts.body.nil? %>
+    12:       <div class="col-8"><a> Body kismi bos </a></div>
+    13:     <% else %>
+    14:       <div class="col-8"><%= sarkdown.render(@posts.body) %></div>
+    15:     <% end %>
+    16:   </div>
+    17: </div>
+  
+app/views/yazilar/show.html.erb:14
+Started GET "/yazilar/show/13" for ::1 at 2020-01-04 01:15:43 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 53.9ms | Allocations: 10065)
+Completed 500 Internal Server Error in 145ms (ActiveRecord: 25.0ms | Allocations: 25648)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `sarkdown' for #<#<Class:0x000055ab1e2dcca0>:0x000055ab1e2e6f70>):
+    11:     <% if @posts.body.nil? %>
+    12:       <div class="col-8"><a> Body kismi bos </a></div>
+    13:     <% else %>
+    14:       <div class="col-8"><%= sarkdown.render(@posts.body) %></div>
+    15:     <% end %>
+    16:   </div>
+    17: </div>
+  
+app/views/yazilar/show.html.erb:14
+Started GET "/yazilar/show/13" for ::1 at 2020-01-04 01:15:52 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.7ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 58.1ms | Allocations: 10306)
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 1.5ms | Allocations: 13940)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `markdown' for #<#<Class:0x000055ab1f657668>:0x000055ab1f655b60>):
+    11:     <% if @posts.body.nil? %>
+    12:       <div class="col-8"><a> Body kismi bos </a></div>
+    13:     <% else %>
+    14:       <div class="col-8"><%= markdown.render(@posts.body) %></div>
+    15:     <% end %>
+    16:   </div>
+    17: </div>
+  
+app/views/yazilar/show.html.erb:14
+Started GET "/yazilar/show/13" for ::1 at 2020-01-04 01:16:09 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (1.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 56.4ms | Allocations: 10306)
+Completed 500 Internal Server Error in 76ms (ActiveRecord: 1.9ms | Allocations: 13940)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `markdown' for #<#<Class:0x000055ab1e0ca138>:0x000055ab1e0c8590>):
+    11:     <% if @posts.body.nil? %>
+    12:       <div class="col-8"><a> Body kismi bos </a></div>
+    13:     <% else %>
+    14:       <div class="col-8"><%= markdown.render(@posts.body).to_html %></div>
+    15:     <% end %>
+    16:   </div>
+    17: </div>
+  
+app/views/yazilar/show.html.erb:14
+Started GET "/yazilar/show/13" for ::1 at 2020-01-04 01:16:43 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.5ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+Completed 500 Internal Server Error in 109ms (ActiveRecord: 17.8ms | Allocations: 21700)
+
+
+  
+NameError (undefined local variable or method `renderer' for #<YazilarController:0x000055ab1e5ee3f8>
+Did you mean?  render
+               _renderers):
+  
+app/controllers/yazilar_controller.rb:24:in `show'
+Started GET "/yazilar/show/13" for ::1 at 2020-01-04 01:17:57 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.7ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1161)
+Completed 500 Internal Server Error in 100ms (ActiveRecord: 20.4ms | Allocations: 17384)
+
+
+  
+ActionView::Template::Error (Invalid Renderer instance given):
+    11:     <% if @posts.body.nil? %>
+    12:       <div class="col-8"><a> Body kismi bos </a></div>
+    13:     <% else %>
+    14:       <div class="col-8"><%= Redcarpet::Markdown.new(@posts.body) %></div>
+    15:     <% end %>
+    16:   </div>
+    17: </div>
+  
+app/views/yazilar/show.html.erb:14:in `new'
+app/views/yazilar/show.html.erb:14
