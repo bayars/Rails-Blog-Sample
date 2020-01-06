@@ -30485,3 +30485,460 @@ ActionView::Template::Error (Invalid Renderer instance given):
   
 app/views/yazilar/show.html.erb:14:in `new'
 app/views/yazilar/show.html.erb:14
+Started GET "/yazilar/show/13" for ::1 at 2020-01-04 10:37:29 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 233)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 221ms (Views: 157.6ms | ActiveRecord: 2.6ms | Allocations: 93261)
+
+
+Started GET "/" for ::1 at 2020-01-04 10:37:39 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 2534)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 189ms (Views: 173.6ms | ActiveRecord: 2.1ms | Allocations: 82189)
+
+
+Started GET "/yazilar/show/2" for ::1 at 2020-01-04 10:37:42 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.7ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 247ms (Views: 232.1ms | ActiveRecord: 1.6ms | Allocations: 79575)
+
+
+Started GET "/yazilar/show/9" for ::1 at 2020-01-04 10:37:45 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 158ms (Views: 145.6ms | ActiveRecord: 1.7ms | Allocations: 79561)
+
+
+Started GET "/yazilar/show/10" for ::1 at 2020-01-04 10:37:53 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 163ms (Views: 150.9ms | ActiveRecord: 1.6ms | Allocations: 79560)
+
+
+Started GET "/yazilar/show/10" for ::1 at 2020-01-04 21:09:01 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 241)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 172ms (Views: 157.2ms | ActiveRecord: 2.4ms | Allocations: 81324)
+
+
+Started GET "/yazilar/show/10" for ::1 at 2020-01-04 21:09:04 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 44)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 163ms (Views: 148.2ms | ActiveRecord: 1.9ms | Allocations: 79527)
+
+
+Started GET "/" for ::1 at 2020-01-04 21:09:13 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 2043)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 270ms (Views: 257.9ms | ActiveRecord: 1.8ms | Allocations: 81709)
+
+
+Started GET "/yazilar/show/8" for ::1 at 2020-01-04 21:09:14 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 44)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 172ms (Views: 158.4ms | ActiveRecord: 1.7ms | Allocations: 79567)
+
+
+Started GET "/yazilar/show/9" for ::1 at 2020-01-04 21:09:17 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 44)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 165ms (Views: 153.4ms | ActiveRecord: 1.5ms | Allocations: 79560)
+
+
+Started GET "/yazilar/show/2" for ::1 at 2020-01-04 21:09:19 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 44)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 169ms (Views: 155.0ms | ActiveRecord: 1.6ms | Allocations: 79556)
+
+
+Started GET "/yazilar/show/10" for ::1 at 2020-01-04 21:09:21 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 44)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 269ms (Views: 253.8ms | ActiveRecord: 2.6ms | Allocations: 79565)
+
+
+Started GET "/yazilar/show/10" for ::1 at 2020-01-04 21:09:44 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 4.5ms | Allocations: 240)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 218ms (Views: 201.8ms | ActiveRecord: 1.6ms | Allocations: 81188)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/yazilar/show/10" for ::1 at 2020-01-04 22:31:57 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (5.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (2.6ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 3.4ms | Allocations: 373)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4071ms (Views: 3859.3ms | ActiveRecord: 32.4ms | Allocations: 1488343)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Started GET "/yazilar/show/10" for ::1 at 2020-01-05 10:56:47 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (1.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 10.4ms | Allocations: 1354)
+Completed 500 Internal Server Error in 154ms (ActiveRecord: 21.5ms | Allocations: 19389)
+
+
+  
+LoadError (cannot load such file -- redcarpet):
+  
+app/views/yazilar/show.html.erb:1
+Started GET "/yazilar/show/10" for ::1 at 2020-01-05 10:56:58 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 56.2ms | Allocations: 8039)
+Completed 500 Internal Server Error in 80ms (ActiveRecord: 1.8ms | Allocations: 11745)
+
+
+  
+LoadError (no suitable markdown gem found):
+  
+app/views/yazilar/show.html.erb:11
+Started GET "/yazilar/show/10" for ::1 at 2020-01-05 11:00:27 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 67.5ms | Allocations: 11277)
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 1.8ms | Allocations: 14912)
+
+
+  
+LoadError (no suitable markdown gem found):
+  
+app/views/yazilar/show.html.erb:12
+Started GET "/yazilar/show/10" for ::1 at 2020-01-05 11:00:41 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 40.5ms | Allocations: 8041)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 1.6ms | Allocations: 11676)
+
+
+  
+LoadError (no suitable markdown gem found):
+  
+app/views/yazilar/show.html.erb:12
+Started GET "/yazilar/show/10" for ::1 at 2020-01-05 11:00:49 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (1.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 40.3ms | Allocations: 8047)
+Completed 500 Internal Server Error in 64ms (ActiveRecord: 2.0ms | Allocations: 11682)
+
+
+  
+LoadError (no suitable markdown gem found):
+  
+app/views/yazilar/show.html.erb:12
+Started GET "/" for ::1 at 2020-01-05 11:00:53 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 43.9ms | Allocations: 3527)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 2.2ms | Allocations: 6410)
+
+
+  
+ActionView::Template::Error (uninitialized constant Markdown):
+    10:         </div>
+    11:       <% else %>
+    12:         <div class="col-9">
+    13:           <%= raw Markdown.new(post.body.first(200) + "..." ).to_html %>
+    14:         </div>
+    15:       <% end %>
+    16:       </div>
+  
+app/views/index/index.html.erb:13
+app/views/index/index.html.erb:2
+Started GET "/" for ::1 at 2020-01-05 11:00:55 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 3272)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 1.5ms | Allocations: 5384)
+
+
+  
+ActionView::Template::Error (uninitialized constant Markdown):
+    10:         </div>
+    11:       <% else %>
+    12:         <div class="col-9">
+    13:           <%= raw Markdown.new(post.body.first(200) + "..." ).to_html %>
+    14:         </div>
+    15:       <% end %>
+    16:       </div>
+  
+app/views/index/index.html.erb:13
+app/views/index/index.html.erb:2
+Started GET "/" for ::1 at 2020-01-05 11:01:11 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:14)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/rails-blog-deneme/config/routes.rb:17)
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 68.0ms | Allocations: 9283)
+Completed 500 Internal Server Error in 132ms (ActiveRecord: 28.9ms | Allocations: 18034)
+
+
+  
+ActionView::Template::Error (uninitialized constant Markdown):
+    10:         </div>
+    11:       <% else %>
+    12:         <div class="col-9">
+    13:           <%= raw Markdown.new(post.body.first(200) + "..." ).to_html %>
+    14:         </div>
+    15:       <% end %>
+    16:       </div>
+  
+app/views/index/index.html.erb:13
+app/views/index/index.html.erb:2
+Started GET "/" for ::1 at 2020-01-05 11:02:33 -0500
+Processing by IndexController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 20.6ms | Allocations: 4839)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 1.8ms | Allocations: 7899)
+
+
+  
+ActionView::Template::Error (uninitialized constant Markdown):
+    10:         </div>
+    11:       <% else %>
+    12:         <div class="col-9">
+    13:           <%= raw Markdown.new(post.body.first(200) + "..." ).to_html %>
+    14:         </div>
+    15:       <% end %>
+    16:       </div>
+  
+app/views/index/index.html.erb:13
+app/views/index/index.html.erb:2
+Started GET "/yazilar/show/10" for ::1 at 2020-01-05 11:02:39 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1183)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 1.6ms | Allocations: 4744)
+
+
+  
+ActionView::Template::Error (File name too long @ rb_sysopen - <p>&Ouml;zellikle son d&ouml;nemlerde iyi ya da k&ouml;t&uuml; niyetli olarak bir&ccedil;ok yanlış bilgilendirmenin kampta dolaştığına, s&ouml;ylentiye d&ouml;n&uuml;şt&uuml;ğ&uuml;ne ve bunların gerek insanlar gerekse kampı nasıl yıprattığına tanık olduk (bazılarından haberdar da olmamışızdır).</p>
+
+<p>İnsanlarla incir &ccedil;ekirdeğini doldurmayacak konulardan tartışmayın, bozuşmayın. İncir &ccedil;ekirdeğinden fazlasıysa, organizasyona gelin, hep beraber tartışıp bozuşalım :). Kendinizi d&uuml;ş&uuml;nmeyin sadece :P.</p>
+
+<p>Herhangi bir konuda bir bilgi duyduğunuzda, l&uuml;tfen bu konunun kaynağına inip doğrusunu &ouml;ğrenin. Sorgulayarak yaklaşın. Kampta her şeyin bir sorumlusu var, onlar bilmiyorsa onların sorumlusu var. Fena bir &ouml;rg&uuml;tlenme modelimiz yok, mutlaka bir bilginin doğrusuna ulaşabilirsiniz.</p>
+
+<p>Sosyal medya, kendi aramızda iletişim i&ccedil;in iyi bir y&ouml;ntem değil. Hobi olarak yine sosyal medya kullanın, kullanmayın demiyoruz. &Ouml;ncelikle topluluk i&ccedil;inde birtakım bilgileri doğruladıktan, topluluğun kendi i&ccedil; &ccedil;&ouml;z&uuml;m yollarını denediğinize emin olun.</p>
+
+<p><br />
+## Geribildirim Yapılması</p>
+
+<p>Organizasyonla ilgili herhangi bir durumla karşılaştığınızda bunun &quot;bilindiği&quot; gibi bir varsayımla yaklaşmamanızı rica ediyoruz. &Ccedil;ok geniş bir organizasyonu oluşturan ve y&uuml;r&uuml;tmeye &ccedil;alışan g&ouml;rece az sayıda kişiden oluşuyoruz. Genellikle her durumdan her kişi, daha da &ouml;nemlisi -doğru kişiler- haberdar olmayabiliyor. Bu nedenle sizin geribildirimlerinizle bize yardımcı olmanıza ihtiya&ccedil; duyuyoruz.</p>
+
+<p>Geribildirimlerinizi yazılı yapmadığınız s&uuml;rece bu bilgi ilgili kişide kısıtlı kalacaktır. O başkalarına aktarabilir de aktarmayabilir de, yazılı hale getirebilir de getirmeyebilir de. Aktarılırken kulaktan kulağa geribildiriminiz farklı bir şekle de d&ouml;n&uuml;şebilir. Eğer geribildiriminizin kalıcı olmasını ve sizin ifade ettiğiniz bi&ccedil;imde aktarılmasını, gelecek etkinliklerde etkili olmasını ve net bir yanıtını almak istiyorsanız bunu yazılı olarak yapmalısınız.</p>
+
+<p>* Anonim: Etkinliğin son g&uuml;n&uuml; katılımcıların anonim olarak bir anket doldurması sağlanıyor. Anketle ilgili sizin kimliğinize dair bir bilgi saklanmıyor. Aynı nedenden dolayı ankette yazdığınız herhangi bir konu ile ilgili size bir geri d&ouml;n&uuml;ş yapılması m&uuml;mk&uuml;n olmuyor. Anonim yaptığınız bir bildirimle ilgili beklediğiniz bir işlem varsa ve bu ger&ccedil;ekleşmediyse, aynı bildirimi aşağıdaki kanallardan da yapmayı değerlendirmenizi isteriz.</p>
+
+<p>* Geribildirim: Bazı geribildirimlere yanıt bekleyebilirsiniz. Ya da geribildiriminizle ilgili daha fazla bilgiye ihtiya&ccedil; duyulduğu i&ccedil;in sizinle iletişime ge&ccedil;ilmesi gerekebilir. Bunun i&ccedil;in şu yolları izleyebilirsiniz:<br />
+** Organizasyona ilişkin geribildirimlerinizi kamp@linux.org.tr e-posta adresine g&ouml;nderebilirsiniz. T&uuml;m g&ouml;nderdiğiniz e-postalar, t&uuml;m organizasyon ekibine gitmesinin yanı sıra arşivlenmektedir.<br />
+** Verilen eğitimin teknik i&ccedil;eriği ya da eğitmenin aktardığı bilgilere ilişkin geribildirimlerinizi program kuruluna kamp-program@liste.linux.rg.tr e-posta adresine g&ouml;nderebilirsiniz. T&uuml;m g&ouml;nderdiğiniz e-postalar, program kurulu &uuml;yelerine gitmesinin yanı sıra arşivlenmektedir.<br />
+** Eğer bir kişinin belirtilen kurallara uymadığını, kendisinin uyarılması ve davranışlarının değişmesi gerektiğini d&uuml;ş&uuml;n&uuml;yorsanız, Etkinlik Disiplin Kurulu&#39;na kamp-disiplin@liste.linux.org.tr e-posta adresinden başvurabilirsiniz. Disiplin kurulu gerekiyorsa sizden ve ilgili kişilerden daha fazla bilgi aldıktan sonra, başvurunuzun sonucuyla ilgili size de bilgi verecektir. T&uuml;m g&ouml;nderdiğiniz e-postalar, disiplin kurulu &uuml;yelerine gitmesinin yanı sıra arşivlenmektedir.</p>
+
+<p>&nbsp;</p>
+):
+     8:     <% if @posts.body.nil? %>
+     9:       <div class="col-8"><a> Body kismi bos </a></div>
+    10:     <% else %>
+    11:       <div class="col-8"><%= GitHub::Markup.render(@posts.body) %></div>
+    12:     <% end %>
+    13:   </div>
+    14: </div>
+  
+app/views/yazilar/show.html.erb:11
+Started GET "/yazilar/show/10" for ::1 at 2020-01-05 11:03:32 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:23:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1233)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 1.8ms | Allocations: 4871)
+
+
+  
+ActionView::Template::Error (File name too long @ rb_sysopen - <p>&Ouml;zellikle son d&ouml;nemlerde iyi ya da k&ouml;t&uuml; niyetli olarak bir&ccedil;ok yanlış bilgilendirmenin kampta dolaştığına, s&ouml;ylentiye d&ouml;n&uuml;şt&uuml;ğ&uuml;ne ve bunların gerek insanlar gerekse kampı nasıl yıprattığına tanık olduk (bazılarından haberdar da olmamışızdır).</p>
+
+<p>İnsanlarla incir &ccedil;ekirdeğini doldurmayacak konulardan tartışmayın, bozuşmayın. İncir &ccedil;ekirdeğinden fazlasıysa, organizasyona gelin, hep beraber tartışıp bozuşalım :). Kendinizi d&uuml;ş&uuml;nmeyin sadece :P.</p>
+
+<p>Herhangi bir konuda bir bilgi duyduğunuzda, l&uuml;tfen bu konunun kaynağına inip doğrusunu &ouml;ğrenin. Sorgulayarak yaklaşın. Kampta her şeyin bir sorumlusu var, onlar bilmiyorsa onların sorumlusu var. Fena bir &ouml;rg&uuml;tlenme modelimiz yok, mutlaka bir bilginin doğrusuna ulaşabilirsiniz.</p>
+
+<p>Sosyal medya, kendi aramızda iletişim i&ccedil;in iyi bir y&ouml;ntem değil. Hobi olarak yine sosyal medya kullanın, kullanmayın demiyoruz. &Ouml;ncelikle topluluk i&ccedil;inde birtakım bilgileri doğruladıktan, topluluğun kendi i&ccedil; &ccedil;&ouml;z&uuml;m yollarını denediğinize emin olun.</p>
+
+<p><br />
+## Geribildirim Yapılması</p>
+
+<p>Organizasyonla ilgili herhangi bir durumla karşılaştığınızda bunun &quot;bilindiği&quot; gibi bir varsayımla yaklaşmamanızı rica ediyoruz. &Ccedil;ok geniş bir organizasyonu oluşturan ve y&uuml;r&uuml;tmeye &ccedil;alışan g&ouml;rece az sayıda kişiden oluşuyoruz. Genellikle her durumdan her kişi, daha da &ouml;nemlisi -doğru kişiler- haberdar olmayabiliyor. Bu nedenle sizin geribildirimlerinizle bize yardımcı olmanıza ihtiya&ccedil; duyuyoruz.</p>
+
+<p>Geribildirimlerinizi yazılı yapmadığınız s&uuml;rece bu bilgi ilgili kişide kısıtlı kalacaktır. O başkalarına aktarabilir de aktarmayabilir de, yazılı hale getirebilir de getirmeyebilir de. Aktarılırken kulaktan kulağa geribildiriminiz farklı bir şekle de d&ouml;n&uuml;şebilir. Eğer geribildiriminizin kalıcı olmasını ve sizin ifade ettiğiniz bi&ccedil;imde aktarılmasını, gelecek etkinliklerde etkili olmasını ve net bir yanıtını almak istiyorsanız bunu yazılı olarak yapmalısınız.</p>
+
+<p>* Anonim: Etkinliğin son g&uuml;n&uuml; katılımcıların anonim olarak bir anket doldurması sağlanıyor. Anketle ilgili sizin kimliğinize dair bir bilgi saklanmıyor. Aynı nedenden dolayı ankette yazdığınız herhangi bir konu ile ilgili size bir geri d&ouml;n&uuml;ş yapılması m&uuml;mk&uuml;n olmuyor. Anonim yaptığınız bir bildirimle ilgili beklediğiniz bir işlem varsa ve bu ger&ccedil;ekleşmediyse, aynı bildirimi aşağıdaki kanallardan da yapmayı değerlendirmenizi isteriz.</p>
+
+<p>* Geribildirim: Bazı geribildirimlere yanıt bekleyebilirsiniz. Ya da geribildiriminizle ilgili daha fazla bilgiye ihtiya&ccedil; duyulduğu i&ccedil;in sizinle iletişime ge&ccedil;ilmesi gerekebilir. Bunun i&ccedil;in şu yolları izleyebilirsiniz:<br />
+** Organizasyona ilişkin geribildirimlerinizi kamp@linux.org.tr e-posta adresine g&ouml;nderebilirsiniz. T&uuml;m g&ouml;nderdiğiniz e-postalar, t&uuml;m organizasyon ekibine gitmesinin yanı sıra arşivlenmektedir.<br />
+** Verilen eğitimin teknik i&ccedil;eriği ya da eğitmenin aktardığı bilgilere ilişkin geribildirimlerinizi program kuruluna kamp-program@liste.linux.rg.tr e-posta adresine g&ouml;nderebilirsiniz. T&uuml;m g&ouml;nderdiğiniz e-postalar, program kurulu &uuml;yelerine gitmesinin yanı sıra arşivlenmektedir.<br />
+** Eğer bir kişinin belirtilen kurallara uymadığını, kendisinin uyarılması ve davranışlarının değişmesi gerektiğini d&uuml;ş&uuml;n&uuml;yorsanız, Etkinlik Disiplin Kurulu&#39;na kamp-disiplin@liste.linux.org.tr e-posta adresinden başvurabilirsiniz. Disiplin kurulu gerekiyorsa sizden ve ilgili kişilerden daha fazla bilgi aldıktan sonra, başvurunuzun sonucuyla ilgili size de bilgi verecektir. T&uuml;m g&ouml;nderdiğiniz e-postalar, disiplin kurulu &uuml;yelerine gitmesinin yanı sıra arşivlenmektedir.</p>
+
+<p>&nbsp;</p>
+):
+     9:     <% if @posts.body.nil? %>
+    10:       <div class="col-8"><a> Body kismi bos </a></div>
+    11:     <% else %>
+    12:       <div class="col-8"><%= GitHub::Markup.render(@posts.body) %></div>
+    13:     <% end %>
+    14:   </div>
+    15: </div>
+  
+app/views/yazilar/show.html.erb:12
