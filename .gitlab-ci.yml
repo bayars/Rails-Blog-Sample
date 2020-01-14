@@ -1,10 +1,18 @@
-image: "ruby:2.6"
+default:
+  image: "ruby:2.6"
 
-before_script:
-  - apt-get update -qq && apt-get install -y -qq postgresql libsqlite3-dev nodejs
+  services:
+    - postgres:10
+
+  variables:
+    POSTGRES_DB: rails-blog-deneme_test
+    POSTGRES_USER: runner
+    POSTGRES_PASSWORD: ""
+
+  before_script:
+  - apt-get update -qq && apt-get install -y -qq libsqlite3-dev nodejs
   - ruby -v
   - which ruby
-  - systemctl start postgresql
   - gem install bundler --no-document
   - RAILS_NEW=test bundle install
   - RAILS_ENV=test bundle exec rake db:create
