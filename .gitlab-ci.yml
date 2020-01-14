@@ -1,14 +1,14 @@
-default:
-  image: "ruby:2.6"
+image: "ruby:2.6"
 
-  services:
-    - postgres:10
-  # variables:
-  #   POSTGRES_DB: rails-blog-deneme_test
-  #   POSTGRES_USER: runner
-  #   POSTGRES_PASSWORD: ""
+services:
+  - postgres:latest
 
-  before_script:
+variables:
+  POSTGRES_DB: rails-blog-deneme_test
+  POSTGRES_USER: runner
+  POSTGRES_PASSWORD: ""
+
+before_script:
   - apt-get update -qq && apt-get install -y -qq libsqlite3-dev nodejs
   - ruby -v
   - which ruby

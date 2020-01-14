@@ -58,6 +58,7 @@ development:
 test:
   <<: *default
   database: rails-blog-deneme_test
+  host: postgres
   user: runner
   password: ""
 
