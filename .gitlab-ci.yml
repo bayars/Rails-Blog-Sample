@@ -16,6 +16,7 @@ before_script:
   - which ruby
   - gem install bundler --no-document
   - RAILS_NEW=test bundle install
+  - yarn install --check-files
   - RAILS_NEW=test bundle exec rake db:drop
   - RAILS_ENV=test bundle exec rake db:setup
   - RAILS_ENV=test bundle exec rake db:migrate
