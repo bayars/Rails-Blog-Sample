@@ -4,6 +4,7 @@ before_script:
   - apt-get update -qq && apt-get install -y -qq postgresql libsqlite3-dev nodejs
   - ruby -v
   - which ruby
+  - systemctl start postgresql
   - gem install bundler --no-document
   - RAILS_NEW=test bundle install
   - RAILS_ENV=test bundle exec rake db:create
@@ -17,3 +18,11 @@ rspec:
     - branches
   script:
     - RAILS_ENV=test bundle exec rspec
+
+brakeman:
+  script:
+    - bundle exec brakeman -z -q
+
+rubocop:
+  script:
+    - bundle exec rubocop
