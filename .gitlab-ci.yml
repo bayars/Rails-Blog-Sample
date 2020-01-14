@@ -14,7 +14,8 @@ before_script:
   - which ruby
   - gem install bundler --no-document
   - RAILS_NEW=test bundle install
-  - RAILS_ENV=test bundle exec rake db:create
+  - RAILS_NEW=test bundle exec rake db:destroy
+  - RAILS_ENV=test bundle exec rake db:setup
   - RAILS_ENV=test bundle exec rake db:migrate
 
 rspec:
