@@ -10,7 +10,6 @@ before_script:
   - RAILS_ENV=test bundle exec rake db:migrate
 
 rspec:
-  test: "rake spec"
   tags:
     - ruby
     - postgres
