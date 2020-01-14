@@ -3,11 +3,10 @@ default:
 
   services:
     - postgres:10
-
-  variables:
-    POSTGRES_DB: rails-blog-deneme_test
-    POSTGRES_USER: runner
-    POSTGRES_PASSWORD: ""
+  # variables:
+  #   POSTGRES_DB: rails-blog-deneme_test
+  #   POSTGRES_USER: runner
+  #   POSTGRES_PASSWORD: ""
 
   before_script:
   - apt-get update -qq && apt-get install -y -qq libsqlite3-dev nodejs
