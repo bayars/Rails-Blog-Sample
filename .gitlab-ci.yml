@@ -10,6 +10,8 @@ variables:
 
 before_script:
   - apt-get update -qq && apt-get install -y -qq libsqlite3-dev nodejs
+  - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+  - echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
   - ruby -v
   - which ruby
   - gem install bundler --no-document
