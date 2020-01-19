@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+$font-type: 'Roboto Condensed', sans-serif;
+
+.parent {
+  padding-left: 24%;
+  padding-right: 24%;
+  position: fixed;
+  padding-top: 30px;
+}
+
+.login {
+  font-weight: bolder;
+}
+
+.mail-input {
+  width: 350px;
+  background-color: white;
+  color: black;
+  border: 3px solid #555;
+  font-family: $font-type;
+}
+
+.password-input{
+  @extend .mail-input;
+  font-family: $font-type;
+  }
+
+.sign-up-and-forgot-password {
+  padding-top: 20px;
+}
+
+.devise-sign-color{
+  color: black;
+  font-family: $font-type;
+}
+
+.mail-password{
+  font-family: $font-type;
+}
+
+.remember-me{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: $font-type;
+}
+
+.login-button{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 16px 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
