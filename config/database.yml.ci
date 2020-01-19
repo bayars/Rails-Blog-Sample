@@ -1,8 +1,8 @@
 test: &default
   adapter: postgresql
   encoding: unicode
-  username: postgres
-  password: postgres
+  username: runner
+  password: ""
   host: <%= ENV['DB_HOST'] %>
   pool: 5
   database: rails-blog-deneme_test
