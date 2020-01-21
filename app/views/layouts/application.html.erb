@@ -19,9 +19,9 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body style="background-color:#4d79ff">
+  <body>
 
-    <nav class="navbar navbar-expand-lg navbar-static-top navbar-light bg-primary menu-bosluk head-font">
+    <nav class="navbar navbar-expand-lg navbar-static-top navbar-light bg-primary head-font">
       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button> -->
@@ -53,10 +53,10 @@
     <% end %>
     </p>
     <% if notice %>
-      <p class="alert alert-success"><%= notice %></p>
+      <p class="alert alert-success alert-position"><%= notice %></p>
     <% end %>
     <% if alert %>
-      <p class="alert alert-danger"><%= alert %></p>
+      <p class="alert alert-danger alert-position"><%= alert %></p>
     <% end %>
     <div class="container yazi">
     <%= yield %>

@@ -27,9 +27,8 @@ gem 'ckeditor', github: 'galetahub/ckeditor'
 gem 'github-markup', '~> 1.7.0', require: 'github/markup'
 gem 'carrierwave'
 gem 'mini_magick'
-
-#gem 'redcarpet'
-
+gem 'coderay', '~> 1.0.7'
+gem 'redcarpet', '~> 3.4'
 gem 'bootstrap', '~> 4.3.1'
 gem 'sassc-rails', '>= 2.1.0'
 

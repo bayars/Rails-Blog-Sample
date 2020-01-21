@@ -111,6 +111,7 @@ GEM
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
     climate_control (0.2.0)
+    coderay (1.0.9)
     coffee-rails (5.0.0)
       coffee-script (>= 2.2.0)
       railties (>= 5.2.0)
@@ -223,6 +224,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    redcarpet (3.5.0)
     regexp_parser (1.6.0)
     responders (3.0.0)
       actionpack (>= 5.0)
@@ -341,6 +343,7 @@ DEPENDENCIES
   carrierwave
   chromedriver-helper
   ckeditor!
+  coderay (~> 1.0.7)
   coffee-rails (~> 5.0)
   devise (~> 4.2)
   factory_bot (~> 5.1, >= 5.1.1)
@@ -354,6 +357,7 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   puma (~> 3.12)
   rails (~> 6.0.0)
+  redcarpet (~> 3.4)
   rspec-rails
   rubocop-gemfile
   sass-rails (~> 5.0)
