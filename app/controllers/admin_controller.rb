@@ -1,6 +1,5 @@
 class AdminController < ApplicationController
-  before_action :authenticate_user!
-  before_action :is_admin?, only: [:index, :new,:edit, :update, :destroy]
+  before_action :authenticate_user!, only: [:index, :new,:edit, :update, :destroy]
   def index
       @posts = Yazilar.order('id DESC')
   end
@@ -41,9 +40,7 @@ class AdminController < ApplicationController
   end
 
   def kullanicilar
-    if admin?
-      @user = User.order('id DESC')
-    end
+    @user = User.order('id DESC')
   end
   def yazilar
     @posts = Yazilar.order('id DESC')
