@@ -31,7 +31,7 @@ gem 'coderay', '~> 1.0.7'
 gem 'redcarpet', '~> 3.4'
 gem 'bootstrap', '~> 4.3.1'
 gem 'sassc-rails', '>= 2.1.0'
-
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'sprockets-rails', '>= 2.3.2'
 
 # Use CoffeeScript for .coffee assets and views
