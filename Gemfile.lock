@@ -86,6 +86,9 @@ GEM
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 1.14.3, < 2)
       sassc-rails (>= 2.0.0)
+    bootstrap-sass (3.4.1)
+      autoprefixer-rails (>= 5.2.1)
+      sassc (>= 2.0.0)
     bootstrap-wysihtml5-rails (0.3.3.8)
       railties (>= 3.0)
     brakeman (4.7.2)
@@ -336,6 +339,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.1.0)
   bootstrap (~> 4.3.1)
+  bootstrap-sass (~> 3.4, >= 3.4.1)
   bootstrap-wysihtml5-rails
   brakeman
   byebug
