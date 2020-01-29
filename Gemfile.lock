@@ -340,7 +340,7 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   bootstrap (~> 4.3.1)
   bootstrap-sass (~> 3.4, >= 3.4.1)
-  bootstrap-wysihtml5-rails
+  bootstrap-wysihtml5-rails (~> 0.3.3.8)
   brakeman
   byebug
   capybara (>= 2.15)

@@ -32,6 +32,7 @@ gem 'redcarpet', '~> 3.4'
 gem 'bootstrap', '~> 4.3.1'
 gem 'sassc-rails', '>= 2.1.0'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+gem 'bootstrap-wysihtml5-rails', '~> 0.3.3.8'
 gem 'sprockets-rails', '>= 2.3.2'
 
 # Use CoffeeScript for .coffee assets and views
@@ -70,7 +71,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'bootstrap-wysihtml5-rails'
+  # gem 'bootstrap-wysihtml5-rails'
 end
 
 group :test do
