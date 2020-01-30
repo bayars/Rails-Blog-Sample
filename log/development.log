@@ -38671,3 +38671,9 @@ Processing by IndexController#index as HTML
 Completed 200 OK in 227ms (Views: 223.4ms | ActiveRecord: 1.5ms | Allocations: 78303)
 
 
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:15)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:15)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:18)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:18)
