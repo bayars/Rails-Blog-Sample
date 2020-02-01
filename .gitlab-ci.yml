@@ -20,7 +20,6 @@ before_script:
   - yarn install --check-files
   - cp config/database.yml.ci config/database.yml
   - RAILS_ENV=test bundle exec rake db:create
-  - RAILS_ENV=test bundle exec rake db:setup
   - RAILS_ENV=test bundle exec rake db:migrate
 
 rspec:
@@ -31,11 +30,11 @@ rspec:
     - branches
   script:
     - RAILS_ENV=test bundle exec rspec
-# 
+
+rubocop:
+  script:
+    - bundle exec rubocop
+
 # brakeman:
 #   script:
 #     - bundle exec brakeman -z -q
-#
-# rubocop:
-#   script:
-#     - bundle exec rubocop

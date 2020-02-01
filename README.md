@@ -1,24 +1,43 @@
-# README
+# Rails Sample Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hi, It's running with ruby-2.6.5 and rails 6.0. It's has admin panel and you can login and sign up. This is live in [Heroku](https://serene-anchorage-83026.herokuapp.com).
 
-Things you may want to cover:
+The main page:
+![image](public/main_page.png)
+
+If you want to use, you need to apply this commands;
+
++ First you need to installed rvm. You can install in [here](https://rvm.io/rvm/install). These commands preparing for run rails application.
+
+```
+rvm install ruby-2.6.5
+rvm use ruby-2.6.5
+rvm gemset create blog
+rvm use ruby-2.6.5@blog
+```
+
++ You need to install gems and configure postgreSQL connection. It might be install postgreSQL and postgreSQL-devel. I used PostgreSQL 11 but you have to use up to PostgreSQL 10 version.
+
+```
+RAILS ENV=development bundle install
+RAILS ENV=development bundle exec db:setup
+RAILS ENV=development bundle exec db:migrate
+```
+
++ You can run with;
+
+```
+RAILS ENV=development rails server
+```
+
++ If you want to run rspec tests;
+
+```
+rspec spec/
+```
 
 * Ruby version => 2.6.5
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+* System dependencies => PostgreSQL 11
 
 * Deployment instructions
-
-* ...

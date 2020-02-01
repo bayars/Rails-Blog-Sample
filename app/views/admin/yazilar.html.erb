@@ -1,15 +1,15 @@
 <div class="container">
   <div class="containter">
-  <p><b>Yazi eklemek icin:</b>
+  <p><b>Add the new article:</b>
     <a><%= link_to('Ekle', {:action => 'new'}, :class => 'action btn btn-primary btn-right new') %></a>
   </p>
   </div>
 <table class="table">
   <thead>
     <tr>
-      <th scope="col">Yazi ismi</th>
-      <th scope="col">Ayrinti linki</th>
-      <th scope="col">Silmek</th>
+      <th scope="col">Name of Article</th>
+      <th scope="col">Show</th>
+      <th scope="col">Delete</th>
   </thead>
   <tbody>
   <%# if @posts.any? %>
@@ -20,15 +20,15 @@
         <div class="col-xs-12"><h4><%= post.title %></h4></div>
       </td>
       <td>
-        <div class="col-9"><a><%= link_to('Goster', {:action => 'show', :id => post.id}, :class => 'action show') %></a></div>
+        <div class="col-9"><a><%= link_to('Show', {:action => 'show', :id => post.id}, :class => 'action show') %></a></div>
     </td>
     <td>
-      <div class="col-9"><a><%= link_to("Sil", {:action => 'delete',:id => post.id}, :class => 'action delete') %></a></div>
+      <div class="col-9"><a><%= link_to("Delete", {:action => 'delete',:id => post.id}, :class => 'action delete') %></a></div>
     </td>
     </tr>
     <% end %>
   <% else %>
-    <h1>Yazi Bulunamadi.!!! </h1>
+    <h1>The article doesn't exist. </h1>
   <% end %>
   </tbody>
 </table>
