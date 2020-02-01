@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class RemoveAdminUsers < ActiveRecord::Migration[6.0]
   def change
     drop_table :admin_users

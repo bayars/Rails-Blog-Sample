@@ -1,4 +1,6 @@
-require 'rails_helper'
+# frozen_string_literal: true
+
+require 'rails_helper' # Test helper
 
 RSpec.describe Admin, type: :model do
   pending "add some examples to (or delete) #{__FILE__}"
