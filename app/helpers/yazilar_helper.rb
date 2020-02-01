@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# YazilarHelper
 module YazilarHelper
   # def markdown(text)
   #   options = [:hard_wrap, :filter_html, :autolink, :no_intraemphasis, :fenced_code, :gh_blockcode]

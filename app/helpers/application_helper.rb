@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
+# ApplicationHelper
 module ApplicationHelper
+  # ApplicationHelper
   class CodeRayify < Redcarpet::Render::HTML
     def block_code(code, language)
       CodeRay.scan(code, language).div
@@ -20,5 +22,5 @@ module ApplicationHelper
     }
     markdown_to_html = Redcarpet::Markdown.new(coderayified, options)
     markdown_to_html.render(text).html_safe
-end
+  end
 end

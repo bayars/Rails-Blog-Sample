@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# AdminController
 class AdminController < ApplicationController
   before_action :authenticate_user!, only: %i[index new edit update destroy]
   def index

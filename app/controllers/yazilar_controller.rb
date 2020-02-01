@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# YazilarController
 class YazilarController < ApplicationController
   before_action :authenticate_user!
   def index
