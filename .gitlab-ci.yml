@@ -20,6 +20,7 @@ before_script:
   - yarn install --check-files
   - cp config/database.yml.ci config/database.yml
   - RAILS_ENV=test bundle exec rake db:create
+  - RAILS_ENV=test bundle exec rake db:create
   - RAILS_ENV=test bundle exec rake db:migrate
 
 rspec:
