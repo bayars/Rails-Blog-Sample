@@ -38937,3 +38937,289 @@ ActionView::Template::Error (Error: File to import not found or unreadable: boot
   
 app/assets/stylesheets/application.css.scss:17
 app/views/layouts/application.html.erb:17
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:20)
+Started GET "/" for ::1 at 2020-02-01 23:04:42 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:20)
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 27.4ms | Allocations: 1766)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 35689ms (Views: 35602.7ms | ActiveRecord: 35.3ms | Allocations: 1660510)
+
+
+Started GET "/" for ::1 at 2020-02-01 23:05:23 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.4ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 643)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 318ms (Views: 313.1ms | ActiveRecord: 1.4ms | Allocations: 76213)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-02-01 23:05:27 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 3.5ms | Allocations: 646)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 35.1ms | Allocations: 6113)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 313ms (Views: 286.8ms | ActiveRecord: 0.0ms | Allocations: 88458)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-02-01 23:05:33 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t/0TrVv4+hlrhp87BfOSj8/SqQjHVjV59fZdNs+UHZeN6C0jD/RrrqHnunYxwLELQbwHFjetpXpuMDOHs8gGSg==", "user"=>{"email"=>"safa@safabayar.tech", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (4.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "safa@safabayar.tech"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 28ms (ActiveRecord: 4.2ms | Allocations: 2156)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t/0TrVv4+hlrhp87BfOSj8/SqQjHVjV59fZdNs+UHZeN6C0jD/RrrqHnunYxwLELQbwHFjetpXpuMDOHs8gGSg==", "user"=>{"email"=>"safa@safabayar.tech", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 150)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 9.6ms | Allocations: 1117)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 742ms (Views: 260.8ms | ActiveRecord: 0.0ms | Allocations: 77157)
+
+
+Started GET "/" for ::1 at 2020-02-01 23:05:44 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 639)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 349ms (Views: 345.4ms | ActiveRecord: 1.0ms | Allocations: 76073)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:20)
+Started GET "/" for ::1 at 2020-02-01 23:14:31 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/gitlab-ci/WorkofRails/config/routes.rb:20)
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 17.6ms | Allocations: 1766)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4870ms (Views: 4828.9ms | ActiveRecord: 7.6ms | Allocations: 1471536)
+
+
+Started GET "/" for ::1 at 2020-02-01 23:14:40 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 643)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 255ms (Views: 251.6ms | ActiveRecord: 0.8ms | Allocations: 76473)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-02-01 23:14:58 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 8.0ms | Allocations: 207)
+  Rendered devise/shared/_links.html.erb (Duration: 2.9ms | Allocations: 547)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 53.3ms | Allocations: 6213)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 381ms (Views: 321.4ms | ActiveRecord: 15.3ms | Allocations: 89498)
+
+
+Started POST "/users" for ::1 at 2020-02-01 23:15:08 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IL6Df21mbBXF96pMCAQzgfptgKhDBk0MlzkaVltqZYqLTlGAKXKMMi9oVpqHVdu9tetqlwV3ZYGQaG5hDpkZ8A==", "user"=>{"email"=>"safa@safabayar.tech", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (2.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "safa@safabayar.tech"], ["LIMIT", 1]]
+  [1m[36mUser Create (4.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "safa@safabayar.tech"], ["encrypted_password", "$2a$11$usaZZUda0VtPY.EwYWpPL.eYT6SFUHmmWUTaJEl0NGukBmwqkb3fy"], ["created_at", "2020-02-02 04:15:09.114181"], ["updated_at", "2020-02-02 04:15:09.114181"]]
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 517ms (ActiveRecord: 9.2ms | Allocations: 10698)
+
+
+Started GET "/" for ::1 at 2020-02-01 23:15:09 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (0.7ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 639)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 229ms (Views: 224.4ms | ActiveRecord: 2.1ms | Allocations: 77561)
+
+
+Started GET "/" for ::1 at 2020-02-01 23:15:15 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 635)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 308ms (Views: 302.4ms | ActiveRecord: 2.2ms | Allocations: 77388)
+
+
+Started GET "/admin" for ::1 at 2020-02-01 23:15:18 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 1689)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 262ms (Views: 244.9ms | ActiveRecord: 2.0ms | Allocations: 79826)
+
+
+Started GET "/admin/yazilar" for ::1 at 2020-02-01 23:15:23 -0500
+Processing by AdminController#yazilar as HTML
+  Rendering admin/yazilar.html.erb within layouts/application
+  [1m[36mYazilar Exists? (2.5ms)[0m  [1m[34mSELECT 1 AS one FROM "yazilars" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/yazilar.html.erb:16
+  Rendered admin/yazilar.html.erb within layouts/application (Duration: 28.2ms | Allocations: 1100)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 313ms (Views: 304.7ms | ActiveRecord: 3.3ms | Allocations: 78002)
+
+
+Started GET "/admin/new" for ::1 at 2020-02-01 23:15:26 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (7.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:12:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/_form.html.erb (Duration: 22.6ms | Allocations: 4470)
+  Rendered admin/new.html.erb within layouts/application (Duration: 27.3ms | Allocations: 5264)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 346ms (Views: 252.1ms | ActiveRecord: 16.7ms | Allocations: 89048)
+
+
+Started GET "/admin/new" for ::1 at 2020-02-01 23:16:03 -0500
+Processing by AdminController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "yazilars"[0m
+  ↳ app/controllers/admin_controller.rb:12:in `new'
+  Rendering admin/new.html.erb within layouts/application
+  Rendered admin/_form.html.erb (Duration: 18.6ms | Allocations: 3571)
+  Rendered admin/new.html.erb within layouts/application (Duration: 21.6ms | Allocations: 4001)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 365ms (Views: 345.8ms | ActiveRecord: 2.8ms | Allocations: 81894)
+
+
+Started POST "/admin/create" for ::1 at 2020-02-01 23:16:08 -0500
+Processing by AdminController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EQLRtzkxGurEonYVYGNPjyTkgNgX7K0iqXGi0k4lRAv7PpgnHl4OafT2GIbA0TujubXSfo4gdl/O9rxQjkG4aA==", "yazilar"=>{"title"=>"", "created_at(2i)"=>"2", "created_at(1i)"=>"2020", "created_at(3i)"=>"2", "created_at(4i)"=>"04", "created_at(5i)"=>"16", "status"=>"0", "body"=>"<pre>\r\n<code>An h1 header\r\n============\r\n\r\nParagraphs are separated by a blank line.\r\n\r\n2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists\r\nlook like:\r\n\r\n  * this one\r\n  * that one\r\n  * the other one\r\n\r\nNote that --- not considering the asterisk --- the actual text\r\ncontent starts at 4-columns in.\r\n\r\n&gt; Block quotes are\r\n&gt; written like so.\r\n&gt;\r\n&gt; They can span multiple paragraphs,\r\n&gt; if you like.\r\n\r\nUse 3 dashes for an em-dash. Use 2 dashes for ranges (ex., &quot;it&#39;s all\r\nin chapters 12--14&quot;). Three dots ... will be converted to an ellipsis.\r\nUnicode is supported. ☺\r\n\r\n\r\n\r\nAn h2 header\r\n------------\r\n\r\nHere&#39;s a numbered list:\r\n\r\n 1. first item\r\n 2. second item\r\n 3. third item\r\n\r\nNote again how the actual text starts at 4 columns in (4 characters\r\nfrom the left side). Here&#39;s a code sample:\r\n\r\n    # Let me re-iterate ...\r\n    for i in 1 .. 10 { do-something(i) }\r\n\r\nAs you probably guessed, indented 4 spaces. By the way, instead of\r\nindenting the block, you can use delimited blocks, if you like:\r\n\r\n~~~\r\ndefine foobar() {\r\n    print &quot;Welcome to flavor country!&quot;;\r\n}\r\n~~~\r\n\r\n(which makes copying &amp; pasting easier). You can optionally mark the\r\ndelimited block for Pandoc to syntax highlight it:\r\n\r\n~~~python\r\nimport time\r\n# Quick, count to ten!\r\nfor i in range(10):\r\n    # (but not *too* quick)\r\n    time.sleep(0.5)\r\n    print(i)\r\n~~~\r\n\r\n\r\n\r\n### An h3 header ###\r\n\r\nNow a nested list:\r\n\r\n 1. First, get these ingredients:\r\n\r\n      * carrots\r\n      * celery\r\n      * lentils\r\n\r\n 2. Boil some water.\r\n\r\n 3. Dump everything in the pot and follow\r\n    this algorithm:\r\n\r\n        find wooden spoon\r\n        uncover pot\r\n        stir\r\n        cover pot\r\n        balance wooden spoon precariously on pot handle\r\n        wait 10 minutes\r\n        goto first step (or shut off burner when done)\r\n\r\n    Do not bump wooden spoon or it will fall.\r\n\r\nNotice again how text always lines up on 4-space indents (including\r\nthat last line which continues item 3 above).\r\n\r\nHere&#39;s a link to [a website](http://foo.bar), to a [local\r\ndoc](local-doc.html), and to a [section heading in the current\r\ndoc](#an-h2-header). Here&#39;s a footnote [^1].\r\n\r\n[^1]: Some footnote text.\r\n\r\nTables can look like this:\r\n\r\nName           Size  Material      Color\r\n------------- -----  ------------  ------------\r\nAll Business      9  leather       brown\r\nRoundabout       10  hemp canvas   natural\r\nCinderella       11  glass         transparent\r\n\r\nTable: Shoes sizes, materials, and colors.\r\n\r\n(The above is the caption for the table.) Pandoc also supports\r\nmulti-line tables:\r\n\r\n--------  -----------------------\r\nKeyword   Text\r\n--------  -----------------------\r\nred       Sunsets, apples, and\r\n          other red or reddish\r\n          things.\r\n\r\ngreen     Leaves, grass, frogs\r\n          and other things it&#39;s\r\n          not easy being.\r\n--------  -----------------------\r\n\r\nA horizontal rule follows.\r\n\r\n***\r\n\r\nHere&#39;s a definition list:\r\n\r\napples\r\n  : Good for making applesauce.\r\n\r\noranges\r\n  : Citrus!\r\n\r\ntomatoes\r\n  : There&#39;s no &quot;e&quot; in tomatoe.\r\n\r\nAgain, text is indented 4 spaces. (Put a blank line between each\r\nterm and  its definition to spread things out more.)\r\n\r\nHere&#39;s a &quot;line block&quot; (note how whitespace is honored):\r\n\r\n| Line one\r\n|   Line too\r\n| Line tree\r\n\r\nand images can be specified like so:\r\n\r\n![example image](example-image.jpg &quot;An exemplary image&quot;)\r\n\r\nInline math equation: $\\omega = d\\phi / dt$. Display\r\nmath should get its own line like so:\r\n\r\n$$I = \\int \\rho R^{2} dV$$\r\n\r\nAnd note that you can backslash-escape any punctuation characters\r\nwhich you wish to be displayed literally, ex.: \\`foo\\`, \\*bar\\*, etc.</code></pre>\r\n"}, "commit"=>"Submit"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/admin_controller.rb:17:in `create'
+  [1m[36mYazilar Create (4.0ms)[0m  [1m[32mINSERT INTO "yazilars" ("title", "body", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", ""], ["body", "<pre>\r\n<code>An h1 header\r\n============\r\n\r\nParagraphs are separated by a blank line.\r\n\r\n2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists\r\nlook like:\r\n\r\n  * this one\r\n  * that one\r\n  * the other one\r\n\r\nNote that --- not considering the asterisk --- the actual text\r\ncontent starts at 4-columns in.\r\n\r\n&gt; Block quotes are\r\n&gt; written like so.\r\n&gt;\r\n&gt; They can span multiple paragraphs,\r\n&gt; if you like.\r\n\r\nUse 3 dashes for an em-dash. Use 2 dashes for ranges (ex., &quot;it&#39;s all\r\nin chapters 12--14&quot;). Three dots ... will be converted to an ellipsis.\r\nUnicode is supported. ☺\r\n\r\n\r\n\r\nAn h2 header\r\n------------\r\n\r\nHere&#39;s a numbered list:\r\n\r\n 1. first item\r\n 2. second item\r\n 3. third item\r\n\r\nNote again how the actual text starts at 4 columns in (4 characters\r\nfrom the left side). Here&#39;s a code sample:\r\n\r\n    # Let me re-iterate ...\r\n    for i in 1 .. 10 { do-something(i) }\r\n\r\nAs you probably guessed, indented 4 spaces. By the way, instead of\r\nindenting the block, you can use delimited blocks, if you like:\r\n\r\n~~~\r\ndefine foobar() {\r\n    print &quot;Welcome to flavor country!&quot;;\r\n}\r\n~~~\r\n\r\n(which makes copying &amp; pasting easier). You can optionally mark the\r\ndelimited block for Pandoc to syntax highlight it:\r\n\r\n~~~python\r\nimport time\r\n# Quick, count to ten!\r\nfor i in range(10):\r\n    # (but not *too* quick)\r\n    time.sleep(0.5)\r\n    print(i)\r\n~~~\r\n\r\n\r\n\r\n### An h3 header ###\r\n\r\nNow a nested list:\r\n\r\n 1. First, get these ingredients:\r\n\r\n      * carrots\r\n      * celery\r\n      * lentils\r\n\r\n 2. Boil some water.\r\n\r\n 3. Dump everything in the pot and follow\r\n    this algorithm:\r\n\r\n        find wooden spoon\r\n        uncover pot\r\n        stir\r\n        cover pot\r\n        balance wooden spoon precariously on pot handle\r\n        wait 10 minutes\r\n        goto first step (or shut off burner when done)\r\n\r\n    Do not bump wooden spoon or it will fall.\r\n\r\nNotice again how text always lines up on 4-space indents (including\r\nthat last line which continues item 3 above).\r\n\r\nHere&#39;s a link to [a website](http://foo.bar), to a [local\r\ndoc](local-doc.html), and to a [section heading in the current\r\ndoc](#an-h2-header). Here&#39;s a footnote [^1].\r\n\r\n[^1]: Some footnote text.\r\n\r\nTables can look like this:\r\n\r\nName           Size  Material      Color\r\n------------- -----  ------------  ------------\r\nAll Business      9  leather       brown\r\nRoundabout       10  hemp canvas   natural\r\nCinderella       11  glass         transparent\r\n\r\nTable: Shoes sizes, materials, and colors.\r\n\r\n(The above is the caption for the table.) Pandoc also supports\r\nmulti-line tables:\r\n\r\n--------  -----------------------\r\nKeyword   Text\r\n--------  -----------------------\r\nred       Sunsets, apples, and\r\n          other red or reddish\r\n          things.\r\n\r\ngreen     Leaves, grass, frogs\r\n          and other things it&#39;s\r\n          not easy being.\r\n--------  -----------------------\r\n\r\nA horizontal rule follows.\r\n\r\n***\r\n\r\nHere&#39;s a definition list:\r\n\r\napples\r\n  : Good for making applesauce.\r\n\r\noranges\r\n  : Citrus!\r\n\r\ntomatoes\r\n  : There&#39;s no &quot;e&quot; in tomatoe.\r\n\r\nAgain, text is indented 4 spaces. (Put a blank line between each\r\nterm and  its definition to spread things out more.)\r\n\r\nHere&#39;s a &quot;line block&quot; (note how whitespace is honored):\r\n\r\n| Line one\r\n|   Line too\r\n| Line tree\r\n\r\nand images can be specified like so:\r\n\r\n![example image](example-image.jpg &quot;An exemplary image&quot;)\r\n\r\nInline math equation: $\\omega = d\\phi / dt$. Display\r\nmath should get its own line like so:\r\n\r\n$$I = \\int \\rho R^{2} dV$$\r\n\r\nAnd note that you can backslash-escape any punctuation characters\r\nwhich you wish to be displayed literally, ex.: \\`foo\\`, \\*bar\\*, etc.</code></pre>\r\n"], ["status", 0], ["created_at", "2020-02-02 04:16:00"], ["updated_at", "2020-02-02 04:16:08.294730"]]
+  ↳ app/controllers/admin_controller.rb:17:in `create'
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/admin_controller.rb:17:in `create'
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 25ms (ActiveRecord: 5.9ms | Allocations: 2963)
+
+
+Started GET "/admin" for ::1 at 2020-02-01 23:16:08 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 885)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 459ms (Views: 361.7ms | ActiveRecord: 1.6ms | Allocations: 78192)
+
+
+Started GET "/" for ::1 at 2020-02-01 23:16:13 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 26.6ms | Allocations: 2205)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 1.3ms | Allocations: 2724)
+
+
+  
+ActionView::Template::Error (undefined method `html_safe' for #<RedcarpetCompat:0x000055617d646520>
+Did you mean?  html_safe?):
+    10:         </div>
+    11:       <% else %>
+    12:         <div class="col-9">
+    13:           <%= raw Markdown.new(post.body.first(75) + "..." ).html_safe.to_html %>
+    14:         </div>
+    15:       <% end %>
+    16:       </div>
+  
+app/views/index/index.html.erb:13
+app/views/index/index.html.erb:2
+Started GET "/" for ::1 at 2020-02-01 23:16:40 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 1100)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 278ms (Views: 272.1ms | ActiveRecord: 1.8ms | Allocations: 79323)
+
+
+Started GET "/yazilar/show/1" for ::1 at 2020-02-01 23:17:42 -0500
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.7ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:27:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 120.9ms | Allocations: 17211)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 437ms (Views: 417.3ms | ActiveRecord: 1.3ms | Allocations: 96045)
+
+
+Started GET "/yazilar/show/example-image.jpg%20%22An%20exemplary%20image%22" for ::1 at 2020-02-01 23:17:42 -0500
+Processing by YazilarController#show as 
+  Parameters: {"id"=>"example-image"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:27:in `show'
+Completed 404 Not Found in 28ms (ActiveRecord: 1.6ms | Allocations: 2873)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Yazilar with 'id'=example-image):
+  
+app/controllers/yazilar_controller.rb:27:in `show'
+Started GET "/" for ::1 at 2020-02-02 10:09:03 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (2.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 898)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 193ms (Views: 187.0ms | ActiveRecord: 4.0ms | Allocations: 77692)
+
+
