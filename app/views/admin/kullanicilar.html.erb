@@ -1,0 +1,24 @@
+<div class='container'>
+  <% if @user.any? %>
+    <% @user.each do |kullanici| %>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Email Adress</th>
+            <th scope="col">Created Time</th>
+            <th scope="col">Updated Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><%= kullanici.id %></th>
+            <td><%= kullanici.email %></td>
+            <td><%= kullanici.created_at.to_s.first(10) %></td>
+            <td><%= kullanici.updated_at.to_s.first(10) %></td>
+          </tr>
+        </tbody>
+      </table>
+    <% end %>
+  <% end %>
+</div>

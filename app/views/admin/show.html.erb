@@ -1,0 +1,15 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-12"><h4><%= @posts.title %></h4></div>
+      <div class="col-6"><%= @posts.created_at %></div>
+  </div>
+
+  <div class="row">
+    <% if @posts.body.nil? %>
+      <div class="col-8"><a> Body kismi bos </a></div>
+    <% else %>
+      <div class="col-8"><%= raw Markdown.new(@posts.body).to_html %></div>
+    <% end %>
+  </div>
+</div>

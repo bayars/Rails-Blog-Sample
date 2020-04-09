@@ -1,5 +1,16 @@
 {
-  "name": "deneme",
+  "name": "rails-blog-deneme",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@rails/webpacker": "4.2.2",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11",
+    "vue-turbolinks": "^2.0.4"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
 }

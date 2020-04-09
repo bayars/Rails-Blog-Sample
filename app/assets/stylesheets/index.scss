@@ -1,0 +1,25 @@
+// Place all the styles related to the index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$menu-bosluk: 70px;
+
+// .buttons{
+//   padding-left: 1000px;
+// }
+
+.anasayfa-menu{
+  margin-bottom: 20px;
+}
+
+.namestamps {
+  margin-top : 122px;
+}
+
+
+
+.postspacewith-menu {
+  padding: 5px;
+  padding-top: $menu-bosluk;
+  position: fixed;
+}

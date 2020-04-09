@@ -1,0 +1,19 @@
+
+<table summary="Subject form fields">
+  <tr>
+    <th>Yazinin Ismi</th>
+    <td><%= f.text_field(:title) %></td>
+  </tr>
+  <tr>
+    <th><%= f.label(:created_at) %></th>
+    <td><%= f.datetime_select(:created_at,:order => [:month,:year,:day]) %></td>
+  </tr>
+  <tr>
+    <th>Yazinin Durumu: </th>
+    <td><%= f.text_field(:status) %></td>
+  </tr>
+  <tr>
+    <th>Yazi: </th>
+    <td><%=f.cktext_area :body , class: 'yazilar', ckeditor: { language: 'en'}  %></td>
+  </tr>
+</table>

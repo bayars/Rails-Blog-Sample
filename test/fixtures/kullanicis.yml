@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  isim: MyString
+  nickname: MyString
+  email: MyString
+  olusturulma: 2019-06-30 09:13:28
+  songiris: 2019-06-30 09:13:28
+  aciklama: MyText
+
+two:
+  isim: MyString
+  nickname: MyString
+  email: MyString
+  olusturulma: 2019-06-30 09:13:28
+  songiris: 2019-06-30 09:13:28
+  aciklama: MyText
