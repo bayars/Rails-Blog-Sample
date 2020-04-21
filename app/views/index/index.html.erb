@@ -1,4 +1,4 @@
-<div class="postspacewith-menu">
+<div class="user-section">
   <% @posts.each do |post| %>
   <div class="anasayfa-menu row">
     <div class="col-8">
@@ -10,7 +10,7 @@
         </div>
       <% else %>
         <div class="col-9">
-          <%= raw Markdown.new(post.body.first(200) + "..." ).to_html %>
+          <%= raw Markdown.new(post.body.first(75) + "..." ).to_html %>
         </div>
       <% end %>
       </div>
