@@ -38,6 +38,31 @@ rspec spec/
 
 * Ruby version => 2.6.5
 
-* System dependencies => PostgreSQL 11
+* System dependencies => 
+
++ PostgreSQL 11
++ rvm
 
 * Deployment instructions
+
+```
+git clone https://gitlab.com/rection/WorkofRails
+cd WorkofRails
+```
+
+Rvm installation need to do and that is upside.
+
+```
+RAILS ENV=production bundle install
+RAILS ENV=production bundle exec db:setup
+RAILS ENV=production bundle exec db:migrate
+```
+
+The last step is running unicorn.
+
+```
+RAILS ENV=production rails server
+```
+
+
+I use reverse proxy on Nginx. That's change with your style.
