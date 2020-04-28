@@ -1,4 +1,7 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
+  devise_for :admins
   devise_for :users
   mount Ckeditor::Engine => '/ckeditor'
   # get 'admin/yazilar  '
@@ -10,8 +13,8 @@ Rails.application.routes.draw do
   # get 'yazilar/index'
   # get 'yazilar/show'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  root "index#index"
-  match ':controller(/:action(/:id))', to: '', via: [:get,:post]
+  root 'index#index'
+  match ':controller(/:action(/:id))', to: '', via: %i[get post]
   # get ':controller(/:action(/:id))', :via => [:get,:post]
   post ':controller(/:action)', to: 'subjects/create'
   get ':controller(/:action(/:id))', via: :get

@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$menu-bosluk: 70px;
+$menu-bosluk: 90px;
 
 // .buttons{
 //   padding-left: 1000px;
@@ -17,9 +17,9 @@ $menu-bosluk: 70px;
 }
 
 
-
 .postspacewith-menu {
   padding: 5px;
   padding-top: $menu-bosluk;
-  position: fixed;
+  padding-left: 10px;
+  // position: fixed;
 }
