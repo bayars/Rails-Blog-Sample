@@ -1,0 +1,45 @@
+image: "ruby:2.6"
+
+services:
+  - postgres:latest
+
+variables:
+  POSTGRES_DB: rails-blog-deneme_test
+  POSTGRES_USER: runner
+  POSTGRES_PASSWORD: ""
+  DB_HOST: postgres
+
+before_script:
+  - gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+  - \curl -sSL https://get.rvm.io | bash
+  - source /etc/profile.d/rvm.sh
+  - rvm install ruby-2.6.5
+  - rvm use ruby-2.6.5
+  - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+  - echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+  - apt-get update -qq && apt-get install -y -qq yarn libsqlite3-dev nodejs
+  - ruby -v
+  - which ruby
+  - gem install bundler --no-document
+  - RAILS_NEW=test bundle install
+  - yarn install --check-files
+  - cp config/database.yml.ci config/database.yml
+  - RAILS_ENV=test bundle exec rake db:create
+  - RAILS_ENV=test bundle exec rake db:migrate:reset db:seed
+
+rspec:
+  tags:
+    - ruby
+    - postgres
+  only:
+    - branches
+  script:
+    - RAILS_ENV=test bundle exec rspec
+
+rubocop:
+  script:
+    - bundle exec rubocop
+
+# brakeman:
+#   script:
+#     - bundle exec brakeman -z -q

@@ -37,6 +37,25 @@ RAILS ENV=development rails server
 rspec spec/
 ```
 
+
+```
+RAILS ENV=development bundle install
+RAILS ENV=development bundle exec db:setup
+RAILS ENV=development bundle exec db:migrate
+```
+
++ You can run with;
+
+```
+RAILS ENV=development rails server
+```
+
++ If you want to run rspec tests;
+
+```
+rspec spec/
+```
+
 * Ruby version => 2.6.5
 
 * System dependencies => 
