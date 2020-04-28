@@ -1,0 +1,6 @@
+projectKey=Blog
+serverUrl=https://sonar.safabayar.tech
+serverVersion=7.9.3.33349
+dashboardUrl=https://sonar.safabayar.tech/dashboard?id=Blog
+ceTaskId=AXFgl_tgunwhlgXAcpfM
+ceTaskUrl=https://sonar.safabayar.tech/api/ce/task?id=AXFgl_tgunwhlgXAcpfM
