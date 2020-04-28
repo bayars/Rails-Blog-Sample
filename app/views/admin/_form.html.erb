@@ -1,7 +1,7 @@
 
 <table summary="Subject form fields">
   <tr>
-    <th>Name of Article</th>
+    <th>Yazinin Ismi</th>
     <td><%= f.text_field(:title) %></td>
   </tr>
   <tr>
@@ -9,11 +9,11 @@
     <td><%= f.datetime_select(:created_at,:order => [:month,:year,:day]) %></td>
   </tr>
   <tr>
-    <th>Status of Article</th>
+    <th>Yazinin Durumu: </th>
     <td><%= f.text_field(:status) %></td>
   </tr>
   <tr>
-    <th>Article Body: </th>
+    <th>Yazi: </th>
     <td><%=f.cktext_area :body , class: 'yazilar', ckeditor: { language: 'en'}  %></td>
   </tr>
 </table>

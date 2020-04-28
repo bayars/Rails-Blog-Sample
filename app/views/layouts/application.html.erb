@@ -19,22 +19,22 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body style="background-color:#b3c6ff ">
 
-    <nav class="navbar navbar-expand-lg navbar-static-top navbar-light bg-primary head-font">
+    <nav class="navbar navbar-expand-lg navbar-static-top navbar-light bg-primary menu-bosluk head-font">
       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button> -->
       <div class="collapse navbar-collapse justify-content-md-center " id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/">Ana Sayfa</a>
           </li>
           <!-- <li class="nav-item active">
             <a class="nav-link" href="/yazilar">Yazilar <span class="sr-only">(current)</span></a>
           </li> -->
           <li class="nav-item active">
-            <a class="nav-link" href="/hakkimda/show">About</a>
+            <a class="nav-link" href="/hakkimda/show">Hakkimda</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="https://gitlab.com/rection">Gitlab</a>
@@ -53,10 +53,10 @@
     <% end %>
     </p>
     <% if notice %>
-      <p class="alert alert-success alert-position"><%= notice %></p>
+      <p class="alert alert-success"><%= notice %></p>
     <% end %>
     <% if alert %>
-      <p class="alert alert-danger alert-position"><%= alert %></p>
+      <p class="alert alert-danger"><%= alert %></p>
     <% end %>
     <div class="container yazi">
     <%= yield %>

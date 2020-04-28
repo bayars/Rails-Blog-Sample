@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# Ckeditor AttachmentFile
 class Ckeditor::AttachmentFile < Ckeditor::Asset
   has_attached_file :data,
                     url: '/ckeditor_assets/attachments/:id/:filename',

@@ -2,7 +2,6 @@
 
 require 'carrierwave'
 
-# Ckeditor Initialized.
 class CkeditorAttachmentFileUploader < CarrierWave::Uploader::Base
   include Ckeditor::Backend::CarrierWave
 

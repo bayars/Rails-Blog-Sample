@@ -7,7 +7,7 @@
 
   <div class="row">
     <% if @posts.body.nil? %>
-      <div class="col-8"><a> The body section empty </a></div>
+      <div class="col-8"><a> Body kismi bos </a></div>
     <% else %>
       <div class="col-8"><%= raw Markdown.new(@posts.body).to_html %></div>
     <% end %>

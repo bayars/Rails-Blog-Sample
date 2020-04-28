@@ -4,14 +4,14 @@
 <% @page_title = 'Yazi Ekleme' %>
 <div class="container">
   <div class="user new">
-    <h2>Add new article</h2>
+    <h2>Yazi Ekleme</h2>
 
     <%= form_for(:yazilar, :url => {:action => 'create'}) do |f| %>
 
       <%= render(:partial => 'form', :locals => {:f => f} ) %>
 
       <div class="form-buttons">
-        <%= submit_tag('Submit') %>
+        <%= submit_tag('Yaziyi Yayimla') %>
       </div>
 
     <% end %>

@@ -9,7 +9,7 @@
     <% if post.body.nil? %>
       <div class="col-8"><a> Body kismi bos </a></div>
     <% else %>
-      <div class="col-8"><%=  markdown(post.body.first(300)).to_html %></div>
+      <div class="col-8"><%= raw Markdown.new(post.body.first(300)).to_html %></div>
     <% end %>
       <%= link_to('Yazinin Tamami...', {:controller => 'yazilar',:action => 'show', :id => post.id}, :class => 'btn btn-primary btn-xl show') %>
     </div>

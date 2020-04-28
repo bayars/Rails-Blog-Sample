@@ -1,11 +1,11 @@
 <div class="containter">
   <div class="subjects delete">
 
-  <h2>Delete Article</h2>
+  <h2>Yazi Silmek</h2>
 
   <%= form_for(:yazilar, :url => {:action => 'destroy', :id => @posts.id}) do |f| %>
 
-    <p>Are you sure for delete this article?</p>
+    <p>Yaziyi silmek istediginden emin misin?</p>
 
     <p class="reference-name"><%= @posts.title %></p>
 

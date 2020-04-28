@@ -19,28 +19,22 @@
 $font-type: Arial, Helvetica, sans-serif;
 $left-space: 1000px;
 $bottom-space: 5px;
-$top-space: 90px;
 $right-space: 20px;
 
  .login-ismi {
    font-family: $font-type;
    padding: $bottom-space;
-   padding-top: 35px;
    height: 35px;
    position: absolute;
    right: 100px;
-   color: black;
  }
 
- .alert-position {
-   position: fixed;
-   margin-top: 1px;
+ .yazi {
+   padding-top: $bottom-space;
  }
 
- .container.yazi {
-   padding-right: 100px;
-   padding-left: 100px;
-   padding-top: 100px;
+ .menu-bosluk {
+    margin-bottom: 50px;
  }
 
  .kenarbosluk {
