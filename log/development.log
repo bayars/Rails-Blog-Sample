@@ -39303,3 +39303,445 @@ Processing by IndexController#index as HTML
 Completed 200 OK in 258ms (Views: 236.9ms | ActiveRecord: 12.3ms | Allocations: 85665)
 
 
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+Started GET "/" for ::1 at 2020-04-30 01:43:54 -0400
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (2.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 156.2ms | Allocations: 8982)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.4
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 95010ms (ActiveRecord: 49.5ms | Allocations: 557149)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/safa/rails/StartworkofRor/github/ss/WorkofRails/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+    16:     </style>
+    17:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    20:   </head>
+    21: 
+    22:   <body>
+  
+app/views/layouts/application.html.erb:19
+Started GET "/" for ::1 at 2020-04-30 01:45:41 -0400
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.4ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 19.5ms | Allocations: 1144)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.4
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 9670ms (ActiveRecord: 1.4ms | Allocations: 71907)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/safa/rails/StartworkofRor/github/ss/WorkofRails/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+    16:     </style>
+    17:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    20:   </head>
+    21: 
+    22:   <body>
+  
+app/views/layouts/application.html.erb:19
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+Started GET "/" for ::1 at 2020-04-30 01:49:26 -0400
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (2.5ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 77.3ms | Allocations: 8819)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 3103e42455ee603dd397
+Version: webpack 4.42.1
+Time: 468ms
+Built at: 2020-04-30 1:49:47 a.m.
+        Asset      Size  Chunks             Chunk Names
+manifest.json  23 bytes          [emitted]  
+
+ERROR in Entry module not found: Error: Can't resolve 'babel-loader' in '/home/safa/rails/StartworkofRor/github/ss/WorkofRails'
+
+ERROR in Entry module not found: Error: Can't resolve 'babel-loader' in '/home/safa/rails/StartworkofRor/github/ss/WorkofRails'
+
+
+
+[1m[31mInsufficient number of arguments or no entry found.
+[1m[31mAlternatively, run 'webpack(-cli) --help' for usage info.[39m[22m
+
+
+Completed 500 Internal Server Error in 20710ms (ActiveRecord: 20.6ms | Allocations: 1641240)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/safa/rails/StartworkofRor/github/ss/WorkofRails/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16:     </style>
+    17:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    20:   </head>
+    21: 
+    22:   <body>
+  
+app/views/layouts/application.html.erb:19
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+Started GET "/" for ::1 at 2020-04-30 01:52:52 -0400
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+  [1m[35m (4.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (3.5ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 185.8ms | Allocations: 8819)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 6869ms (ActiveRecord: 63.2ms | Allocations: 1604555)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/safa/rails/StartworkofRor/github/ss/WorkofRails/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16:     </style>
+    17:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    20:   </head>
+    21: 
+    22:   <body>
+  
+app/views/layouts/application.html.erb:19
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+Started GET "/" for ::1 at 2020-04-30 01:55:05 -0400
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (2.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 63.2ms | Allocations: 8819)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 3103e42455ee603dd397
+Version: webpack 4.42.1
+Time: 304ms
+Built at: 2020-04-30 1:55:19 a.m.
+        Asset      Size  Chunks             Chunk Names
+manifest.json  23 bytes          [emitted]  
+
+ERROR in Entry module not found: Error: Can't resolve 'babel-loader' in '/home/safa/rails/StartworkofRor/github/ss/WorkofRails'
+
+ERROR in Entry module not found: Error: Can't resolve 'babel-loader' in '/home/safa/rails/StartworkofRor/github/ss/WorkofRails'
+
+
+
+[1m[31mInsufficient number of arguments or no entry found.
+[1m[31mAlternatively, run 'webpack(-cli) --help' for usage info.[39m[22m
+
+
+Completed 500 Internal Server Error in 13791ms (ActiveRecord: 21.5ms | Allocations: 1605809)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/safa/rails/StartworkofRor/github/ss/WorkofRails/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "entrypoints": {
+  }
+}
+):
+    16:     </style>
+    17:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    20:   </head>
+    21: 
+    22:   <body>
+  
+app/views/layouts/application.html.erb:19
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+Started GET "/" for ::1 at 2020-04-30 01:56:11 -0400
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 60.3ms | Allocations: 8819)
+Completed 200 OK in 6324ms (Views: 6277.7ms | ActiveRecord: 15.3ms | Allocations: 1599438)
+
+
+Started GET "/yazilar/show/1" for ::1 at 2020-04-30 01:56:24 -0400
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 1749)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-04-30 01:56:24 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 3.7ms | Allocations: 642)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 40.8ms | Allocations: 3794)
+Completed 200 OK in 336ms (Views: 293.9ms | ActiveRecord: 10.8ms | Allocations: 84531)
+
+
+Started GET "/" for ::1 at 2020-04-30 01:56:26 -0400
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 1128)
+Completed 200 OK in 236ms (Views: 230.0ms | ActiveRecord: 1.2ms | Allocations: 74106)
+
+
+Started GET "/hakkimda/show" for ::1 at 2020-04-30 01:56:28 -0400
+Processing by HakkimdaController#show as HTML
+  Rendering hakkimda/show.html.erb within layouts/application
+  Rendered hakkimda/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 99)
+Completed 200 OK in 248ms (Views: 244.9ms | ActiveRecord: 0.0ms | Allocations: 73868)
+
+
+Started GET "/" for ::1 at 2020-04-30 01:56:29 -0400
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (20.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 32.2ms | Allocations: 1124)
+Completed 200 OK in 267ms (Views: 245.1ms | ActiveRecord: 20.1ms | Allocations: 74111)
+
+
+Started GET "/yazilar/show/4" for ::1 at 2020-04-30 01:56:37 -0400
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"4"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 319)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-04-30 01:56:37 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 150)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.5ms | Allocations: 1120)
+Completed 200 OK in 176ms (Views: 173.6ms | ActiveRecord: 0.0ms | Allocations: 74323)
+
+
+Started GET "/yazilar/show/1" for ::1 at 2020-04-30 01:56:40 -0400
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 321)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-04-30 01:56:40 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 150)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 8.9ms | Allocations: 1111)
+Completed 200 OK in 212ms (Views: 209.9ms | ActiveRecord: 0.0ms | Allocations: 74301)
+
+
+Started GET "/" for ::1 at 2020-04-30 01:56:43 -0400
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1117)
+Completed 200 OK in 164ms (Views: 160.0ms | ActiveRecord: 1.3ms | Allocations: 74095)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+Started GET "/" for ::1 at 2020-04-30 01:58:33 -0400
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/ss/WorkofRails/config/routes.rb:20)
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (2.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 56.7ms | Allocations: 8819)
+Completed 200 OK in 3480ms (Views: 3439.5ms | ActiveRecord: 18.3ms | Allocations: 1599457)
+
+
+Started GET "/" for ::1 at 2020-04-30 01:58:40 -0400
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1125)
+Completed 200 OK in 233ms (Views: 229.4ms | ActiveRecord: 1.3ms | Allocations: 74068)
+
+
+Started GET "/hakkimda/show" for ::1 at 2020-04-30 01:58:43 -0400
+Processing by HakkimdaController#show as HTML
+  Rendering hakkimda/show.html.erb within layouts/application
+  Rendered hakkimda/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 101)
+Completed 200 OK in 172ms (Views: 167.8ms | ActiveRecord: 0.0ms | Allocations: 73863)
+
+
+Started GET "/" for ::1 at 2020-04-30 01:58:44 -0400
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.1ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1124)
+Completed 200 OK in 217ms (Views: 213.7ms | ActiveRecord: 1.1ms | Allocations: 74114)
+
+
+Started GET "/yazilar/show/1" for ::1 at 2020-04-30 01:58:44 -0400
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.0ms | Allocations: 1247)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-04-30 01:58:44 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 4.4ms | Allocations: 646)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 16.0ms | Allocations: 2862)
+Completed 200 OK in 250ms (Views: 161.4ms | ActiveRecord: 8.7ms | Allocations: 83393)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-04-30 01:58:50 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kEbrmyXXAMeKqGu+11UzBdbmQLSuitHOY0Ox6/o/TpLLoPIPnsLwSYHgtaVmjfbpZyLQ3afsTb8Gqqg9gP92qg==", "user"=>{"email"=>"safa@safabayar.tech", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "safa@safabayar.tech"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/yazilar/show/1
+Completed 302 Found in 477ms (ActiveRecord: 1.7ms | Allocations: 6863)
+
+
+Started GET "/yazilar/show/1" for ::1 at 2020-04-30 01:58:51 -0400
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (0.7ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:27:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 2.1ms | Allocations: 256)
+Completed 200 OK in 165ms (Views: 151.2ms | ActiveRecord: 1.4ms | Allocations: 76296)
+
+
