@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Ckeditor Created
 class CreateCkeditorAssets < ActiveRecord::Migration[5.2]
   def up
     create_table :ckeditor_assets do |t|

@@ -8,7 +8,7 @@
     <% if @posts.body.nil? %>
       <div class="col-8"><a> Body kismi bos </a></div>
     <% else %>
-      <div class="col-8"><%= GitHub::Markup.render(@posts.body) %></div>
+      <div class="col-8"><%= markdown(@posts.body) %></div>
     <% end %>
   </div>
 </div>
