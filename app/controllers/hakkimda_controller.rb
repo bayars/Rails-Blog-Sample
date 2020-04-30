@@ -2,5 +2,6 @@
 
 # HakkimdaController
 class HakkimdaController < ApplicationController
-  def show; end
+  def show
+  end
 end
