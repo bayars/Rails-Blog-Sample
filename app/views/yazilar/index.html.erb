@@ -2,7 +2,7 @@
     <% @posts.each do |post| %>
     <div class="row">
       <div class="col-12"><h4><%= post.title %></h4></div>
-        <div class="col-6"><%= post.created_at %></div>
+        <div class="col-6"><%= post.created_at.ctime %></div>
       </div>
 
     <div class="row">

@@ -3,6 +3,10 @@
 # YazilarHelper
 module YazilarHelper
 
+# def time(time)
+#         t.ctime
+# end
+
 def markdown_to_html(markdown_str)
   options = {
     filter_html: true,
