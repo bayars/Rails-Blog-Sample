@@ -1,13 +1,14 @@
 <div class="container">
   <div class="containter">
   <p><b>Add the new article:</b>
-    <a><%= link_to('Ekle', {:action => 'new'}, :class => 'action btn btn-primary btn-right new') %></a>
+    <a><%= link_to('Add New Article', {:action => 'new'}, :class => 'action btn btn-primary btn-right new') %></a>
   </p>
   </div>
 <table class="table">
   <thead>
     <tr>
       <th scope="col">Name of Article</th>
+      <th scope="col">Edit</th>
       <th scope="col">Show</th>
       <th scope="col">Delete</th>
   </thead>
@@ -19,6 +20,9 @@
       <td>
         <div class="col-xs-12"><h4><%= post.title %></h4></div>
       </td>
+      <td>
+        <div class="col-9"><a><%= link_to('Edit', {:action => 'edit', :id => post.id}, :class => 'action edit') %></a></div>
+    </td>
       <td>
         <div class="col-9"><a><%= link_to('Show', {:action => 'show', :id => post.id}, :class => 'action show') %></a></div>
     </td>

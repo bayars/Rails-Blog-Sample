@@ -40480,3 +40480,111 @@ Processing by YazilarController#show as HTML
 Completed 200 OK in 5939ms (Views: 5806.6ms | ActiveRecord: 26.5ms | Allocations: 1542028)
 
 
+Started GET "/admin" for ::1 at 2020-04-30 02:32:20 -0400
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1692)
+Completed 200 OK in 193ms (Views: 182.0ms | ActiveRecord: 0.8ms | Allocations: 81535)
+
+
+Started GET "/admin/yazilar" for ::1 at 2020-04-30 02:32:24 -0400
+Processing by AdminController#yazilar as HTML
+  Rendering admin/yazilar.html.erb within layouts/application
+  [1m[36mYazilar Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "yazilars" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/yazilar.html.erb:17
+  [1m[36mYazilar Load (1.5ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/admin/yazilar.html.erb:18
+  Rendered admin/yazilar.html.erb within layouts/application (Duration: 16.2ms | Allocations: 2757)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 274ms (Views: 267.1ms | ActiveRecord: 3.1ms | Allocations: 80752)
+
+
+Started GET "/admin/yazilar" for ::1 at 2020-04-30 02:32:47 -0400
+Processing by AdminController#yazilar as HTML
+  Rendering admin/yazilar.html.erb within layouts/application
+  [1m[36mYazilar Exists? (5.6ms)[0m  [1m[34mSELECT 1 AS one FROM "yazilars" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/yazilar.html.erb:17
+  [1m[36mYazilar Load (2.5ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/admin/yazilar.html.erb:18
+  Rendered admin/yazilar.html.erb within layouts/application (Duration: 28.8ms | Allocations: 2700)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 217ms (Views: 203.1ms | ActiveRecord: 8.9ms | Allocations: 81962)
+
+
+Started GET "/admin/edit/8" for ::1 at 2020-04-30 02:32:58 -0400
+Processing by AdminController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/edit.html.erb within layouts/application
+  Rendered admin/edit.html.erb within layouts/application (Duration: 0.7ms | Allocations: 88)
+Completed 200 OK in 187ms (Views: 173.6ms | ActiveRecord: 1.7ms | Allocations: 78724)
+
+
+Started GET "/" for ::1 at 2020-04-30 02:33:05 -0400
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1412)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 232ms (Views: 227.5ms | ActiveRecord: 1.7ms | Allocations: 80055)
+
+
+Started GET "/" for ::1 at 2020-04-30 02:33:37 -0400
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.4ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1117)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 185ms (Views: 180.9ms | ActiveRecord: 1.9ms | Allocations: 78939)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2020-04-30 02:33:39 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DnDZkHDmju2GFM6y0gkkT0HhaPscVyo4yqnnl7ZHaM5HDuzlLv7jGvCykEMBoS4haUiuFbWXu20C5Qjy5EXocg=="}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 28ms (ActiveRecord: 0.7ms | Allocations: 5980)
+
+
+Started GET "/" for ::1 at 2020-04-30 02:33:39 -0400
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.6ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1118)
+Completed 200 OK in 277ms (Views: 272.8ms | ActiveRecord: 1.6ms | Allocations: 78108)
+
+
+Started GET "/" for ::1 at 2020-04-30 02:34:04 -0400
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1403)
+Completed 200 OK in 181ms (Views: 177.8ms | ActiveRecord: 1.0ms | Allocations: 79732)
+
+
+Started GET "/" for ::1 at 2020-04-30 02:34:22 -0400
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1403)
+Completed 200 OK in 192ms (Views: 188.8ms | ActiveRecord: 1.2ms | Allocations: 79691)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-04-30 02:34:27 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 3.5ms | Allocations: 646)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 20.7ms | Allocations: 3104)
+Completed 200 OK in 316ms (Views: 269.7ms | ActiveRecord: 0.0ms | Allocations: 84460)
+
+
