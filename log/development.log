@@ -40879,3 +40879,19 @@ Processing by IndexController#index as HTML
 Completed 200 OK in 236ms (Views: 219.9ms | ActiveRecord: 11.5ms | Allocations: 85519)
 
 
+Started GET "/yazilar/show/2" for ::1 at 2020-04-30 02:47:52 -0400
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:20)
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mYazilar Load (1.5ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:27:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 35)
+Completed 200 OK in 289ms (Views: 235.3ms | ActiveRecord: 13.4ms | Allocations: 84603)
+
+
