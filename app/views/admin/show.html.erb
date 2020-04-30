@@ -2,14 +2,14 @@
 <div class="container">
   <div class="row">
     <div class="col-12"><h4><%= @posts.title %></h4></div>
-      <div class="col-6"><%= @posts.created_at %></div>
+      <div class="col-6"><%= @posts.created_at.ctime %></div>
   </div>
 
   <div class="row">
     <% if @posts.body.nil? %>
-      <div class="col-8"><a> Body kismi bos </a></div>
+      <div class="col-8"><a> The body section empty </a></div>
     <% else %>
-      <div class="col-8"><%= raw Markdown.new(@posts.body).to_html %></div>
+      <div class="col-8"><%= markdown_to_html(@posts.body) %></div>
     <% end %>
   </div>
 </div>

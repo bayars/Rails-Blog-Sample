@@ -1,18 +1,22 @@
+# frozen_string_literal: true
+
+# YazilarController
 class YazilarController < ApplicationController
+  # before_action :authenticate_user!
   def index
     @posts = Yazilar.order('id DESC')
   end
 
   def new
-    @yazilar = Yazilar.new({:status => '0'})
+    @yazilar = Yazilar.new(status: '0')
     @yazilar_count = Yazilar.count + 1
   end
 
   def create
     @yazilar = Yazilar.new(subject_params)
     if @yazilar.save
-      flash[:notice] = "Yazi basariyla olusturuldu."
-      redirect_to(:action => 'index')
+      flash[:notice] = 'Yazi basariyla olusturuldu.'
+      redirect_to(action: 'index')
     else
       @yazilar_count = Yazilar.count
       render('new')
@@ -45,7 +49,8 @@ class YazilarController < ApplicationController
   #   @section_count = Section.count + 1
   # end
   private
-    def subject_params
-      params.fetch(:yazilar).permit(:title,:body,:status,:created_at)
-    end
+
+  def subject_params
+    params.fetch(:yazilar).permit(:title, :body, :status, :created_at)
+  end
 end

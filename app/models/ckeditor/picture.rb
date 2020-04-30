@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Ckeditor Pictures
 class Ckeditor::Picture < Ckeditor::Asset
   has_attached_file :data,
                     url: '/ckeditor_assets/pictures/:id/:style_:basename.:extension',
