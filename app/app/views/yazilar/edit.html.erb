@@ -1,9 +1,0 @@
-<div class="container">
-  <% if @yazi.include? %>
-    <% form_with(url: '/admin/yazilar/edit') do |f| %>
-      <%= f.label(@yazi.title) %>
-      <%= f.text_field(@yazi.body) %>
-    <% end %>
-      <% else %>
-    <p> Page not found <p>
-  <% end %>
