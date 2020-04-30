@@ -40588,3 +40588,34 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 316ms (Views: 269.7ms | ActiveRecord: 0.0ms | Allocations: 84460)
 
 
+Started GET "/users/sign_up" for ::1 at 2020-04-30 02:36:07 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 2.0ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 2.5ms | Allocations: 531)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 12.9ms | Allocations: 2418)
+Completed 200 OK in 185ms (Views: 182.7ms | ActiveRecord: 0.0ms | Allocations: 81428)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-04-30 02:40:27 -0400
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:20)
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 15.6ms | Allocations: 8231)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 23.9ms | Allocations: 9716)
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 15.1ms | Allocations: 17558)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-04-30 02:40:37 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.7ms | Allocations: 445)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.1ms | Allocations: 1869)
+Completed 200 OK in 196ms (Views: 193.1ms | ActiveRecord: 0.0ms | Allocations: 80847)
+
+

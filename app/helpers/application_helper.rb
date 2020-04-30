@@ -9,18 +9,29 @@ module ApplicationHelper
     end
   end
 
-  def markdown(text)
-    coderayified = CodeRayify.new(filter_html: true,
-                                  hard_wrap: true)
+  def markdown_to_html(markdown_str)
     options = {
-      fenced_code_blocks: true,
-      no_intra_emphasis: true,
-      autolink: true,
-      strikethrough: true,
-      lax_html_blocks: true,
-      superscript: true
+      filter_html: true,
+      link_attributes: { rel: 'nofollow', target: '_blank' },
+      no_styles: true
     }
-    markdown_to_html = Redcarpet::Markdown.new(coderayified, options)
-    markdown_to_html.render(text).html_safe
+
+    extensions = {
+      autolink: true,
+      fenced_code_blocks: true,
+      footnotes: true,
+      highlight: true,
+      no_intra_emphasis: true,
+      quote: true,
+      space_after_headers: true,
+      strikethrough: true,
+      superscript: true,
+      tables: true
+    }
+
+    renderer = Redcarpet::Render::HTML.new(options)
+    markdown = Redcarpet::Markdown.new(renderer, extensions)
+
+    markdown.render(markdown_str).html_safe
   end
 end

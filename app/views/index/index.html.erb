@@ -10,12 +10,12 @@
         </div>
       <% else %>
         <div class="col-9">
-          <%= raw Markdown.new(post.body.first(75) + "..." ).to_html %>
+          <%= markdown_to_html(post.body.first(75) + "..." ) %>
         </div>
       <% end %>
       </div>
       <div class="buttons container col-4">
-        <%= link_to('Yazinin Tamami...', {:controller => 'yazilar',:action => 'show', :id => post.id}, :class => 'btn btn-primary btn-xl show') %>
+        <%= link_to('All Article...', {:controller => 'yazilar',:action => 'show', :id => post.id}, :class => 'btn btn-primary btn-xl show') %>
       </div>
   </div>
   <hr/>
