@@ -2,11 +2,11 @@
 
 require 'rails_helper' # Test helper
 
-RSpec.describe Kullanici, type: :model do
+RSpec.describe User, type: :model do
   it 'Nickname e gore siralama' do
-    lindeman = Kullanici.create(isim: 'Andy', nickname: 'Lindeman')
-    chelimsky = Kullanici.create(isim: 'David', nickname: 'Chelimsky')
+    lindeman = User.create(email: 'Andy@Lindeman')
+    chelimsky = User.create(email: 'David@Chelimsky')
 
-    expect(Kullanici.order('nickname') == [chelimsky, lindeman])
+    expect(User.order('email') == ['David@Chelimsky', 'Andy@lindeman'])
   end
 end
