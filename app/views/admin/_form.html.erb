@@ -1,3 +1,4 @@
+<%=  javascript_include_tag Ckeditor.cdn_url %>
 
 <table summary="Subject form fields">
   <tr>
@@ -8,17 +9,23 @@
     <!-- <th><%#= f.label:created_at) %></th> -->
     <!-- <td><%#= f.datetime_select(:created_at,:order => [:month,:year,:day]) %></td> -->
   <!-- </tr> -->
-  <tr>
+  <!-- <tr>
     <th>Status of Article</th>
-    <td><%= f.text_field(:status) %></td>
-  </tr>
+    <%# <td><%= f.text_field(:status) %></td> %>
+  </tr> -->
   <tr>
     <th>Article Body: </th>
     <td>
-    <div data-no-turbolink>
-<%= f.text_area :body, :class => 'ckeditor' %>
-</div>
-</td>
+    <!-- <div data-no-turbolink> -->
+            <%= f.text_area :body, :toolbar=>'Full', :width=>'2400px', :heigth=>'1200px', ckeditor: { language: 'en' }, :class => 'ckeditor' %>
+    <!-- </div> -->
+    </td>
     <!-- <td><%#=f.cktext_area :body , class: 'yazilar', ckeditor: { language: 'en'}  %></td> -->
   </tr>
 </table>
+<div class="form-buttons">
+  <%= submit_tag('Submit') %>
+</div>
+<script>
+        CKEDITOR.replace('element_id')
+</script>
