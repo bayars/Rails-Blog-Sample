@@ -26,7 +26,6 @@ gem "mini_magick"
 gem 'coderay', '~> 1.0.7'
 gem 'devise', '~> 4.2' # login
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
-gem 'mini_magick'
 gem 'paperclip'
 gem 'redcarpet', '~> 3.4'
 gem 'sassc-rails', '>= 2.1.0'
