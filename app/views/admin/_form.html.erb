@@ -4,16 +4,21 @@
     <th>Name of Article</th>
     <td><%= f.text_field(:title) %></td>
   </tr>
-  <tr>
-    <th><%= f.label(:created_at) %></th>
-    <td><%= f.datetime_select(:created_at,:order => [:month,:year,:day]) %></td>
-  </tr>
+  <!-- <tr> -->
+    <!-- <th><%#= f.label:created_at) %></th> -->
+    <!-- <td><%#= f.datetime_select(:created_at,:order => [:month,:year,:day]) %></td> -->
+  <!-- </tr> -->
   <tr>
     <th>Status of Article</th>
     <td><%= f.text_field(:status) %></td>
   </tr>
   <tr>
     <th>Article Body: </th>
-    <td><%=f.cktext_area :body , class: 'yazilar', ckeditor: { language: 'en'}  %></td>
+    <td>
+    <div data-no-turbolink>
+<%= f.text_area :body, :class => 'ckeditor' %>
+</div>
+</td>
+    <!-- <td><%#=f.cktext_area :body , class: 'yazilar', ckeditor: { language: 'en'}  %></td> -->
   </tr>
 </table>
