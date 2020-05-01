@@ -31,7 +31,7 @@ gem 'redcarpet', '~> 3.4'
 gem 'sassc-rails', '>= 2.1.0'
 gem 'sprockets-rails', '>= 2.3.2'
 gem 'unicorn-rails'
-gem 'webpacker'
+#gem 'webpacker'
 
 
 # Use CoffeeScript for .coffee assets and views
