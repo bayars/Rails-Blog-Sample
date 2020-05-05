@@ -11,6 +11,9 @@ Metrics/BlockLength:
 Metrics/AbcSize:
   Max: 30
 
+Style/MixinUsage:
+  Enabled: false
+
 Style/ClassAndModuleChildren:
   Description: 'Checks style of children classes and modules.'
   Enabled: false

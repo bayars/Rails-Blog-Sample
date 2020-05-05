@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # Use this hook to configure ckeditor
-Ckeditor.setup do |config|
+Ckeditor.setup do |ck|
   # ==> ORM configuration
   # Load and configure the ORM. Supports :active_record (default), :mongo_mapper and
   # :mongoid (bson_ext recommended) by default. Other ORMs may be
@@ -11,7 +11,7 @@ Ckeditor.setup do |config|
   # Allowed image file types for upload.
   # Set to nil or [] (empty array) for all file types
   # By default: %w(jpg jpeg png gif tiff)
-  config.image_file_types = %w[jpg jpeg png gif tiff]
+  ck.image_file_types = %w[jpg jpeg png gif tiff]
 
   Ckeditor.setup do |config|
     # //cdn.ckeditor.com/<version.number>/<distribution>/ckeditor.js

@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Ckeditor Settings
 class Ckeditor::AttachmentFile < Ckeditor::Asset
   # for validation, see https://github.com/igorkasyanchuk/active_storage_validations
 
