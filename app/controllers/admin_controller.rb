@@ -28,14 +28,14 @@ class AdminController < ApplicationController
   end
 
   def update
-          @article = Yazilar.find(params[:id])
-          if @article.update(article_params)
-           flash[:notice] = "Article was updated"
-           redirect_to article_path(@article)
-          else
-           flash[:notice] = "Article was not updated"
-           render 'edit'
-          end
+    @article = Yazilar.find(params[:id])
+    if @article.update(article_params)
+      flash[:notice] = 'Article was updated'
+      redirect_to article_path(@article)
+    else
+      flash[:notice] = 'Article was not updated'
+      render 'edit'
+    end
   end
 
   def show

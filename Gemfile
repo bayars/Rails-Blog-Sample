@@ -22,17 +22,16 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'bootstrap-wysihtml5-rails', '~> 0.3.3.8'
 gem 'carrierwave', '~> 2.0', '>= 2.0.2'
 gem 'ckeditor', github: 'galetahub/ckeditor'
-gem "mini_magick"
 gem 'coderay', '~> 1.0.7'
 gem 'devise', '~> 4.2' # login
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'mini_magick'
 gem 'paperclip'
 gem 'redcarpet', '~> 3.4'
 gem 'sassc-rails', '>= 2.1.0'
 gem 'sprockets-rails', '>= 2.3.2'
 gem 'unicorn-rails'
-#gem 'webpacker'
-
+# gem 'webpacker'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 5.0'
