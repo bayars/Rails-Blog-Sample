@@ -1,5 +1,7 @@
 # Rails Sample Blog
 
+[![pipeline status](https://gitlab.com/rection/WorkofRails/badges/master/pipeline.svg)](https://gitlab.com/rection/WorkofRails/-/commits/master)
+
 Hi, It's running with ruby-2.6.5 and rails 6.0. It's has admin panel and you can login and sign up. This is live in [Heroku](https://serene-anchorage-83026.herokuapp.com).
 
 The main page:
