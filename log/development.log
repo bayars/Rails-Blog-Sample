@@ -47164,3 +47164,144 @@ DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecate
 DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/WorkofRails/config/routes.rb:19)
 DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/WorkofRails/config/routes.rb:20)
 DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:20)
+Started GET "/" for ::1 at 2020-05-06 02:06:54 -0400
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:20)
+  [1m[35m (3.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (4.2ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 65.8ms | Allocations: 9194)
+  [1m[36mUser Load (4.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 4436ms (Views: 4368.7ms | ActiveRecord: 38.9ms | Allocations: 1437299)
+
+
+Started GET "/admin" for ::1 at 2020-05-06 02:07:13 -0400
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1101)
+Completed 200 OK in 192ms (Views: 171.0ms | ActiveRecord: 1.1ms | Allocations: 78416)
+
+
+Started GET "/admin/yazilar" for ::1 at 2020-05-06 02:07:21 -0400
+Processing by AdminController#yazilar as HTML
+  Rendering admin/yazilar.html.erb within layouts/application
+  [1m[36mYazilar Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "yazilars" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/admin/yazilar.html.erb:17
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" ORDER BY id DESC[0m
+  ↳ app/views/admin/yazilar.html.erb:18
+  Rendered admin/yazilar.html.erb within layouts/application (Duration: 18.2ms | Allocations: 3724)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 253ms (Views: 247.1ms | ActiveRecord: 2.8ms | Allocations: 78799)
+
+
+Started GET "/admin/delete/2" for ::1 at 2020-05-06 02:07:24 -0400
+Processing by AdminController#delete as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mYazilar Load (0.9ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admin_controller.rb:47:in `delete'
+  Rendering admin/delete.html.erb within layouts/application
+  Rendered admin/delete.html.erb within layouts/application (Duration: 3.8ms | Allocations: 449)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 158ms (Views: 149.4ms | ActiveRecord: 1.7ms | Allocations: 76196)
+
+
+Started POST "/admin/destroy/2" for ::1 at 2020-05-06 02:07:25 -0400
+Processing by AdminController#destroy as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qohejvUxLYc169sTcvKzfzIHpUzKclPaXQdxS5qbaQnRlzrTKpvvyWOP3sXv7ooUs9FHpUvdNmxyNlm8MoNbnw==", "commit"=>"Delete Article", "id"=>"2"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mYazilar Load (1.0ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admin_controller.rb:51:in `destroy'
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/admin_controller.rb:52:in `destroy'
+  [1m[36mYazilar Destroy (3.6ms)[0m  [1m[31mDELETE FROM "yazilars" WHERE "yazilars"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/admin_controller.rb:52:in `destroy'
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/admin_controller.rb:52:in `destroy'
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 38ms (ActiveRecord: 8.6ms | Allocations: 4494)
+
+
+Started GET "/admin" for ::1 at 2020-05-06 02:07:25 -0400
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 896)
+Completed 200 OK in 250ms (Views: 238.3ms | ActiveRecord: 1.4ms | Allocations: 76398)
+
+
+Started GET "/" for ::1 at 2020-05-06 02:07:28 -0400
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (2.3ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 12.8ms | Allocations: 1363)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 202ms (Views: 195.8ms | ActiveRecord: 2.9ms | Allocations: 76287)
+
+
+Started GET "/admin" for ::1 at 2020-05-06 02:08:32 -0400
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 896)
+Completed 200 OK in 189ms (Views: 181.1ms | ActiveRecord: 0.6ms | Allocations: 76360)
+
+
+Started GET "/" for ::1 at 2020-05-06 02:08:59 -0400
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  [1m[36mYazilar Load (1.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars"[0m
+  ↳ app/views/index/index.html.erb:2
+  Rendered index/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 1354)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 295ms (Views: 291.3ms | ActiveRecord: 2.4ms | Allocations: 76279)
+
+
+Started GET "/yazilar/show/4" for ::1 at 2020-05-06 02:09:01 -0400
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mYazilar Load (0.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:27:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 229)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 182ms (Views: 175.2ms | ActiveRecord: 1.5ms | Allocations: 76507)
+
+
+Started GET "/yazilar/show/8" for ::1 at 2020-05-06 02:09:03 -0400
+Processing by YazilarController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mYazilar Load (2.8ms)[0m  [1m[34mSELECT "yazilars".* FROM "yazilars" WHERE "yazilars"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/yazilar_controller.rb:27:in `show'
+  Rendering yazilar/show.html.erb within layouts/application
+  Rendered yazilar/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 35)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:46
+Completed 200 OK in 243ms (Views: 232.3ms | ActiveRecord: 3.4ms | Allocations: 75550)
+
+

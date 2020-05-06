@@ -68,3 +68,5 @@ RAILS ENV=production rails server
 
 
 I use reverse proxy on Nginx. That's change with your style.
+![image](public/site.png)
+![image](public/article.png)

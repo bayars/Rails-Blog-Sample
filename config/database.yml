@@ -167,6 +167,6 @@ test:
 #
 production:
   <<: *default
-  database: blog-rails-sample_blog-rails-sampleproduction
-  username: blog-rails-sample
-  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
+  database: blog-rails-sampleproduction
+  #username: blog-rails-sample
+  #password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
