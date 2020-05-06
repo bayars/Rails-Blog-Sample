@@ -39,7 +39,8 @@ rspec:
 
 rubocop:
   script:
-    - bundle exec rubocop
+    - rubocop -a
+    - rubocop
 
 # brakeman:
 #   script:
