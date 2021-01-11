@@ -27,7 +27,7 @@ gem 'devise', '~> 4.2' # login
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'mini_magick'
 gem 'paperclip'
-gem 'redcarpet', '~> 3.4'
+gem 'redcarpet', '~> 3.5'
 gem 'sassc-rails', '>= 2.1.0'
 gem 'sprockets-rails', '>= 2.3.2'
 gem 'unicorn-rails'
