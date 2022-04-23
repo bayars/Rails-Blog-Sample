@@ -47311,3 +47311,1138 @@ DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecate
 DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:19)
 DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:20)
 DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/rails/StartworkofRor/github/WorkofRails/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+  [1m[35m (151.1ms)[0m  [1m[35mCREATE DATABASE "blog-rails-sample_development" ENCODING = 'unicode'[0m
+  [1m[35m (75.9ms)[0m  [1m[35mCREATE DATABASE "blog-rails-sample_test" ENCODING = 'unicode'[0m
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+  [1m[35m (686.8ms)[0m  [1m[35mCREATE DATABASE "blog-rails-sample_development" ENCODING = 'unicode'[0m
+  [1m[35m (601.9ms)[0m  [1m[35mCREATE DATABASE "blog-rails-sample_test" ENCODING = 'unicode'[0m
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE "blog-rails-sample_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE DATABASE "blog-rails-sample_test" ENCODING = 'unicode'[0m
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+  [1m[35m (107.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "blog-rails-sample_development"[0m
+  [1m[35m (105.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "blog-rails-sample_test"[0m
+  [1m[35m (932.1ms)[0m  [1m[35mCREATE DATABASE "blog-rails-sample_development" ENCODING = 'unicode'[0m
+  [1m[35m (644.7ms)[0m  [1m[35mCREATE DATABASE "blog-rails-sample_test" ENCODING = 'unicode'[0m
+  [1m[35m (10.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8564757378267825000)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateAdminUsers (20190714063929)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (5.4ms)[0m  [1m[35mCREATE TABLE "admin_users" ("id" bigserial primary key, "firstname" character varying, "lastname" character varying, "email" character varying, "username" character varying, "password_digest" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190714063929"]]
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to Relationship (20190715060143)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "admin_users" ADD "yazilars_id" bigint[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE  INDEX  "index_admin_users_on_yazilars_id" ON "admin_users"  ("yazilars_id")[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "admin_users" ADD CONSTRAINT "fk_rails_63a8ba01e2"
+FOREIGN KEY ("yazilars_id")
+  REFERENCES "yazilars" ("id")
+[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(8564757378267825000)[0m
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+Started GET "/" for 127.0.0.1 at 2021-11-14 12:07:57 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.4.1) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.4.1) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.4.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.4.1) lib/rails/engine.rb:527:in `call'
+unicorn (6.0.0) lib/unicorn/http_server.rb:634:in `process_client'
+unicorn (6.0.0) lib/unicorn/http_server.rb:732:in `worker_loop'
+unicorn (6.0.0) lib/unicorn/http_server.rb:547:in `spawn_missing_workers'
+unicorn (6.0.0) lib/unicorn/http_server.rb:143:in `start'
+unicorn-rails (2.2.1) lib/unicorn_rails.rb:33:in `run'
+rack (2.2.3) lib/rack/server.rb:327:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:39:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:147:in `block in perform'
+<internal:kernel>:90:in `tap'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:138:in `perform'
+thor (1.1.0) lib/thor/command.rb:27:in `run'
+thor (1.1.0) lib/thor/invocation.rb:127:in `invoke_command'
+thor (1.1.0) lib/thor.rb:392:in `dispatch'
+railties (6.0.4.1) lib/rails/command/base.rb:69:in `perform'
+railties (6.0.4.1) lib/rails/command.rb:46:in `invoke'
+railties (6.0.4.1) lib/rails/commands.rb:18:in `<main>'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+bin/rails:6:in `<main>'
+Started POST "/rails/actions" for 127.0.0.1 at 2021-11-14 12:08:02 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8564757378267825000)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to Relationship (20190715060143)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "admin_users" ADD "yazilars_id" bigint[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE  INDEX  "index_admin_users_on_yazilars_id" ON "admin_users"  ("yazilars_id")[0m
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "admin_users" ADD CONSTRAINT "fk_rails_63a8ba01e2"
+FOREIGN KEY ("yazilars_id")
+  REFERENCES "yazilars" ("id")
+[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(8564757378267825000)[0m
+  
+StandardError (An error has occurred, this and all later migrations canceled:
+
+PG::UndefinedTable: ERROR:  relation "yazilars" does not exist
+):
+  
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:92:in `exec'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:92:in `block (2 levels) in execute'
+activesupport (6.0.4.1) lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+activesupport (6.0.4.1) lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+activesupport (6.0.4.1) lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:91:in `block in execute'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:728:in `block (2 levels) in log'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:727:in `block in log'
+activesupport (6.0.4.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:718:in `log'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:90:in `execute'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_statements.rb:998:in `add_foreign_key'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_definitions.rb:695:in `foreign_key'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_definitions.rb:156:in `add_to'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_statements.rb:905:in `add_reference'
+activerecord (6.0.4.1) lib/active_record/migration.rb:890:in `block in method_missing'
+activerecord (6.0.4.1) lib/active_record/migration.rb:858:in `block in say_with_time'
+/home/safa/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/benchmark.rb:293:in `measure'
+activerecord (6.0.4.1) lib/active_record/migration.rb:858:in `say_with_time'
+activerecord (6.0.4.1) lib/active_record/migration.rb:879:in `method_missing'
+db/migrate/20190715060143_relationship.rb:6:in `change'
+activerecord (6.0.4.1) lib/active_record/migration.rb:828:in `exec_migration'
+activerecord (6.0.4.1) lib/active_record/migration.rb:812:in `block (2 levels) in migrate'
+/home/safa/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/benchmark.rb:293:in `measure'
+activerecord (6.0.4.1) lib/active_record/migration.rb:811:in `block in migrate'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:471:in `with_connection'
+activerecord (6.0.4.1) lib/active_record/migration.rb:810:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1002:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1310:in `block in execute_migration_in_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1361:in `block in ddl_transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/database_statements.rb:280:in `block in transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/transaction.rb:280:in `block in within_new_transaction'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/transaction.rb:278:in `within_new_transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/database_statements.rb:280:in `transaction'
+activerecord (6.0.4.1) lib/active_record/transactions.rb:212:in `transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1361:in `ddl_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1309:in `execute_migration_in_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1281:in `block in migrate_without_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1280:in `each'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1280:in `migrate_without_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1229:in `block in migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1382:in `with_advisory_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1229:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1061:in `up'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1036:in `migrate'
+activerecord (6.0.4.1) lib/active_record/tasks/database_tasks.rb:238:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:135:in `block in <class:PendingMigrationError>'
+activesupport (6.0.4.1) lib/active_support/actionable_error.rb:28:in `dispatch'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:20:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.4.1) lib/rails/engine.rb:527:in `call'
+unicorn (6.0.0) lib/unicorn/http_server.rb:634:in `process_client'
+unicorn (6.0.0) lib/unicorn/http_server.rb:732:in `worker_loop'
+unicorn (6.0.0) lib/unicorn/http_server.rb:547:in `spawn_missing_workers'
+unicorn (6.0.0) lib/unicorn/http_server.rb:143:in `start'
+unicorn-rails (2.2.1) lib/unicorn_rails.rb:33:in `run'
+rack (2.2.3) lib/rack/server.rb:327:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:39:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:147:in `block in perform'
+<internal:kernel>:90:in `tap'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:138:in `perform'
+thor (1.1.0) lib/thor/command.rb:27:in `run'
+thor (1.1.0) lib/thor/invocation.rb:127:in `invoke_command'
+thor (1.1.0) lib/thor.rb:392:in `dispatch'
+railties (6.0.4.1) lib/rails/command/base.rb:69:in `perform'
+railties (6.0.4.1) lib/rails/command.rb:46:in `invoke'
+railties (6.0.4.1) lib/rails/commands.rb:18:in `<main>'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+bin/rails:6:in `<main>'
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+Started POST "/rails/actions" for 127.0.0.1 at 2021-11-14 12:09:09 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8564757378267825000)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to Relationship (20190715060143)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "admin_users" ADD "yazilars_id" bigint[0m
+  [1m[35m (8.9ms)[0m  [1m[35mCREATE  INDEX  "index_admin_users_on_yazilars_id" ON "admin_users"  ("yazilars_id")[0m
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "admin_users" ADD CONSTRAINT "fk_rails_63a8ba01e2"
+FOREIGN KEY ("yazilars_id")
+  REFERENCES "yazilars" ("id")
+[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(8564757378267825000)[0m
+  
+StandardError (An error has occurred, this and all later migrations canceled:
+
+PG::UndefinedTable: ERROR:  relation "yazilars" does not exist
+):
+  
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:92:in `exec'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:92:in `block (2 levels) in execute'
+activesupport (6.0.4.1) lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+activesupport (6.0.4.1) lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+activesupport (6.0.4.1) lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:91:in `block in execute'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:728:in `block (2 levels) in log'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:727:in `block in log'
+activesupport (6.0.4.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:718:in `log'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:90:in `execute'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_statements.rb:998:in `add_foreign_key'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_definitions.rb:695:in `foreign_key'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_definitions.rb:156:in `add_to'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_statements.rb:905:in `add_reference'
+activerecord (6.0.4.1) lib/active_record/migration.rb:890:in `block in method_missing'
+activerecord (6.0.4.1) lib/active_record/migration.rb:858:in `block in say_with_time'
+/home/safa/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/benchmark.rb:293:in `measure'
+activerecord (6.0.4.1) lib/active_record/migration.rb:858:in `say_with_time'
+activerecord (6.0.4.1) lib/active_record/migration.rb:879:in `method_missing'
+db/migrate/20190715060143_relationship.rb:6:in `change'
+activerecord (6.0.4.1) lib/active_record/migration.rb:828:in `exec_migration'
+activerecord (6.0.4.1) lib/active_record/migration.rb:812:in `block (2 levels) in migrate'
+/home/safa/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/benchmark.rb:293:in `measure'
+activerecord (6.0.4.1) lib/active_record/migration.rb:811:in `block in migrate'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:471:in `with_connection'
+activerecord (6.0.4.1) lib/active_record/migration.rb:810:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1002:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1310:in `block in execute_migration_in_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1361:in `block in ddl_transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/database_statements.rb:280:in `block in transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/transaction.rb:280:in `block in within_new_transaction'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/transaction.rb:278:in `within_new_transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/database_statements.rb:280:in `transaction'
+activerecord (6.0.4.1) lib/active_record/transactions.rb:212:in `transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1361:in `ddl_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1309:in `execute_migration_in_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1281:in `block in migrate_without_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1280:in `each'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1280:in `migrate_without_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1229:in `block in migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1382:in `with_advisory_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1229:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1061:in `up'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1036:in `migrate'
+activerecord (6.0.4.1) lib/active_record/tasks/database_tasks.rb:238:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:135:in `block in <class:PendingMigrationError>'
+activesupport (6.0.4.1) lib/active_support/actionable_error.rb:28:in `dispatch'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:20:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.4.1) lib/rails/engine.rb:527:in `call'
+unicorn (6.0.0) lib/unicorn/http_server.rb:634:in `process_client'
+unicorn (6.0.0) lib/unicorn/http_server.rb:732:in `worker_loop'
+unicorn (6.0.0) lib/unicorn/http_server.rb:547:in `spawn_missing_workers'
+unicorn (6.0.0) lib/unicorn/http_server.rb:143:in `start'
+unicorn-rails (2.2.1) lib/unicorn_rails.rb:33:in `run'
+rack (2.2.3) lib/rack/server.rb:327:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:39:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:147:in `block in perform'
+<internal:kernel>:90:in `tap'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:138:in `perform'
+thor (1.1.0) lib/thor/command.rb:27:in `run'
+thor (1.1.0) lib/thor/invocation.rb:127:in `invoke_command'
+thor (1.1.0) lib/thor.rb:392:in `dispatch'
+railties (6.0.4.1) lib/rails/command/base.rb:69:in `perform'
+railties (6.0.4.1) lib/rails/command.rb:46:in `invoke'
+railties (6.0.4.1) lib/rails/commands.rb:18:in `<main>'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+bin/rails:6:in `<main>'
+Started GET "/" for 127.0.0.1 at 2021-11-14 12:09:13 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.4.1) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.4.1) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.4.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.4.1) lib/rails/engine.rb:527:in `call'
+unicorn (6.0.0) lib/unicorn/http_server.rb:634:in `process_client'
+unicorn (6.0.0) lib/unicorn/http_server.rb:732:in `worker_loop'
+unicorn (6.0.0) lib/unicorn/http_server.rb:547:in `spawn_missing_workers'
+unicorn (6.0.0) lib/unicorn/http_server.rb:143:in `start'
+unicorn-rails (2.2.1) lib/unicorn_rails.rb:33:in `run'
+rack (2.2.3) lib/rack/server.rb:327:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:39:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:147:in `block in perform'
+<internal:kernel>:90:in `tap'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:138:in `perform'
+thor (1.1.0) lib/thor/command.rb:27:in `run'
+thor (1.1.0) lib/thor/invocation.rb:127:in `invoke_command'
+thor (1.1.0) lib/thor.rb:392:in `dispatch'
+railties (6.0.4.1) lib/rails/command/base.rb:69:in `perform'
+railties (6.0.4.1) lib/rails/command.rb:46:in `invoke'
+railties (6.0.4.1) lib/rails/commands.rb:18:in `<main>'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+bin/rails:6:in `<main>'
+Started POST "/rails/actions" for 127.0.0.1 at 2021-11-14 12:09:14 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8564757378267825000)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to Relationship (20190715060143)
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "admin_users" ADD "yazilars_id" bigint[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE  INDEX  "index_admin_users_on_yazilars_id" ON "admin_users"  ("yazilars_id")[0m
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "admin_users" ADD CONSTRAINT "fk_rails_63a8ba01e2"
+FOREIGN KEY ("yazilars_id")
+  REFERENCES "yazilars" ("id")
+[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(8564757378267825000)[0m
+  
+StandardError (An error has occurred, this and all later migrations canceled:
+
+PG::UndefinedTable: ERROR:  relation "yazilars" does not exist
+):
+  
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:92:in `exec'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:92:in `block (2 levels) in execute'
+activesupport (6.0.4.1) lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+activesupport (6.0.4.1) lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+activesupport (6.0.4.1) lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:91:in `block in execute'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:728:in `block (2 levels) in log'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:727:in `block in log'
+activesupport (6.0.4.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:718:in `log'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:90:in `execute'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_statements.rb:998:in `add_foreign_key'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_definitions.rb:695:in `foreign_key'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_definitions.rb:156:in `add_to'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_statements.rb:905:in `add_reference'
+activerecord (6.0.4.1) lib/active_record/migration.rb:890:in `block in method_missing'
+activerecord (6.0.4.1) lib/active_record/migration.rb:858:in `block in say_with_time'
+/home/safa/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/benchmark.rb:293:in `measure'
+activerecord (6.0.4.1) lib/active_record/migration.rb:858:in `say_with_time'
+activerecord (6.0.4.1) lib/active_record/migration.rb:879:in `method_missing'
+db/migrate/20190715060143_relationship.rb:6:in `change'
+activerecord (6.0.4.1) lib/active_record/migration.rb:828:in `exec_migration'
+activerecord (6.0.4.1) lib/active_record/migration.rb:812:in `block (2 levels) in migrate'
+/home/safa/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/benchmark.rb:293:in `measure'
+activerecord (6.0.4.1) lib/active_record/migration.rb:811:in `block in migrate'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:471:in `with_connection'
+activerecord (6.0.4.1) lib/active_record/migration.rb:810:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1002:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1310:in `block in execute_migration_in_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1361:in `block in ddl_transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/database_statements.rb:280:in `block in transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/transaction.rb:280:in `block in within_new_transaction'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/transaction.rb:278:in `within_new_transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/database_statements.rb:280:in `transaction'
+activerecord (6.0.4.1) lib/active_record/transactions.rb:212:in `transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1361:in `ddl_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1309:in `execute_migration_in_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1281:in `block in migrate_without_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1280:in `each'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1280:in `migrate_without_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1229:in `block in migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1382:in `with_advisory_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1229:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1061:in `up'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1036:in `migrate'
+activerecord (6.0.4.1) lib/active_record/tasks/database_tasks.rb:238:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:135:in `block in <class:PendingMigrationError>'
+activesupport (6.0.4.1) lib/active_support/actionable_error.rb:28:in `dispatch'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:20:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.4.1) lib/rails/engine.rb:527:in `call'
+unicorn (6.0.0) lib/unicorn/http_server.rb:634:in `process_client'
+unicorn (6.0.0) lib/unicorn/http_server.rb:732:in `worker_loop'
+unicorn (6.0.0) lib/unicorn/http_server.rb:547:in `spawn_missing_workers'
+unicorn (6.0.0) lib/unicorn/http_server.rb:143:in `start'
+unicorn-rails (2.2.1) lib/unicorn_rails.rb:33:in `run'
+rack (2.2.3) lib/rack/server.rb:327:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:39:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:147:in `block in perform'
+<internal:kernel>:90:in `tap'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:138:in `perform'
+thor (1.1.0) lib/thor/command.rb:27:in `run'
+thor (1.1.0) lib/thor/invocation.rb:127:in `invoke_command'
+thor (1.1.0) lib/thor.rb:392:in `dispatch'
+railties (6.0.4.1) lib/rails/command/base.rb:69:in `perform'
+railties (6.0.4.1) lib/rails/command.rb:46:in `invoke'
+railties (6.0.4.1) lib/rails/commands.rb:18:in `<main>'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+bin/rails:6:in `<main>'
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+Started POST "/rails/actions" for 127.0.0.1 at 2021-11-14 12:10:57 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8564757378267825000)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to Relationship (20190715060143)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "admin_users" ADD "yazilars_id" bigint[0m
+  [1m[35m (2.6ms)[0m  [1m[35mCREATE  INDEX  "index_admin_users_on_yazilars_id" ON "admin_users"  ("yazilars_id")[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "admin_users" ADD CONSTRAINT "fk_rails_63a8ba01e2"
+FOREIGN KEY ("yazilars_id")
+  REFERENCES "yazilars" ("id")
+[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(8564757378267825000)[0m
+  
+StandardError (An error has occurred, this and all later migrations canceled:
+
+PG::UndefinedTable: ERROR:  relation "yazilars" does not exist
+):
+  
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:92:in `exec'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:92:in `block (2 levels) in execute'
+activesupport (6.0.4.1) lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+activesupport (6.0.4.1) lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+activesupport (6.0.4.1) lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:91:in `block in execute'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:728:in `block (2 levels) in log'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:727:in `block in log'
+activesupport (6.0.4.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:718:in `log'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:90:in `execute'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_statements.rb:998:in `add_foreign_key'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_definitions.rb:695:in `foreign_key'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_definitions.rb:156:in `add_to'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_statements.rb:905:in `add_reference'
+activerecord (6.0.4.1) lib/active_record/migration.rb:890:in `block in method_missing'
+activerecord (6.0.4.1) lib/active_record/migration.rb:858:in `block in say_with_time'
+/home/safa/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/benchmark.rb:293:in `measure'
+activerecord (6.0.4.1) lib/active_record/migration.rb:858:in `say_with_time'
+activerecord (6.0.4.1) lib/active_record/migration.rb:879:in `method_missing'
+db/migrate/20190715060143_relationship.rb:6:in `change'
+activerecord (6.0.4.1) lib/active_record/migration.rb:828:in `exec_migration'
+activerecord (6.0.4.1) lib/active_record/migration.rb:812:in `block (2 levels) in migrate'
+/home/safa/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/benchmark.rb:293:in `measure'
+activerecord (6.0.4.1) lib/active_record/migration.rb:811:in `block in migrate'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:471:in `with_connection'
+activerecord (6.0.4.1) lib/active_record/migration.rb:810:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1002:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1310:in `block in execute_migration_in_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1361:in `block in ddl_transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/database_statements.rb:280:in `block in transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/transaction.rb:280:in `block in within_new_transaction'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/transaction.rb:278:in `within_new_transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/database_statements.rb:280:in `transaction'
+activerecord (6.0.4.1) lib/active_record/transactions.rb:212:in `transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1361:in `ddl_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1309:in `execute_migration_in_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1281:in `block in migrate_without_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1280:in `each'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1280:in `migrate_without_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1229:in `block in migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1382:in `with_advisory_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1229:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1061:in `up'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1036:in `migrate'
+activerecord (6.0.4.1) lib/active_record/tasks/database_tasks.rb:238:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:135:in `block in <class:PendingMigrationError>'
+activesupport (6.0.4.1) lib/active_support/actionable_error.rb:28:in `dispatch'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:20:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.4.1) lib/rails/engine.rb:527:in `call'
+unicorn (6.0.0) lib/unicorn/http_server.rb:634:in `process_client'
+unicorn (6.0.0) lib/unicorn/http_server.rb:732:in `worker_loop'
+unicorn (6.0.0) lib/unicorn/http_server.rb:547:in `spawn_missing_workers'
+unicorn (6.0.0) lib/unicorn/http_server.rb:143:in `start'
+unicorn-rails (2.2.1) lib/unicorn_rails.rb:33:in `run'
+rack (2.2.3) lib/rack/server.rb:327:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:39:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:147:in `block in perform'
+<internal:kernel>:90:in `tap'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:138:in `perform'
+thor (1.1.0) lib/thor/command.rb:27:in `run'
+thor (1.1.0) lib/thor/invocation.rb:127:in `invoke_command'
+thor (1.1.0) lib/thor.rb:392:in `dispatch'
+railties (6.0.4.1) lib/rails/command/base.rb:69:in `perform'
+railties (6.0.4.1) lib/rails/command.rb:46:in `invoke'
+railties (6.0.4.1) lib/rails/commands.rb:18:in `<main>'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+bin/rails:6:in `<main>'
+Started GET "/" for 127.0.0.1 at 2021-11-14 12:11:02 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.4.1) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.4.1) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.4.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.4.1) lib/rails/engine.rb:527:in `call'
+unicorn (6.0.0) lib/unicorn/http_server.rb:634:in `process_client'
+unicorn (6.0.0) lib/unicorn/http_server.rb:732:in `worker_loop'
+unicorn (6.0.0) lib/unicorn/http_server.rb:547:in `spawn_missing_workers'
+unicorn (6.0.0) lib/unicorn/http_server.rb:143:in `start'
+unicorn-rails (2.2.1) lib/unicorn_rails.rb:33:in `run'
+rack (2.2.3) lib/rack/server.rb:327:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:39:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:147:in `block in perform'
+<internal:kernel>:90:in `tap'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:138:in `perform'
+thor (1.1.0) lib/thor/command.rb:27:in `run'
+thor (1.1.0) lib/thor/invocation.rb:127:in `invoke_command'
+thor (1.1.0) lib/thor.rb:392:in `dispatch'
+railties (6.0.4.1) lib/rails/command/base.rb:69:in `perform'
+railties (6.0.4.1) lib/rails/command.rb:46:in `invoke'
+railties (6.0.4.1) lib/rails/commands.rb:18:in `<main>'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+bin/rails:6:in `<main>'
+Started POST "/rails/actions" for 127.0.0.1 at 2021-11-14 12:11:03 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8564757378267825000)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to Relationship (20190715060143)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.0ms)[0m  [1m[35mALTER TABLE "admin_users" ADD "yazilars_id" bigint[0m
+  [1m[35m (4.4ms)[0m  [1m[35mCREATE  INDEX  "index_admin_users_on_yazilars_id" ON "admin_users"  ("yazilars_id")[0m
+  [1m[35m (2.9ms)[0m  [1m[35mALTER TABLE "admin_users" ADD CONSTRAINT "fk_rails_63a8ba01e2"
+FOREIGN KEY ("yazilars_id")
+  REFERENCES "yazilars" ("id")
+[0m
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(8564757378267825000)[0m
+  
+StandardError (An error has occurred, this and all later migrations canceled:
+
+PG::UndefinedTable: ERROR:  relation "yazilars" does not exist
+):
+  
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:92:in `exec'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:92:in `block (2 levels) in execute'
+activesupport (6.0.4.1) lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+activesupport (6.0.4.1) lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+activesupport (6.0.4.1) lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:91:in `block in execute'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:728:in `block (2 levels) in log'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:727:in `block in log'
+activesupport (6.0.4.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:718:in `log'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:90:in `execute'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_statements.rb:998:in `add_foreign_key'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_definitions.rb:695:in `foreign_key'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_definitions.rb:156:in `add_to'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_statements.rb:905:in `add_reference'
+activerecord (6.0.4.1) lib/active_record/migration.rb:890:in `block in method_missing'
+activerecord (6.0.4.1) lib/active_record/migration.rb:858:in `block in say_with_time'
+/home/safa/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/benchmark.rb:293:in `measure'
+activerecord (6.0.4.1) lib/active_record/migration.rb:858:in `say_with_time'
+activerecord (6.0.4.1) lib/active_record/migration.rb:879:in `method_missing'
+db/migrate/20190715060143_relationship.rb:6:in `change'
+activerecord (6.0.4.1) lib/active_record/migration.rb:828:in `exec_migration'
+activerecord (6.0.4.1) lib/active_record/migration.rb:812:in `block (2 levels) in migrate'
+/home/safa/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/benchmark.rb:293:in `measure'
+activerecord (6.0.4.1) lib/active_record/migration.rb:811:in `block in migrate'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:471:in `with_connection'
+activerecord (6.0.4.1) lib/active_record/migration.rb:810:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1002:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1310:in `block in execute_migration_in_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1361:in `block in ddl_transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/database_statements.rb:280:in `block in transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/transaction.rb:280:in `block in within_new_transaction'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/transaction.rb:278:in `within_new_transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/database_statements.rb:280:in `transaction'
+activerecord (6.0.4.1) lib/active_record/transactions.rb:212:in `transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1361:in `ddl_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1309:in `execute_migration_in_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1281:in `block in migrate_without_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1280:in `each'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1280:in `migrate_without_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1229:in `block in migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1382:in `with_advisory_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1229:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1061:in `up'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1036:in `migrate'
+activerecord (6.0.4.1) lib/active_record/tasks/database_tasks.rb:238:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:135:in `block in <class:PendingMigrationError>'
+activesupport (6.0.4.1) lib/active_support/actionable_error.rb:28:in `dispatch'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:20:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.4.1) lib/rails/engine.rb:527:in `call'
+unicorn (6.0.0) lib/unicorn/http_server.rb:634:in `process_client'
+unicorn (6.0.0) lib/unicorn/http_server.rb:732:in `worker_loop'
+unicorn (6.0.0) lib/unicorn/http_server.rb:547:in `spawn_missing_workers'
+unicorn (6.0.0) lib/unicorn/http_server.rb:143:in `start'
+unicorn-rails (2.2.1) lib/unicorn_rails.rb:33:in `run'
+rack (2.2.3) lib/rack/server.rb:327:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:39:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:147:in `block in perform'
+<internal:kernel>:90:in `tap'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:138:in `perform'
+thor (1.1.0) lib/thor/command.rb:27:in `run'
+thor (1.1.0) lib/thor/invocation.rb:127:in `invoke_command'
+thor (1.1.0) lib/thor.rb:392:in `dispatch'
+railties (6.0.4.1) lib/rails/command/base.rb:69:in `perform'
+railties (6.0.4.1) lib/rails/command.rb:46:in `invoke'
+railties (6.0.4.1) lib/rails/commands.rb:18:in `<main>'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+bin/rails:6:in `<main>'
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+Started GET "/" for 127.0.0.1 at 2021-11-14 12:12:42 -0500
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.4.1) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.4.1) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.4.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.4.1) lib/rails/engine.rb:527:in `call'
+unicorn (6.0.0) lib/unicorn/http_server.rb:634:in `process_client'
+unicorn (6.0.0) lib/unicorn/http_server.rb:732:in `worker_loop'
+unicorn (6.0.0) lib/unicorn/http_server.rb:547:in `spawn_missing_workers'
+unicorn (6.0.0) lib/unicorn/http_server.rb:143:in `start'
+unicorn-rails (2.2.1) lib/unicorn_rails.rb:33:in `run'
+rack (2.2.3) lib/rack/server.rb:327:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:39:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:147:in `block in perform'
+<internal:kernel>:90:in `tap'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:138:in `perform'
+thor (1.1.0) lib/thor/command.rb:27:in `run'
+thor (1.1.0) lib/thor/invocation.rb:127:in `invoke_command'
+thor (1.1.0) lib/thor.rb:392:in `dispatch'
+railties (6.0.4.1) lib/rails/command/base.rb:69:in `perform'
+railties (6.0.4.1) lib/rails/command.rb:46:in `invoke'
+railties (6.0.4.1) lib/rails/commands.rb:18:in `<main>'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+bin/rails:6:in `<main>'
+Started POST "/rails/actions" for 127.0.0.1 at 2021-11-14 12:12:43 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8564757378267825000)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddAdminToUser (20200120225827)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.9ms)[0m  [1m[35mALTER TABLE "users" DROP COLUMN "admin"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(8564757378267825000)[0m
+  
+StandardError (An error has occurred, this and all later migrations canceled:
+
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+):
+  
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:92:in `exec'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:92:in `block (2 levels) in execute'
+activesupport (6.0.4.1) lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+activesupport (6.0.4.1) lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+activesupport (6.0.4.1) lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:91:in `block in execute'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:728:in `block (2 levels) in log'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:727:in `block in log'
+activesupport (6.0.4.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract_adapter.rb:718:in `log'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/postgresql/database_statements.rb:90:in `execute'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/schema_statements.rb:614:in `remove_column'
+activerecord (6.0.4.1) lib/active_record/migration.rb:890:in `block in method_missing'
+activerecord (6.0.4.1) lib/active_record/migration.rb:858:in `block in say_with_time'
+/home/safa/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/benchmark.rb:293:in `measure'
+activerecord (6.0.4.1) lib/active_record/migration.rb:858:in `say_with_time'
+activerecord (6.0.4.1) lib/active_record/migration.rb:879:in `method_missing'
+db/migrate/20200120225827_add_admin_to_user.rb:6:in `change'
+activerecord (6.0.4.1) lib/active_record/migration.rb:828:in `exec_migration'
+activerecord (6.0.4.1) lib/active_record/migration.rb:812:in `block (2 levels) in migrate'
+/home/safa/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0/benchmark.rb:293:in `measure'
+activerecord (6.0.4.1) lib/active_record/migration.rb:811:in `block in migrate'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:471:in `with_connection'
+activerecord (6.0.4.1) lib/active_record/migration.rb:810:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1002:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1310:in `block in execute_migration_in_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1361:in `block in ddl_transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/database_statements.rb:280:in `block in transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/transaction.rb:280:in `block in within_new_transaction'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (6.0.4.1) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/transaction.rb:278:in `within_new_transaction'
+activerecord (6.0.4.1) lib/active_record/connection_adapters/abstract/database_statements.rb:280:in `transaction'
+activerecord (6.0.4.1) lib/active_record/transactions.rb:212:in `transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1361:in `ddl_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1309:in `execute_migration_in_transaction'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1281:in `block in migrate_without_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1280:in `each'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1280:in `migrate_without_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1229:in `block in migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1382:in `with_advisory_lock'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1229:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1061:in `up'
+activerecord (6.0.4.1) lib/active_record/migration.rb:1036:in `migrate'
+activerecord (6.0.4.1) lib/active_record/tasks/database_tasks.rb:238:in `migrate'
+activerecord (6.0.4.1) lib/active_record/migration.rb:135:in `block in <class:PendingMigrationError>'
+activesupport (6.0.4.1) lib/active_support/actionable_error.rb:28:in `dispatch'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:20:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.4.1) lib/rails/engine.rb:527:in `call'
+unicorn (6.0.0) lib/unicorn/http_server.rb:634:in `process_client'
+unicorn (6.0.0) lib/unicorn/http_server.rb:732:in `worker_loop'
+unicorn (6.0.0) lib/unicorn/http_server.rb:547:in `spawn_missing_workers'
+unicorn (6.0.0) lib/unicorn/http_server.rb:143:in `start'
+unicorn-rails (2.2.1) lib/unicorn_rails.rb:33:in `run'
+rack (2.2.3) lib/rack/server.rb:327:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:39:in `start'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:147:in `block in perform'
+<internal:kernel>:90:in `tap'
+railties (6.0.4.1) lib/rails/commands/server/server_command.rb:138:in `perform'
+thor (1.1.0) lib/thor/command.rb:27:in `run'
+thor (1.1.0) lib/thor/invocation.rb:127:in `invoke_command'
+thor (1.1.0) lib/thor.rb:392:in `dispatch'
+railties (6.0.4.1) lib/rails/command/base.rb:69:in `perform'
+railties (6.0.4.1) lib/rails/command.rb:46:in `invoke'
+railties (6.0.4.1) lib/rails/commands.rb:18:in `<main>'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+bootsnap (1.9.1) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+bin/rails:6:in `<main>'
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:17)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:19)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /home/safa/calismalar/rails/Rails-Blog-Sample/config/routes.rb:20)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
