@@ -2,7 +2,7 @@
   "name": "rails-blog-deneme",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "^5.1.1",
+    "@rails/webpacker": "^5.4.3",
     "css-loader": "^3.6.0",
     "yarn": "^1.22.18"
   },
