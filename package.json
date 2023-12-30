@@ -7,8 +7,8 @@
     "yarn": "^1.22.18"
   },
   "devDependencies": {
+    "postcss": "^8.2.10",
     "webpack": "^5.54.0",
-    "webpack-dev-server": "^4.3.0",
-    "postcss": "^8.2.10"
+    "webpack-dev-server": "^4.3.0"
   }
 }
